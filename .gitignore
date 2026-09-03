@@ -5,6 +5,7 @@
 __pycache__/
 *.py[cod]
 *.tmp
+src/gfl2_packet_csv_exporter.egg-info/
 
 # log & build folder
 logs/
