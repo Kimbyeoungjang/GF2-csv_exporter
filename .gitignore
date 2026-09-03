@@ -1,0 +1,24 @@
+## temp & cache folder
+.venv/
+.venv-build/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.tmp
+
+# log & build folder
+logs/
+bin/
+build/
+dist/
+helper-build/
+helper-dist/
+.helper-build/
+.helper-dist/
+
+# artifact
+gfl2_packet_backup/
+gfl2_user_csv_bundle.zip
+
+# idea
+.idea/
