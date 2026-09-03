@@ -5,11 +5,13 @@ import ctypes
 import os
 import subprocess
 import sys
+import threading
 import time
 import uuid
 from pathlib import Path
 
-from PySide6.QtCore import QTimer
+from PySide6.QtCore import QObject, QTimer, QUrl, Signal
+from PySide6.QtGui import QDesktopServices
 from PySide6.QtWidgets import (
     QApplication,
     QFrame,
@@ -25,8 +27,14 @@ from PySide6.QtWidgets import (
 
 from .capture import passive_capture_preflight
 from .ipc import cleanup_stale_ipc, control_path_for, event_path_for, write_control
+from .update_check import configured_repository, fetch_latest_release, is_newer_version
+from . import __version__
 
 _TARGET_PROCESS = "GF2_Exilium"
+
+
+class _UpdateSignals(QObject):
+    result = Signal(object)
 
 
 def _application_root() -> Path:
@@ -68,6 +76,9 @@ class PacketExporterWindow(QMainWindow):
         self._capture_active = False
         self._completion_ack_sent = False
         self._helper_started_at = 0.0
+        self._update_check_started = False
+        self._update_signals = _UpdateSignals(self)
+        self._update_signals.result.connect(self._handle_update_result)
 
         cleanup_stale_ipc()
         self.setCentralWidget(self._build_page())
@@ -149,6 +160,38 @@ class PacketExporterWindow(QMainWindow):
         log_layout.addWidget(self.activity_log, 1)
         outer.addWidget(log_panel, 1)
         return page
+
+    def start_update_check(self) -> None:
+        """Check GitHub Releases in the background; never block normal startup."""
+        if self._update_check_started:
+            return
+        repository = configured_repository()
+        if not repository:
+            return
+        self._update_check_started = True
+
+        def worker() -> None:
+            release = fetch_latest_release(repository)
+            self._update_signals.result.emit(release)
+
+        threading.Thread(target=worker, name="github-update-check", daemon=True).start()
+
+    def _handle_update_result(self, release) -> None:
+        if release is None or not is_newer_version(release.version, __version__):
+            return
+        dialog = QMessageBox(self)
+        dialog.setWindowTitle("업데이트 확인")
+        dialog.setIcon(QMessageBox.Icon.Information)
+        dialog.setText(f"새 버전 {release.version}이 있습니다.")
+        dialog.setInformativeText(
+            f"현재 버전: {__version__}\n\n"
+            "다운로드 페이지를 열까요? 지금 업데이트하지 않아도 프로그램은 그대로 사용할 수 있습니다."
+        )
+        open_button = dialog.addButton("다운로드 페이지 열기", QMessageBox.ButtonRole.AcceptRole)
+        dialog.addButton("나중에", QMessageBox.ButtonRole.RejectRole)
+        dialog.exec()
+        if dialog.clickedButton() is open_button:
+            QDesktopServices.openUrl(QUrl(release.page_url))
 
     def _output_path(self) -> Path:
         return _application_root() / "gfl2_packet_backup"
@@ -448,6 +491,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     window = PacketExporterWindow()
     window.show()
+    # Startup must never wait for GitHub. A failed/slow check is intentionally silent.
+    QTimer.singleShot(700, window.start_update_check)
     return int(app.exec())
 
 

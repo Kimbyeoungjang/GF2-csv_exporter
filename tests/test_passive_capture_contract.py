@@ -528,3 +528,20 @@ def test_sanitized_debug_start_removes_legacy_raw_artifacts(tmp_path: Path) -> N
 
     assert not (tmp_path / "debug_raw").exists()
     assert not legacy_zip.exists()
+
+
+def test_package_version_matches_pyproject() -> None:
+    import ast
+    import tomllib
+
+    root = Path(__file__).resolve().parents[1]
+    with (root / "pyproject.toml").open("rb") as fp:
+        project_version = tomllib.load(fp)["project"]["version"]
+    module = ast.parse((root / "src" / "gfl2_packet_csv" / "__init__.py").read_text(encoding="utf-8"))
+    package_version = None
+    for node in module.body:
+        if isinstance(node, ast.Assign):
+            for target in node.targets:
+                if isinstance(target, ast.Name) and target.id == "__version__":
+                    package_version = ast.literal_eval(node.value)
+    assert package_version == project_version
