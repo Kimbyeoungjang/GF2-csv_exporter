@@ -1,25 +1,59 @@
-## temp & cache folder
-.venv/
-.venv-build/
-.pytest_cache/
+# Python and build environments
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv*/
+*.egg-info/
+/build/
+/dist/
+/bin/
+/helper-build/
+/helper-dist/
+/.helper-build/
+/.helper-dist/
+/release/
+# Local account data, diagnostic artifacts, and update/cache state
+/logs/
+/gfl2_packet_backup/
+/reference_data/
+/reference_api_url.txt
+/.gfl2_update*/
+/debug_diagnostics/
+*.log
 *.tmp
-src/gfl2_packet_csv_exporter.egg-info/
-
-# log & build folder
-logs/
-bin/
-build/
-dist/
-helper-build/
-helper-dist/
-.helper-build/
-.helper-dist/
-
-# artifact
-gfl2_packet_backup/
-gfl2_user_csv_bundle.zip
-
-# idea
+*.pcap
+*.pcapng
+*.dmp
+*.bin
+*.events.jsonl
+*.control
+*.zip
+!src/gfl2_packet_csv/reference_seed/*.zip
+*.whl
+*.panel-state.csv
+*.equipment-state.csv
+GFL2-Exporter-Log_*.txt
+gfl2_user_csv*
+gfl2_packet_debug*
+gfl2_packet_diagnostics*
+research_capture*
+# Local credentials and editors
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+.vscode/
 .idea/
+Thumbs.db
+.DS_Store
+# CSV output is private unless it belongs to the public reference catalogs.
+*.csv
+!src/gfl2_packet_csv/static_tables/*.csv
+!src/gfl2_packet_csv/static_achievements/*.csv
+equipment_user.json
+manifest.json
+!tests/fixtures/manifest.json

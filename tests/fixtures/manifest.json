@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "data_version": "table.1216453.8",
+  "game_version": "3.0.5388",
+  "source_table_version": "1216453",
+  "bv_version": "1214840",
+  "reference_input": {
+    "schema": "gf2-raw-table-1",
+    "sha256": "21242df1792d9bf7de038960a0dd9c5cdf835b6b1e0f8299d0f68b1d02b5bcf0",
+    "files": 1986,
+    "bytes": 123714077
+  },
+  "content_sha256": "f6e03624bcde0d004f9af498d16bbd8ecaa855c9a3c7619aa36cae00d18c85d1",
+  "updated_at": "2026-11-25T13:04:28.306731Z",
+  "recommended_sync": {
+    "check": "latest.json",
+    "manifest": "api/v1/manifest.json",
+    "bulk": "bundles/core-data-table.1216453.8.json.gz",
+    "policy": "Download bulk data only when data_version changes; cache images locally by sha256."
+  },
+  "files": {
+    "dolls": {
+      "path": "dolls.json",
+      "sha256": "95133422d0d0a06c62043f343695aba7b63de63b72c7f6cacbdb88218af35585",
+      "bytes": 123853,
+      "count": 67
+    },
+    "account_reference": {
+      "path": "account_reference.json",
+      "sha256": "0dd94c7664d416e47f43a507632228f68f04d780924005225c6fd36854a24494",
+      "bytes": 2097928,
+      "count": 8415
+    },
+    "weapons": {
+      "path": "weapons.json",
+      "sha256": "87c4447c061a3be39f7b09d3694e57f203755bf9473e5f1833fecc371ffc40a1",
+      "bytes": 144779,
+      "count": 194
+    },
+    "remolding": {
+      "path": "remolding.json",
+      "sha256": "e1c8dfb4467c3f1f88d6000c2fa248b031600df6b71d2907eb0de221d77d5d13",
+      "bytes": 38609,
+      "count": 141
+    },
+    "weapon_part_effects": {
+      "path": "weapon_part_effects.json",
+      "sha256": "a887ee1c6deb51b48b7209958f23738db2ef7ddca6117eb9dad346e483744f5a",
+      "bytes": 2251,
+      "count": 16
+    },
+    "weapon_part_power_map": {
+      "path": "weapon_part_power_map.json",
+      "sha256": "ddd745bd449c8f40aefdf0761085a7762f9f60949118285fae94cb732aaa465a",
+      "bytes": 3875,
+      "count": 33
+    },
+    "weapon_part_types": {
+      "path": "weapon_part_types.json",
+      "sha256": "8753306437cc3dd8c93bad9f97b8beef1779e035b119e9ac3badfc74803cc336",
+      "bytes": 9220,
+      "count": 37
+    },
+    "item_ranks": {
+      "path": "item_ranks.json",
+      "sha256": "3b5945d60ff56abcf8e974f65cba90df52a38a49bc000d9ff1e122f7f2701851",
+      "bytes": 469,
+      "count": 4
+    },
+    "unclassified_polarity_plans": {
+      "path": "unclassified_polarity_plans.json",
+      "sha256": "e18e36c640d695d629bb006cdbe72c2deae6b7700086f1bc740473915f26f5ed",
+      "bytes": 547,
+      "count": 6
+    },
+    "common_keys": {
+      "path": "common_keys.json",
+      "sha256": "ffe3fd2fbf11bf741b66e355d9f9a80b5e86c7efe865d5378392ea4aaf79f13f",
+      "bytes": 104333,
+      "count": 158
+    },
+    "unique_keys": {
+      "path": "unique_keys.json",
+      "sha256": "e00f2ee905d2367fcbdbb0af787b7072fbde64b9d11b16bcde66c9e24d417c1d",
+      "bytes": 338447,
+      "count": 402
+    },
+    "expansion_keys": {
+      "path": "expansion_keys.json",
+      "sha256": "8814860f09b08245f0b9ad4f0a444e24bd550d0b6372da729248a47c605500a9",
+      "bytes": 73534,
+      "count": 50
+    },
+    "combined_keys": {
+      "path": "combined_keys.json",
+      "sha256": "f5c65890949c7e428b18f0d27a1cc62ffd0e9cbce4e34b718de16986d90be6ee",
+      "bytes": 38019,
+      "count": 65
+    },
+    "game_config": {
+      "path": "game_config.json",
+      "sha256": "ed2ebe9ea66861f4b16bdb0e1b4c5e7aac14fd722d58f3eb7d21507ad26ba21b",
+      "bytes": 5179
+    },
+    "game_version": {
+      "path": "game_version.json",
+      "sha256": "9e8916fd7b4ef15f7f1ba95fb65fc94c91a63fc3814e7da5fa0b6ba10c11372d",
+      "bytes": 560
+    },
+    "images": {
+      "path": "images.json",
+      "sha256": "aae2fc7e1a54ee8439277b4d335477c59aea0579fd078d4722410f84295f0449",
+      "bytes": 968880,
+      "count": 832
+    },
+    "image_catalog": {
+      "path": "image_catalog.json",
+      "sha256": "f57949c4227ea72cde85468d7d7548341711a9d5417150d24d632dd4fc581fca",
+      "bytes": 542479,
+      "count": 832
+    },
+    "asset_coverage": {
+      "path": "asset_coverage.json",
+      "sha256": "c73411f28e24d0a3023bd33c53354ada02e4c475899645e431b54e6df013c586",
+      "bytes": 189
+    },
+    "bundles": {
+      "path": "bundles.json",
+      "sha256": "72f7a3615909cf0f5e527fdef5182b2cbfbbe5d0ef82972f1638d5c67535f941",
+      "bytes": 1280,
+      "count": 2
+    }
+  },
+  "bundles": {
+    "core_gzip": {
+      "type": "core_gzip",
+      "path": "bundles/core-data-table.1216453.8.json.gz",
+      "bytes": 350223,
+      "sha256": "f9818e4982dd07ba7c6a8e1d86e21e8735c70eabc8b76f810f6c8e800912e915",
+      "recommended": true
+    },
+    "core_zip": {
+      "type": "core_zip",
+      "path": "bundles/core-data-table.1216453.8.zip",
+      "bytes": 361733,
+      "sha256": "fbb819c29462de62d5035862bdf3ccbb637538eeb0fcd534f3319f1dee3b425f",
+      "recommended": false
+    }
+  },
+  "exporter_reference": {
+    "latest": "exporter-reference/latest.json",
+    "status": "approved",
+    "reference_sha256": "9ade73e743e74185d8de9fa71124e2a30235b18060c4dde0d309630d4d0aa3f2",
+    "source_table_version": "1216453",
+    "approval": "exporter-reference/approval.json"
+  },
+  "exporter_reference_archive": "exporter-reference/"
+}

@@ -1,0 +1,180 @@
+﻿reference_kind,reference_id,text_lang_id,text_ko,source_table,text_kind,korean_text_present
+support_ammunition,2301301,445827,기본 박격포 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301302,468609,기본 대전차 로켓 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301303,445834,기본 유탄 발사기 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301401,445829,고급 박격포 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301402,468609,기본 대전차 로켓 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301403,445835,고급 유탄 발사기 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301501,445831,첨단 박격포 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301502,468609,기본 대전차 로켓 탄약,SupportAmmunitionData,name,1
+support_ammunition,2301503,445836,첨단 유탄 발사기 탄약,SupportAmmunitionData,name,1
+support_ammunition,2302301,467472,기초 경량 배터리 팩,SupportAmmunitionData,name,1
+support_ammunition,2302302,533410,기초 연료 에너지 팩,SupportAmmunitionData,name,1
+support_ammunition,2302401,467146,제식 경량 배터리 팩,SupportAmmunitionData,name,1
+support_ammunition,2302402,533712,정식 연료 에너지 팩,SupportAmmunitionData,name,1
+support_ammunition,2302501,467160,정예 경량 배터리 팩,SupportAmmunitionData,name,1
+support_ammunition,2302502,533491,정예 연료 에너지 팩,SupportAmmunitionData,name,1
+support_attribute,1,447569,정밀,SupportAttributeData,name,1
+support_attribute,2,447570,광도,SupportAttributeData,name,1
+support_attribute,3,447571,출력,SupportAttributeData,name,1
+support_attribute,4,447572,지속,SupportAttributeData,name,1
+support_attribute,5,447573,전술,SupportAttributeData,name,1
+support_attribute,6,447574,반응,SupportAttributeData,name,1
+support_skill,10101,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10102,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10103,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10104,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10105,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10106,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10107,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10108,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10109,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10110,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10201,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10202,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10203,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10204,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10205,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10206,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10207,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10208,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10209,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10210,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10301,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10302,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10303,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10304,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10305,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10306,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10307,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10308,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10309,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10310,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10401,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10402,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10403,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10404,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10405,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10406,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10501,470383,,SupportSkillGroupData,description,0
+support_skill,10502,470383,,SupportSkillGroupData,description,0
+support_skill,10503,470383,,SupportSkillGroupData,description,0
+support_skill,10504,470383,,SupportSkillGroupData,description,0
+support_skill,10505,470383,,SupportSkillGroupData,description,0
+support_skill,10506,470383,,SupportSkillGroupData,description,0
+support_skill,10601,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10602,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10603,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10604,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10605,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10606,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10607,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10608,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10609,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10610,514929,턴 시작 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,10701,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10702,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10703,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10704,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10705,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10706,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10707,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10708,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10709,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10710,514930,"전투 시작 시 에너지가 가득 차며, 아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10801,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10802,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10803,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10804,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10805,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10806,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10807,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10808,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10809,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,10810,514931,"무장지원팀이 액티브 공격을 한 후, 또는 아군 유닛이 액티브 스킬로 <color=#f26c1c>2회</color> 공격한 후 에너지를 <color=#f26c1c>1점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,90201,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90202,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90203,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90204,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90205,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90206,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90207,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90208,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90209,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90210,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90301,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90302,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90303,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90304,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90305,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,90306,492676,아군 유닛이 피해를 <color=#f26c1c>1회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101101,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101102,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101103,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101104,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101105,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101106,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101107,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101108,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101109,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,101110,492674,아군 유닛이 피해를 <color=#f26c1c>2회</color> 줄 때마다 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102101,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102102,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102103,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102104,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102105,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102106,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102107,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102108,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102109,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,102110,492675,아군 유닛 행동 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,103101,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103102,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103103,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103104,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103105,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103106,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103107,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103108,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103109,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,103110,470381,"전투 시작 시 에너지가 가득 차며, 매 전체턴 종료 시 에너지를 <color=#f26c1c>2점</color> 얻는다.",SupportSkillGroupData,description,1
+support_skill,104101,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104102,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104103,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104104,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104105,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104106,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104107,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104108,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104109,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,104110,470270,턴 종료 시 에너지를 <color=#f26c1c>1점</color> 얻는다.,SupportSkillGroupData,description,1
+support_skill,105101,470383,,SupportSkillGroupData,description,0
+support_skill,105102,470383,,SupportSkillGroupData,description,0
+support_skill,105103,470383,,SupportSkillGroupData,description,0
+support_skill,105104,470383,,SupportSkillGroupData,description,0
+support_skill,105105,470383,,SupportSkillGroupData,description,0
+support_skill,105106,470383,,SupportSkillGroupData,description,0
+support_skill,105107,470383,,SupportSkillGroupData,description,0
+support_skill,105108,470383,,SupportSkillGroupData,description,0
+support_skill,105109,470383,,SupportSkillGroupData,description,0
+support_skill,105110,470383,,SupportSkillGroupData,description,0
+support_unit,1001,467778,도자기,SupportData,name,1
+support_unit,1002,467779,패브릭,SupportData,name,1
+support_unit,1003,467780,리머나드,SupportData,name,1
+support_unit,1004,515104,스펙트럼,SupportData,name,1
+support_unit,1005,515106,소어러,SupportData,name,1
+support_unit,1006,515108,퓨즈,SupportData,name,1
+support_unit,1101,467778,도자기,SupportData,name,1
+support_unit,1102,467779,패브릭,SupportData,name,1
+support_unit,1103,467780,리머나드,SupportData,name,1
+support_unit,1104,515104,스펙트럼,SupportData,name,1
+support_unit,1105,515106,소어러,SupportData,name,1
+support_unit,1106,515108,퓨즈,SupportData,name,1
+support_unit,2001,467781,디너게이트 몽몽,SupportData,name,1
+support_unit,2002,467784,지원 학자,SupportData,name,1
+support_unit,2101,515110,몽몽 암상인 모델,SupportData,name,1
+support_unit,2102,515111,지원 학자 벼랑지기 마을 모델,SupportData,name,1
+support_unit,2201,515112,몽몽 포르트 미카 모델,SupportData,name,1
+support_unit,9001,445825,“도자기” AI 테스트용,SupportData,name,1
+support_unit,9002,467778,도자기,SupportData,name,1
+support_unit,9003,467784,지원 학자,SupportData,name,1

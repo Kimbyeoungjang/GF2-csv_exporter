@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-message FormationsResponse { Formations formations = 1; }
-message Formations { repeated Formation formations = 1; }
-message Formation {
-  string name = 1;
-  repeated FormationDoll dolls = 2;
-}
-message FormationDoll { uint32 doll_id = 1; }

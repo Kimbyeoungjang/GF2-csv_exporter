@@ -11,13 +11,19 @@ ENTRY_SCRIPT = os.path.join(SPEC_DIR, "helper_entry.py")
 SRC_DIR = os.path.join(PROJECT_ROOT, "src")
 
 pydivert_datas, pydivert_binaries, pydivert_hidden = collect_all("pydivert")
+# importlib.resources catalogs must be explicitly bundled in frozen builds.
+static_datas = [
+    (os.path.join(SRC_DIR, "gfl2_packet_csv", package, "*.csv"),
+     os.path.join("gfl2_packet_csv", package))
+    for package in ("static_tables", "static_achievements")
+]
 
 a = Analysis(
     [ENTRY_SCRIPT],
     pathex=[SRC_DIR],
     binaries=pydivert_binaries,
-    datas=pydivert_datas,
-    hiddenimports=pydivert_hidden + ["psutil"],
+    datas=pydivert_datas + static_datas,
+    hiddenimports=pydivert_hidden + ["psutil", "gfl2_packet_csv.static_tables", "gfl2_packet_csv.static_achievements"],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

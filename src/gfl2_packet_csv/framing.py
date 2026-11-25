@@ -39,11 +39,49 @@ class GameMessageFramer:
         # protobuf body for a later "plausible" header corrupts the stream
         # whenever body bytes happen to resemble a frame header.
         self._synced = False
+        # A passive matched connection may carry HTTPS/TLS traffic that is
+        # unrelated to the game's plaintext message format.  Starting at the
+        # first byte of a TLS ServerHello is positive transport evidence; do
+        # not scan its handshake/ciphertext for accidental GF2 frame headers.
+        self._transport_checked = False
+        self._tls_rejected = False
+        self.tls_rejected_flows = 0
+        self.tls_rejected_bytes = 0
+
+    @staticmethod
+    def _starts_tls_server_hello(data: bytes) -> bool:
+        """Exact first-record TLS ServerHello envelope, not a port heuristic.
+
+        A segmented first header is handled by the caller.  The complete
+        handshake message must fill the TLS record (the observed form); if
+        not, defer to the normal game framer rather than dropping unknown
+        traffic.  This does NOT decrypt or parse certificate/private bytes.
+        """
+        if len(data) < 9 or data[:3] != b"\x16\x03\x03" or data[5] != 2:
+            return False
+        record_size = int.from_bytes(data[3:5], "big")
+        hello_size = int.from_bytes(data[6:9], "big")
+        return 4 <= record_size <= 18432 and hello_size == record_size - 4
 
     def feed(self, content: bytes) -> list[Payload]:
+        if self._tls_rejected:
+            self.tls_rejected_bytes += len(content)
+            return []
         if content:
             self.buffer.extend(content)
             self.max_buffer_seen = max(self.max_buffer_seen, len(self.buffer))
+        if not self._transport_checked:
+            # At least nine bytes are necessary to identify a ServerHello;
+            # ordinary GF2 framing also requires at least nine bytes.
+            if len(self.buffer) < 9:
+                return []
+            self._transport_checked = True
+            if self._starts_tls_server_hello(self.buffer):
+                self._tls_rejected = True
+                self.tls_rejected_flows = 1
+                self.tls_rejected_bytes = len(self.buffer)
+                self.buffer.clear()
+                return []
         output: list[Payload] = []
         while True:
             message = self._pop_message()
@@ -115,6 +153,9 @@ class GameMessageFramer:
             "buffer_bytes": len(self.buffer),
             "max_buffer_seen": self.max_buffer_seen,
             "synced": self._synced,
+            "tls_rejected": self._tls_rejected,
+            "tls_rejected_flows": self.tls_rejected_flows,
+            "tls_rejected_bytes": self.tls_rejected_bytes,
         }
 
     def _find_complete_candidate(self) -> int | None:

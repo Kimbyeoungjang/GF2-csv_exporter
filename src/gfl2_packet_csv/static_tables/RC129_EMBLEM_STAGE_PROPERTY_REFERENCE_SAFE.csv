@@ -1,0 +1,3 @@
+﻿item_id,stage_id,property_id,attack,defense,hp,reference_path
+1500001,59001,210001,1,1,1,StageData.15 ↔ DarkzoneHiddenStageBaseData.5
+1500002,59002,210002,0,0,3,StageData.15 ↔ DarkzoneHiddenStageBaseData.5

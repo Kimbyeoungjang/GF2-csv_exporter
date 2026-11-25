@@ -1,0 +1,13 @@
+﻿source_table,static_code,translation_id,label_ko
+AiConditionData,1,309028,기본값
+AiConditionData,2,309034,기본 스탯
+AiConditionData,3,309035,캐릭터 속성
+AiConditionData,4,309036,상태
+AiConditionData,5,17659,약점
+AiConditionData,6,309037,위치
+AiMoveData,1,309031,밸런스형
+AiMoveData,2,309032,방어형
+AiMoveData,3,309033,공격형
+AiStrategyData,1,309052,기본 전략
+AiStrategyData,2,309053,우선순위 전략
+AiStrategyData,3,309054,시간 순서 전략

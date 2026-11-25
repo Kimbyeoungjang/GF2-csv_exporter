@@ -1,0 +1,1399 @@
+﻿condition_id,challenge_name_ko,challenge_description_ko,rule_type_id,rule_name,rule_proto_name,target_raw_field_3,parameter_raw_field_4,parameter_raw_field_5,parameter_raw_field_6,parameter_raw_field_7,parameter_raw_field_8,parameter_raw_field_9,matched_challenge_id
+10220,정예 사냥Ⅰ,정예 유닛을 누적 80기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,80,1,2,18446744073709551615,1,,,1
+10221,정예 사냥Ⅱ,정예 유닛을 누적 160기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,160,1,2,18446744073709551615,1,,,1
+10222,정예 사냥Ⅲ,정예 유닛을 누적 240기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,240,1,2,18446744073709551615,1,,,1
+50060,서프라이즈의 진수Ⅰ,연산 레벨 1 이상의 [잿더미 일화]에서 희귀 유물 [깜짝 주머니]를 획득하고 탐색 완료.,2031,Rouge2PreciousChallenge,achieve_counter_rouge2_precious_challenge,1,4,1,,,,,1
+50061,서프라이즈의 진수Ⅱ,연산 레벨 3 이상의 [잿더미 일화]에서 희귀 유물 [깜짝 주머니]를 획득하고 탐색 완료.,2031,Rouge2PreciousChallenge,achieve_counter_rouge2_precious_challenge,1,4,3,,,,,1
+50062,서프라이즈의 진수Ⅲ,연산 레벨 5 이상의 [잿더미 일화]에서 희귀 유물 [깜짝 주머니]를 획득하고 탐색 완료.,2031,Rouge2PreciousChallenge,achieve_counter_rouge2_precious_challenge,1,4,5,,,,,1
+50063,서프라이즈의 진수Ⅳ,연산 레벨 7 이상의 [잿더미 일화]에서 희귀 유물 [깜짝 주머니]를 획득하고 탐색 완료.,2031,Rouge2PreciousChallenge,achieve_counter_rouge2_precious_challenge,1,4,7,,,,,1
+50064,서프라이즈의 진수Ⅴ,연산 레벨 10의 [잿더미 일화]에서 희귀 유물 [깜짝 주머니]를 획득하고 탐색 완료.,2031,Rouge2PreciousChallenge,achieve_counter_rouge2_precious_challenge,1,4,10,,,,,1
+20221,샤크리-심쿵했어?♥,50레벨 이상인 한 작전에서 치명타로 적을 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10221,,,,,,1
+20222,샤크리-샤크리한테 시선 고정이야~♥,50레벨 이상인 한 작전에서 「포커싱」을 2스택 보유한 상태에서 적을 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10222,,,,,,1
+1351,환복 마법Ⅰ,인형 스킨을 10가지 수집,3012,ChallengeSkin,achieve_counter_challenge_skin,10,,,,,,,1
+1352,환복 마법Ⅱ,인형 스킨을 20가지 수집,3012,ChallengeSkin,achieve_counter_challenge_skin,20,,,,,,,1
+1353,환복 마법Ⅲ,인형 스킨을 30가지 수집,3012,ChallengeSkin,achieve_counter_challenge_skin,30,,,,,,,1
+1354,환복 마법Ⅳ,인형 스킨을 40가지 수집,3012,ChallengeSkin,achieve_counter_challenge_skin,40,,,,,,,1
+11170,딱 걸렸어 Ⅰ,매복 또는 반격으로 일반 유닛을 누적 30기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,30,1,1,1,1,,,1
+11171,딱 걸렸어 Ⅱ,매복 또는 반격으로 일반 유닛을 누적 90기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,90,1,1,1,1,,,1
+11172,딱 걸렸어 Ⅲ,매복 또는 반격으로 일반 유닛을 누적 150기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,150,1,1,1,1,,,1
+11173,딱 걸렸어 Ⅳ,매복 또는 반격으로 일반 유닛을 누적 300기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,300,1,1,1,1,,,1
+11174,딱 걸렸어 Ⅴ,매복 또는 반격으로 일반 유닛을 누적 450기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,450,1,1,1,1,,,1
+11175,딱 걸렸어 Ⅵ,매복 또는 반격으로 일반 유닛을 누적 600기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,600,1,1,1,1,,,1
+11176,딱 걸렸어 Ⅶ,매복 또는 반격으로 일반 유닛을 누적 750기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,750,1,1,1,1,,,1
+11177,딱 걸렸어 Ⅷ,매복 또는 반격으로 일반 유닛을 누적 900기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,900,1,1,1,1,,,1
+11178,딱 걸렸어 Ⅸ,"매복 또는 반격으로 일반 유닛을 누적 1,200기 처치 (승리한 전투만 집계)",3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,1200,1,1,1,1,,,1
+11179,딱 걸렸어 Ⅹ,"매복 또는 반격으로 일반 유닛을 누적 1,500기 처치 (승리한 전투만 집계)",3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,1500,1,1,1,1,,,1
+20411,롯타-노력의 성과,50레벨 이상인 한 작전에서 같은 턴에 액티브 스킬로 적을 6기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10411,,,,,,1
+20412,롯타-머리 좀 식히자,한 작전에서 「동파」를 18회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10412,,,,,,1
+40080,오~ 샤와르마,직화 샤와르마 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,5,,,,,,1
+40081,그래! 바로 이 맛이야!,샤오야오 후라탕 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,6,,,,,,1
+40082,탕수 머리,탕수 스즈터우 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,7,,,,,,1
+40083,바다의 맛,스타게이지 파이 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,8,,,,,,1
+40084,프로틴!!,새우 냉채 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,9,,,,,,1
+40085,만두의 황제,삼선 물만두 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,10,,,,,,1
+40086,진격하는 달팽이,에스카르고 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,11,,,,,,1
+40087,햄버거를 5개나 먹어버려요,트러플 더블 비프 버거 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,12,,,,,,1
+40088,사치스러운 요리,제비집 전복 수프 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,13,,,,,,1
+40089,신선한 한 입,모듬 사시미 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,14,,,,,,1
+11090,상성 마스터Ⅰ,전투에서 승리하면서 누적 50회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,50,3,1,,,,,1
+11091,상성 마스터Ⅱ,전투에서 승리하면서 누적 100회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,100,3,1,,,,,1
+11092,상성 마스터Ⅲ,전투에서 승리하면서 누적 150회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,150,3,1,,,,,1
+11093,상성 마스터Ⅳ,전투에서 승리하면서 누적 200회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,200,3,1,,,,,1
+11094,상성 마스터Ⅴ,전투에서 승리하면서 누적 300회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,300,3,1,,,,,1
+11095,상성 마스터Ⅵ,전투에서 승리하면서 누적 400회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,400,3,1,,,,,1
+11096,상성 마스터Ⅶ,전투에서 승리하면서 누적 600회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,600,3,1,,,,,1
+11097,상성 마스터Ⅷ,전투에서 승리하면서 누적 800회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,800,3,1,,,,,1
+11098,상성 마스터Ⅸ,전투에서 승리하면서 누적 1000회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,1000,3,1,,,,,1
+11099,상성 마스터Ⅹ,전투에서 승리하면서 누적 1400회 약점 공격하기,3514,ChallengeCounter,achieve_counter_challenge_counter,1400,3,1,,,,,1
+33010,순수한 파워,"1단계: 물리 피해만 주면서, 쓰러진 인형 없이 블루스피어 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3010,,,,,,1
+33011,감전사,"2단계: 전도 피해만 주면서, 쓰러진 인형 없이 블루스피어 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3011,,,,,,1
+33012,열정적인 인형들,"3단계: 연소 피해만 주면서, 쓰러진 인형 없이 블루스피어 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3012,,,,,,1
+33013,불고기 파티,"1단계: 연소 피해만 주면서, 쓰러진 인형 없이 서비드사우루스 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3013,,,,,,1
+33014,역전의 부점 헌터,"2단계: 서비드사우루스가 「몰두」를 4스택 보유한 상태에서, 쓰러진 인형 없이 서비드사우루스 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3014,,,,,,1
+33015,낙오자 없음,1단계: 쓰러진 인형 없이 기괴한 인형 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3015,,,,,,1
+33016,유리몸,1단계: 6턴 안에 기괴한 인형 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3016,,,,,,1
+33017,소방 특훈,1단계: 탁류 피해만 주면서 4턴 이내에 올리파트를 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3017,,,,,,1
+33018,삼총사,2단계: 인형을 3명만 출격시켜 5턴 이내에 올리파트를 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3018,,,,,,1
+33019,일발필중,1단계: 단일 피해만 주면서 5턴 이내에 부리 강철수를 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3019,,,,,,1
+40190,댄서의 자기계발,유희의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1054,,,,,,1
+40191,범죄자의 천적,니키타의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1055,,,,,,1
+40192,여우의 지혜,리바의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1056,,,,,,1
+40193,정의의 친구,로벨라의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1057,,,,,,1
+40194,나비 작전,레이니의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1058,,,,,,1
+40195,혈당 스파이크,린드의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1059,,,,,,1
+40196,빠루 세이브 더 월드,바틸다의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1061,,,,,,1
+40197,청순한 이야기,플로렌스의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1064,,,,,,1
+40198,백랑,앨바의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1065,,,,,,1
+40199,무쇠팔 무쇠다리,보이마스티나의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1066,,,,,,1
+13080,극지 폭풍Ⅰ,"빙결 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,4,1,1,,,1
+13081,극지 폭풍Ⅱ,"빙결 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,4,1,1,,,1
+13082,극지 폭풍Ⅲ,"빙결 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,4,1,1,,,1
+13083,극지 폭풍Ⅳ,"빙결 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,4,1,1,,,1
+13084,극지 폭풍 Ⅴ,"빙결 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,4,1,1,,,1
+13085,극지 폭풍Ⅵ,"빙결 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,4,1,1,,,1
+13086,극지 폭풍Ⅶ,"빙결 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,4,1,1,,,1
+13087,극지 폭풍 Ⅷ,"빙결 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,4,1,1,,,1
+13088,극지 폭풍 Ⅸ,"빙결 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,4,1,1,,,1
+13089,극지 폭풍Ⅹ,"빙결 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,4,1,1,,,1
+20341,마키아토·놀라워하지 마,60레벨 이상인 한 작전에서 액티브 공격으로 적 보스 유닛에게 치명타 피해를 누적 8회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10341,,,,,,1
+20342,마키아토·사일런트 킬러,60레벨 이상인 한 작전에서 매복으로 적 보스 유닛에게 누적 10회 피해를 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10342,,,,,,1
+20343,마키아토·말살의 예술,50레벨 이상인 한 작전에서 9칸 거리 밖의 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10343,,,,,,1
+20401,파파샤·코사크 가디언,60레벨 이상인 한 작전에서 시티 가디언이 적에게 치명타 피해를 누적 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10401,,,,,,1
+20402,파파샤·따바리시,한 작전에서 시티 가디언이 【정비】 상태에 3번 진입함,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10402,,,,,,1
+20403,파파샤·우라!,60레벨 이상인 한 작전에서 시티 가디언이 보스 유닛에게 누적 10회 공격,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10403,,,,,,1
+43011,다채로운 변화Ⅰ,스페이스 리뉴얼을 5개 수집,4117,LobbyFurnitureColorCount,achieve_counter_lobby_furniture_color_count,5,,,,,,,1
+43012,다채로운 변화Ⅱ,스페이스 리뉴얼을 50개 수집,4117,LobbyFurnitureColorCount,achieve_counter_lobby_furniture_color_count,50,,,,,,,1
+43013,다채로운 변화Ⅲ,스페이스 리뉴얼을 100개 수집,4117,LobbyFurnitureColorCount,achieve_counter_lobby_furniture_color_count,100,,,,,,,1
+43014,다채로운 변화 Ⅳ,스페이스 리뉴얼을 150개 수집,4117,LobbyFurnitureColorCount,achieve_counter_lobby_furniture_color_count,150,,,,,,,1
+43015,다채로운 변화Ⅴ,스페이스 리뉴얼을 200개 수집,4117,LobbyFurnitureColorCount,achieve_counter_lobby_furniture_color_count,200,,,,,,,1
+1281,냉혹한 챌린지 머신Ⅰ,확장 훈련에서 작전 목표를 40개 달성,3005,ChallengeExtraChallenge,achieve_counter_challenge_extra_challenge,40,,,,,,,1
+1282,냉혹한 챌린지 머신Ⅱ,확장 훈련에서 작전 목표를 80개 달성,3005,ChallengeExtraChallenge,achieve_counter_challenge_extra_challenge,80,,,,,,,1
+1283,냉혹한 챌린지 머신Ⅲ,확장 훈련에서 작전 목표를 120개 달성,3005,ChallengeExtraChallenge,achieve_counter_challenge_extra_challenge,120,,,,,,,1
+1284,냉혹한 챌린지 머신Ⅳ,확장 훈련에서 작전 목표를 160개 달성,3005,ChallengeExtraChallenge,achieve_counter_challenge_extra_challenge,160,,,,,,,1
+1451,한계 측정 마스터 Ⅰ,일반 한계 측정에서 제1그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20151,,,,,,1
+1452,한계 측정 마스터 Ⅱ,일반 한계 측정에서 제2그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20251,,,,,,1
+1453,한계 측정 마스터 Ⅲ,일반 한계 측정에서 제3그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20351,,,,,,1
+1454,한계 측정 마스터 Ⅳ,일반 한계 측정에서 제4그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20451,,,,,,1
+1455,한계 측정 마스터 Ⅴ,일반 한계 측정에서 제5그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20551,,,,,,1
+1456,한계 측정 마스터 Ⅵ,일반 한계 측정에서 제6그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20651,,,,,,1
+1457,한계 측정 마스터 Ⅶ,일반 한계 측정에서 제7그룹 클리어,207,StageVictory,achieve_counter_stage_victory,1,20951,,,,,,1
+11030,엘리트 킬러Ⅰ,전투에서 승리하면서 보스 유닛을 누적 50기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,50,1,3,1,1,,,1
+11031,엘리트 킬러Ⅱ,전투에서 승리하면서 보스 유닛을 누적 100기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,100,1,3,1,1,,,1
+11032,엘리트 킬러Ⅲ,전투에서 승리하면서 보스 유닛을 누적 150기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,150,1,3,1,1,,,1
+11033,엘리트 킬러Ⅳ,전투에서 승리하면서 보스 유닛을 누적 200기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,200,1,3,1,1,,,1
+11034,엘리트 킬러Ⅴ,전투에서 승리하면서 보스 유닛을 누적 250기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,250,1,3,1,1,,,1
+11035,엘리트 킬러Ⅵ,전투에서 승리하면서 보스 유닛을 누적 300기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,300,1,3,1,1,,,1
+11036,엘리트 킬러Ⅶ,전투에서 승리하면서 보스 유닛을 누적 350기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,350,1,3,1,1,,,1
+11037,엘리트 킬러Ⅷ,전투에서 승리하면서 보스 유닛을 누적 400기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,400,1,3,1,1,,,1
+11038,엘리트 킬러Ⅸ,전투에서 승리하면서 보스 유닛을 누적 450기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,450,1,3,1,1,,,1
+11039,엘리트 킬러Ⅹ,전투에서 승리하면서 보스 유닛을 누적 500기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,500,1,3,1,1,,,1
+13130,근원의 힘 Ⅰ,"공진 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,32,1,1,,,1
+13131,근원의 힘 Ⅱ,"공진 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,32,1,1,,,1
+13132,근원의 힘 Ⅲ,"공진 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,32,1,1,,,1
+13133,근원의 힘 Ⅳ,"공진 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,32,1,1,,,1
+13134,근원의 힘 Ⅴ,"공진 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,32,1,1,,,1
+13135,근원의 힘 Ⅵ,"공진 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,32,1,1,,,1
+13136,근원의 힘 Ⅶ,"공진 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,32,1,1,,,1
+13137,근원의 힘 Ⅷ,"공진 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,32,1,1,,,1
+13138,근원의 힘 Ⅸ,"공진 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,32,1,1,,,1
+13139,근원의 힘 Ⅹ,"공진 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,32,1,1,,,1
+20091,콜펜-응급 펀치,한 작전에서 지원 공격으로 피해를 4회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10091,,,,,,1
+20092,콜펜-묘수회춘,한 작전에서 아군의 디버프를 3회 정화,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10092,,,,,,1
+20371,울리드-사냥꾼과 사냥감,60레벨 이상인 한 작전에서 적에게 피해를 누적 20회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10371,,,,,,1
+20372,울리드-스트레스 해소,한 작전에서 「위장」을 4회 얻기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10372,,,,,,1
+20373,울리드-칼날 폭풍,60레벨 이상인 한 작전에서 「연환참」을 누적 12회 사용,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10373,,,,,,1
+40150,테마 파크 II,테마 스타일을 3개 보유,3630,LobbyComboCount,achieve_counter_lobby_combo_count,3,,,,,,,1
+40151,테마 파크 III,테마 스타일을 5개 보유,3630,LobbyComboCount,achieve_counter_lobby_combo_count,5,,,,,,,1
+40152,가구 가게 I,가구 스킨을 1개 보유,3626,LobbyOutfitCount,achieve_counter_lobby_outfit_count,1,,,,,,,1
+40153,가구 가게 II,가구 스킨을 10개 보유,3626,LobbyOutfitCount,achieve_counter_lobby_outfit_count,10,,,,,,,1
+40154,가구 가게 III,가구 스킨을 50개 보유,3626,LobbyOutfitCount,achieve_counter_lobby_outfit_count,50,,,,,,,1
+40155,토끼는 기억할 것입니다,캐롤릭의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1001,,,,,,1
+40156,고대의 속삭임,네메시스의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1008,,,,,,1
+40157,사랑의 치유,콜펜의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1009,,,,,,1
+40158,프리티☆라이브,베프리의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1015,,,,,,1
+40159,기나긴 동반,그로자의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1017,,,,,,1
+10370,니가와Ⅰ,매복 또는 반격으로 누적 150회 피해를 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,150,1,,,,,,1
+10371,니가와Ⅱ,매복 또는 반격으로 누적 300회 피해를 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,300,1,,,,,,1
+10372,니가와Ⅲ,매복 또는 반격으로 누적 450회 피해를 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,450,1,,,,,,1
+11130,맵병기Ⅰ,전투에서 승리하면서 범위 피해를 누적 4000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,4000000,2,1,1,1,,,1
+11131,맵병기Ⅱ,전투에서 승리하면서 범위 피해를 누적 12000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,12000000,2,1,1,1,,,1
+11132,맵병기Ⅲ,전투에서 승리하면서 범위 피해를 누적 20000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,2,1,1,1,,,1
+11133,맵병기Ⅳ,전투에서 승리하면서 범위 피해를 누적 40000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,40000000,2,1,1,1,,,1
+11134,맵병기Ⅴ,전투에서 승리하면서 범위 피해를 누적 60000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,60000000,2,1,1,1,,,1
+11135,맵병기Ⅵ,전투에서 승리하면서 범위 피해를 누적 80000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,80000000,2,1,1,1,,,1
+11136,맵병기Ⅶ,전투에서 승리하면서 범위 피해를 누적 100000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,2,1,1,1,,,1
+11137,맵병기Ⅷ,전투에서 승리하면서 범위 피해를 누적 120000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,120000000,2,1,1,1,,,1
+11138,맵병기Ⅸ,전투에서 승리하면서 범위 피해를 누적 160000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,160000000,2,1,1,1,,,1
+11139,맵병기Ⅹ,전투에서 승리하면서 범위 피해를 누적 200000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,2,1,1,1,,,1
+10140,대홍수Ⅰ,"탁류 피해를 누적 10,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,6,18446744073709551615,18446744073709551615,,,1
+10141,대홍수Ⅱ,"탁류 피해를 누적 20,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,6,18446744073709551615,18446744073709551615,,,1
+10142,대홍수Ⅲ,"탁류 피해를 누적 30,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,6,18446744073709551615,18446744073709551615,,,1
+40140,모두 모여 I,활동층에서 활성화된 인형 배치 슬롯 14개 도달,3643,LobbyGunUnlockCount,achieve_counter_lobby_gun_unlock_count,14,,,,,,,1
+40141,모두 모여 II,활동층에서 활성화된 인형 배치 슬롯 21개 도달,3643,LobbyGunUnlockCount,achieve_counter_lobby_gun_unlock_count,21,,,,,,,1
+40142,모두 모여 III,활동층에서 활성화된 인형 배치 슬롯 28개 도달,3643,LobbyGunUnlockCount,achieve_counter_lobby_gun_unlock_count,28,,,,,,,1
+40143,사랑과 희망,활동층에서 인형 결합도 100회 수령,3627,LobbyGunLoveCount,achieve_counter_lobby_gun_love_count,100,,,,,,,1
+40144,,,3013,ChallengeTrophy,achieve_counter_challenge_trophy,1,,,,,,,0
+40145,메모리얼 스파이럴 I,전리품을 15개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,15,,,,,,,1
+40146,메모리얼 스파이럴 II,전리품을 30개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,30,,,,,,,1
+40147,메모리얼 스파이럴 III,전리품을 50개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,50,,,,,,,1
+40148,언제나 온라인,필로우 하모니 누적 120분 청취,3633,LobbyAsmrDuration,achieve_counter_lobby_asmr_duration,120,,,,,,,1
+40149,테마 파크 I,테마 스타일을 1개 보유,3630,LobbyComboCount,achieve_counter_lobby_combo_count,1,,,,,,,1
+40180,따듯한 포옹,안도리스의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1042,,,,,,1
+40181,마을 최강의 도끼,페이의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1043,,,,,,1
+40182,몽땅 태워버려,벡터의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1044,,,,,,1
+40183,즐거운 청둥오리,비욜카의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1045,,,,,,1
+40184,여왕의 책략,스프링필드의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1047,,,,,,1
+40185,파티의 여흥,추화의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1048,,,,,,1
+40186,협객의 길,조휘의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1050,,,,,,1
+40187,핑크 냥냥 펀치,미슈티의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1051,,,,,,1
+40188,질주 라이프,클루카이의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1052,,,,,,1
+40189,암상인 조례,페리의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1053,,,,,,1
+1641,보물단지Ⅰ,[잿더미 일화]에서 희귀 유물을 누적 10개 수집.,2023,Rouge2Precious,achieve_counter_rouge2_precious,10,4,,,,,,1
+1642,보물단지Ⅱ,[잿더미 일화]에서 희귀 유물을 누적 20개 수집.,2023,Rouge2Precious,achieve_counter_rouge2_precious,20,4,,,,,,1
+1643,보물단지Ⅲ,[잿더미 일화]에서 희귀 유물을 누적 30개 수집.,2023,Rouge2Precious,achieve_counter_rouge2_precious,30,4,,,,,,1
+1644,보물단지Ⅳ,[잿더미 일화]에서 희귀 유물을 누적 40개 수집.,2023,Rouge2Precious,achieve_counter_rouge2_precious,40,4,,,,,,1
+1720,초석 다지기 Ⅲ,기준 소자를 누적 200개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,200,1,,,,,,1
+1721,초석 다지기 Ⅳ,기준 소자를 누적 350개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,350,1,,,,,,1
+1722,천군의 진형Ⅰ,대열 규모 레벨 5 달성,2403,SupportLevel,achieve_counter_support__level,5,,,,,,,1
+1723,천군의 진형Ⅱ,대열 규모 레벨 10 달성,2403,SupportLevel,achieve_counter_support__level,10,,,,,,,1
+1724,천군의 진형Ⅲ,대열 규모 레벨 20 달성,2403,SupportLevel,achieve_counter_support__level,20,,,,,,,1
+1725,천군의 진형Ⅳ,대열 규모 레벨 30 달성,2403,SupportLevel,achieve_counter_support__level,30,,,,,,,1
+1726,천군의 진형Ⅴ,대열 규모 레벨 40 달성,2403,SupportLevel,achieve_counter_support__level,40,,,,,,,1
+20601,파에투사·일체쌍심,60레벨 이상인 한 작전에서 지원 공격을 누적 12회 발동하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10601,,,,,,1
+20602,파에투사·도광검영,60레벨 이상인 한 작전에서 【절상】을 누적 12회 발동하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10602,,,,,,1
+20603,파에투사·종말의 칼날,60레벨 이상인 한 작전에서 7턴 이내에 범위 산성 피해를 누적 14회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10603,,,,,,1
+20691,로렐라이-잠복의 예술,60레벨 이상인 한 작전에서 적 보스 유닛의 버프 효과를 누적 3회 정화하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10691,,,,,,1
+20692,로렐라이·유연한 수완,60레벨 이상인 한 작전에서 아군 유닛의 디버프 효과를 누적 8회 정화,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10692,,,,,,1
+20693,로렐라이·불같은 열정,60레벨 이상인 한 작전에서 연소 피해를 누적 10회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10693,,,,,,1
+40240,주인님의 시험지,페일린의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1078,,,,,,1
+40241,꿈속의 신기루,네메시스·연광의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1075,,,,,,1
+40242,늑대 추종자,콜레다의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1079,,,,,,1
+40243,늑대와 함께 춤을,콜레다의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1079,,,,,,1
+40244,황야의 길잡이,아스테리아의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1080,,,,,,1
+40245,광야의 별지기,아스테리아의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1080,,,,,,1
+40246,미지의 깊은 곳,이글레타의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1081,,,,,,1
+40247,날개를 펼치고,이글레타의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1081,,,,,,1
+40248,특별 게스트 인터뷰,세실리아의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1082,,,,,,1
+40249,작은 꽃 위로하기,세실리아의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1082,,,,,,1
+11110,너 따위가 정예야?Ⅰ,전투에서 승리하면서 정예 유닛을 누적 10기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,10,1,2,1,1,,,1
+11111,너 따위가 정예야?Ⅱ,전투에서 승리하면서 정예 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,1,2,1,1,,,1
+11112,너 따위가 정예야?Ⅲ,전투에서 승리하면서 정예 유닛을 누적 30기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,30,1,2,1,1,,,1
+11113,너 따위가 정예야?Ⅳ,전투에서 승리하면서 정예 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,1,2,1,1,,,1
+11114,너 따위가 정예야?Ⅴ,전투에서 승리하면서 정예 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,1,2,1,1,,,1
+11115,너 따위가 정예야?Ⅵ,전투에서 승리하면서 정예 유닛을 누적 80기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,80,1,2,1,1,,,1
+11116,너 따위가 정예야?Ⅶ,전투에서 승리하면서 정예 유닛을 누적 100기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,100,1,2,1,1,,,1
+11117,너 따위가 정예야?Ⅷ,전투에서 승리하면서 정예 유닛을 누적 120기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,120,1,2,1,1,,,1
+11118,너 따위가 정예야?Ⅸ,전투에서 승리하면서 정예 유닛을 누적 150기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,150,1,2,1,1,,,1
+11119,너 따위가 정예야?Ⅹ,전투에서 승리하면서 정예 유닛을 누적 180기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,180,1,2,1,1,,,1
+13030,궁지로 몰아넣기 Ⅰ,안정 붕괴된 적 유닛을 누적 60기 처치 (승리한 전투만 집계),3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,60,,,,,,,1
+13031,궁지로 몰아넣기 Ⅱ,안정 붕괴된 적 유닛을 누적 180기 처치 (승리한 전투만 집계),3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,180,,,,,,,1
+13032,궁지로 몰아넣기 Ⅲ,안정 붕괴된 적 유닛을 누적 300기 처치 (승리한 전투만 집계),3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,300,,,,,,,1
+13033,궁지로 몰아넣기 Ⅳ,안정 붕괴된 적 유닛을 누적 600기 처치 (승리한 전투만 집계),3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,600,,,,,,,1
+13034,궁지로 몰아넣기 Ⅴ,안정 붕괴된 적 유닛을 누적 900기 처치 (승리한 전투만 집계),3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,900,,,,,,,1
+13035,궁지로 몰아넣기 Ⅵ,"안정 붕괴된 적 유닛을 누적 1,200기 처치 (승리한 전투만 집계)",3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,1200,,,,,,,1
+13036,궁지로 몰아넣기 Ⅶ,"안정 붕괴된 적 유닛을 누적 1,500기 처치 (승리한 전투만 집계)",3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,1500,,,,,,,1
+13037,궁지로 몰아넣기 Ⅷ,"안정 붕괴된 적 유닛을 누적 1,800기 처치 (승리한 전투만 집계)",3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,1800,,,,,,,1
+13038,궁지로 몰아넣기 Ⅸ,"안정 붕괴된 적 유닛을 누적 2,400기 처치 (승리한 전투만 집계)",3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,2400,,,,,,,1
+13039,궁지로 몰아넣기 Ⅹ,"안정 붕괴된 적 유닛을 누적 3,000기 처치 (승리한 전투만 집계)",3524,ChallengeStageStableIndexBreakKillRecords,achieve_counter_challenge_stage_stable_index_break_kill_records,3000,,,,,,,1
+13120,물리로 때려잡기Ⅰ,"물리 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,1,1,1,,,1
+13121,물리로 때려잡기Ⅱ,"물리 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,1,1,1,,,1
+13122,물리로 때려잡기Ⅲ,"물리 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,1,1,1,,,1
+13123,물리로 때려잡기Ⅳ,"물리 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,1,1,1,,,1
+13124,물리로 때려잡기Ⅴ,"물리 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,1,1,1,,,1
+13125,물리로 때려잡기Ⅵ,"물리 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,1,1,1,,,1
+13126,물리로 때려잡기Ⅶ,"물리 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,1,1,1,,,1
+13127,물리로 때려잡기Ⅷ,"물리 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,1,1,1,,,1
+13128,물리로 때려잡기Ⅸ,"물리 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,1,1,1,,,1
+13129,물리로 때려잡기Ⅹ,"물리 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,1,1,1,,,1
+40160,고양이 풀,페리티아의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1021,,,,,,1
+40161,잠입의 프로,레나의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1013,,,,,,1
+40162,용사의 게임,드셰브니의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1023,,,,,,1
+40163,아이돌 육성법,샤크리의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1022,,,,,,1
+40164,세기의 대발명,치타의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1024,,,,,,1
+40165,은하 나들이,토로로의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1025,,,,,,1
+40166,연장자의 노하우,나강의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1026,,,,,,1
+40167,옥의 마음,경구의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1027,,,,,,1
+40168,메이드장의 휴일,센타우레이시의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1028,,,,,,1
+40169,입에 감도는 향,사브리나의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1029,,,,,,1
+44001,임시 청소,청소 이벤트를 1회 완료하기,4601,LobbyDurabilityEventCount,achieve_counter_lobby_durability_event_count,1,,,,,,,1
+44002,"취미일까, 습관일까?",청소 이벤트를 10회 완료하기,4601,LobbyDurabilityEventCount,achieve_counter_lobby_durability_event_count,10,,,,,,,1
+44003,오늘부터 결벽증,청소 이벤트를 20회 완료하기,4601,LobbyDurabilityEventCount,achieve_counter_lobby_durability_event_count,20,,,,,,,1
+32020,주방 도구 수리,사브리나로 스팀븐 프라이 1.0을 1회 처치,3511,ChallengeKillSp,achieve_counter_challenge_kill_sp,1,2,1029,2,6742,,,1
+1011,,,3001,ChallengeLounge,achieve_counter_challenge_lounge,3,1001,3,,,,,0
+1013,,,3003,ChallengeVersion,achieve_counter_challenge_version,2,,,,,,,0
+1014,,,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,3,1,5,18446744073709551615,,,2,0
+1015,,,3005,ChallengeExtraChallenge,achieve_counter_challenge_extra_challenge,30,,,,,,2,0
+1016,,,3006,ChallengeExtraChallengeSp,achieve_counter_challenge_extra_challenge_sp,20,,,,,,2,0
+1017,,,3007,ChallengeBoss,achieve_counter_challenge_boss,5,,,,,,2,0
+1019,,,3009,ChallengeWeaponSkin,achieve_counter_challenge_weapon_skin,10,,,,,,2,0
+1371,무기 장인Ⅰ,파츠 보정으로 150% 이상 증폭을 누적 20회 획득,3015,ChallengeModPolarity,achieve_counter_challenge_mod_polarity,20,150,,,,,,1
+1372,무기 장인Ⅱ,파츠 보정으로 150% 이상 증폭을 누적 40회 획득,3015,ChallengeModPolarity,achieve_counter_challenge_mod_polarity,40,150,,,,,,1
+1373,무기 장인Ⅲ,파츠 보정으로 150% 이상 증폭을 누적 60회 획득,3015,ChallengeModPolarity,achieve_counter_challenge_mod_polarity,60,150,,,,,,1
+1374,무기 장인Ⅳ,파츠 보정으로 150% 이상 증폭을 누적 80회 획득,3015,ChallengeModPolarity,achieve_counter_challenge_mod_polarity,80,150,,,,,,1
+1381,싱크로율 1000%Ⅰ,무기 각인 효과를 10개 활성화,3016,ChallengeWeaponMark,achieve_counter_challenge_weapon_mark,10,,,,,,,1
+1382,싱크로율 1000%Ⅱ,무기 각인 효과를 20개 활성화,3016,ChallengeWeaponMark,achieve_counter_challenge_weapon_mark,20,,,,,,,1
+1383,싱크로율 1000%Ⅲ,무기 각인 효과를 30개 활성화,3016,ChallengeWeaponMark,achieve_counter_challenge_weapon_mark,30,,,,,,,1
+1384,싱크로율 1000%Ⅳ,무기 각인 효과를 40개 활성화,3016,ChallengeWeaponMark,achieve_counter_challenge_weapon_mark,40,,,,,,,1
+10411,히트 카운터Ⅰ,피해를 누적 800회 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,800,4,,,,,,1
+10412,히트 카운터Ⅱ,피해를 누적 1600회 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,1600,4,,,,,,1
+10413,히트 카운터Ⅲ,피해를 누적 2400회 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,2400,4,,,,,,1
+11060,마라톤 챌린지 대회Ⅰ,승리한 전투의 경과 턴이 누적 100턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,100,1,,,,,,1
+11061,마라톤 챌린지 대회Ⅱ,승리한 전투의 경과 턴이 누적 200턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,200,1,,,,,,1
+11062,마라톤 챌린지 대회Ⅲ,승리한 전투의 경과 턴이 누적 300턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,300,1,,,,,,1
+11063,마라톤 챌린지 대회Ⅳ,승리한 전투의 경과 턴이 누적 400턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,400,1,,,,,,1
+11064,마라톤 챌린지 대회Ⅴ,승리한 전투의 경과 턴이 누적 500턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,500,1,,,,,,1
+11065,마라톤 챌린지 대회Ⅵ,승리한 전투의 경과 턴이 누적 600턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,600,1,,,,,,1
+11066,마라톤 챌린지 대회Ⅶ,승리한 전투의 경과 턴이 누적 700턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,700,1,,,,,,1
+11067,마라톤 챌린지 대회Ⅷ,승리한 전투의 경과 턴이 누적 800턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,800,1,,,,,,1
+11068,마라톤 챌린지 대회Ⅸ,승리한 전투의 경과 턴이 누적 900턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,900,1,,,,,,1
+11069,마라톤 챌린지 대회Ⅹ,승리한 전투의 경과 턴이 누적 1000턴,3515,ChallengeRounds,achieve_counter_challenge_rounds,1000,1,,,,,,1
+20481,추화·재료 손질,60레벨 이상인 한 작전에서 한 턴 안에 안정 피해를 누적 8점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10481,,,,,,1
+20482,추화·식당의 주방을 본 적 있어?,60레벨 이상인 한 작전에서 【육즙 가두기】를 누적 5회 사용,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10482,,,,,,1
+20483,추화·취사반 워리어,60레벨 이상인 한 작전에서 9턴 이내에 지원 공격으로 피해를 누적 8회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10483,,,,,,1
+31030,사파의 흑술Ⅰ,한 작전에서 보스 유닛이 디버프를 5가지 보유,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1030,,,,,,1
+31031,사파의 흑술Ⅱ,한 작전에서 보스 유닛이 디버프를 10가지 보유,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1031,,,,,,1
+31032,사파의 흑술Ⅲ,한 작전에서 보스 유닛이 디버프를 15가지 보유,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1032,,,,,,1
+50040,엘리멘틀 룰러Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 위상 총괄 시리즈를 시리즈를 사용하고, 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,8,,,,1
+50041,몸푸는 지휘관Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 전선 지휘 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,9,,,,1
+50042,몸푸는 지휘관Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 전선 지휘 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,9,,,,1
+50043,몸푸는 지휘관Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 전선 지휘 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,9,,,,1
+50044,몸푸는 지휘관Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 전선 지휘 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,9,,,,1
+50045,몸푸는 지휘관Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 전선 지휘 시리즈를 시리즈를 사용하고, 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,9,,,,1
+50046,천군 횡소,[잿더미 일화]에서 적 유닛 100개 처치,2028,Rouge2KillEnemy,achieve_counter_rouge2_kill_enemy,100,4,18446744073709551615,,,,,1
+50047,천하무쌍의 탐험가,[잿더미 일화]에서 적 유닛 500개 처치,2028,Rouge2KillEnemy,achieve_counter_rouge2_kill_enemy,500,4,18446744073709551615,,,,,1
+50048,보스 헌터,[잿더미 일화]에서 보스 유닛 10개 처치,2028,Rouge2KillEnemy,achieve_counter_rouge2_kill_enemy,10,4,3,,,,,1
+50049,역전의 용사,[잿더미 일화]에서 보스 유닛 50개 처치,2028,Rouge2KillEnemy,achieve_counter_rouge2_kill_enemy,50,4,3,,,,,1
+1231,프로스트 슈터Ⅰ,빙결 속성 인형을 누적 3명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,3,4,18446744073709551615,,,,,1
+1232,프로스트 슈터Ⅱ,빙결 속성 인형을 누적 4명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,4,4,18446744073709551615,,,,,1
+1233,프로스트 슈터Ⅲ,빙결 속성 인형을 누적 5명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,5,4,18446744073709551615,,,,,1
+1234,프로스트 슈터Ⅳ,빙결 속성 인형을 누적 6명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,6,4,18446744073709551615,,,,,1
+1441,윈드 캡터·과거,[위상 충돌]에서 【부서진 휘장】【미지의 위험】【두목의 명령】을 수집,10,GetMultipleItem,achieve_counter_get_multiple_item,1,11,,,,,,1
+1442,윈드 캡터·풍토,[위상 충돌]에서 【자연의 흔적】【불멸의 불씨】【수렵자의 창】【굳은 노래】을 수집,10,GetMultipleItem,achieve_counter_get_multiple_item,1,12,,,,,,1
+1443,윈드 캡터·끝자락,[위상 충돌]에서 【흐릿한 녹음】【주인 없는 내비게이터】【환생의 환상】을 수집,10,GetMultipleItem,achieve_counter_get_multiple_item,1,13,,,,,,1
+12000,고독한 늑대Ⅰ,인형을 2명만 배치해서 60레벨 이상 각기 다른 스테이지를 30개 클리어,3519,ChallengeLevelClearSp,achieve_counter_challenge_level_clear_sp,30,18446744073709551615,60,2,,,,1
+12001,고독한 늑대Ⅱ,인형을 2명만 배치해서 60레벨 이상 각기 다른 스테이지를 60개 클리어,3519,ChallengeLevelClearSp,achieve_counter_challenge_level_clear_sp,60,18446744073709551615,60,2,,,,1
+12002,고독한 늑대Ⅲ,인형을 2명만 배치해서 60레벨 이상 각기 다른 스테이지를 100개 클리어,3519,ChallengeLevelClearSp,achieve_counter_challenge_level_clear_sp,100,18446744073709551615,60,2,,,,1
+31050,나의 배틀 페이즈는 끝나지 않았어Ⅰ,같은 턴에 턴 외 공격 피해를 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1050,,,,,,1
+31051,나의 배틀 페이즈는 끝나지 않았어Ⅱ,같은 턴에 턴 외 공격 피해를 9회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1051,,,,,,1
+31052,나의 배틀 페이즈는 끝나지 않았어Ⅲ,같은 턴에 턴 외 공격 피해를 12회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1052,,,,,,1
+40220,검은 고양이의 작은 한 걸음,하프시의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1049,,,,,,1
+40221,소곤거림,샤이엔의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1070,,,,,,1
+40222,함수초의 긍정,샤이엔의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1070,,,,,,1
+40223,경고의 발자국,바스티의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1071,,,,,,1
+40224,제발로 잡힌 도둑,바스티의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1071,,,,,,1
+40225,지음은 드물어,류시의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1072,,,,,,1
+40226,전액 후원,류시의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1072,,,,,,1
+40227,산마왕의 궁전,섹스턴스의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1073,,,,,,1
+40228,본심을 엿보다,섹스턴스의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1073,,,,,,1
+40229,흑야의 외로운 등불,OTs-14의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1074,,,,,,1
+1710,삼군연합사령부 Ⅱ,서로 다른 무장지원팀을 5개 획득,2404,SupportTeamCollect,achieve_counter_support__team_collect,5,,,,,,,1
+1711,삼군연합사령부 Ⅲ,서로 다른 무장지원팀을 6개 획득,2404,SupportTeamCollect,achieve_counter_support__team_collect,6,,,,,,,1
+1712,삼군연합사령부 Ⅳ,서로 다른 무장지원팀을 8개 획득,2404,SupportTeamCollect,achieve_counter_support__team_collect,8,,,,,,,1
+1713,삼군연합사령부 Ⅴ,서로 다른 무장지원팀을 10개 획득,2404,SupportTeamCollect,achieve_counter_support__team_collect,10,,,,,,,1
+1714,영혼 주입Ⅰ,능력 소자를 누적 5개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,5,2,,,,,,1
+1715,영혼 주입Ⅱ,능력 소자를 누적 10개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,10,2,,,,,,1
+1716,영혼 주입Ⅲ,능력 소자를 누적 30개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,30,2,,,,,,1
+1717,영혼 주입Ⅳ,능력 소자를 누적 50개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,50,2,,,,,,1
+1718,초석 다지기 Ⅰ,기준 소자를 누적 50개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,50,1,,,,,,1
+1719,초석 다지기 Ⅱ,기준 소자를 누적 100개 획득,2405,SupportChipCollect,achieve_counter_support__chip_collect,100,1,,,,,,1
+10070,다다익선Ⅰ,아군 유닛에게 버프 효과를 누적 80회 부여,3504,ChallengeBuff,achieve_counter_challenge_buff,80,1,,,,,,1
+10071,다다익선Ⅱ,아군 유닛에게 버프 효과를 누적 160회 부여,3504,ChallengeBuff,achieve_counter_challenge_buff,160,1,,,,,,1
+10072,다다익선Ⅲ,아군 유닛에게 버프 효과를 누적 240회 부여,3504,ChallengeBuff,achieve_counter_challenge_buff,240,1,,,,,,1
+10090,전력전개Ⅰ,결전기를 누적 200회 사용,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,200,3,18446744073709551615,,,,,1
+10091,전력전개Ⅱ,결전기를 누적 400회 사용,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,400,3,18446744073709551615,,,,,1
+10092,전력전개Ⅲ,결전기를 누적 600회 사용,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,600,3,18446744073709551615,,,,,1
+20531,페리·인기 상품,60레벨 이상인 한 작전에서 9턴 안에 단일 연소 피해를 14회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10531,,,,,,1
+20532,페리·암상인의 특별 루트,60레벨 이상인 한 작전에서 일반공격으로 피해를 누적 16회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10532,,,,,,1
+20533,페리·특별 사은품,60레벨 이상인 한 작전에서 7턴 안에 일반공격을 누적 10회 사용하여 적에게 피해를 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10533,,,,,,1
+20591,린드·혈당 초과,60레벨 이상인 한 작전에서 적에게 디버프를 누적 28회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10591,,,,,,1
+20592,린드·충치 주의,60레벨 이상인 한 작전에서 「당 충전」을 10스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10592,,,,,,1
+20593,린드·키톤산 중독,60레벨 이상인 한 작전에서 같은 턴 안에 적을 8기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10593,,,,,,1
+1241,화학 실험실Ⅰ,산성 속성 인형을 누적 3명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,3,5,18446744073709551615,,,,,1
+1242,화학 실험실Ⅱ,산성 속성 인형을 누적 5명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,5,5,18446744073709551615,,,,,1
+1243,화학 실험실Ⅲ,산성 속성 인형을 누적 7명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,7,5,18446744073709551615,,,,,1
+1244,화학 실험실Ⅳ,산성 속성 인형을 누적 9명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,9,5,18446744073709551615,,,,,1
+1251,전기기사 성공담Ⅰ,전도 속성 인형을 누적 3명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,3,3,18446744073709551615,,,,,1
+1252,전기기사 성공담Ⅱ,전도 속성 인형을 누적 5명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,5,3,18446744073709551615,,,,,1
+1253,전기기사 성공담Ⅲ,전도 속성 인형을 누적 7명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,7,3,18446744073709551615,,,,,1
+1254,전기기사 성공담Ⅳ,전도 속성 인형을 누적 9명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,9,3,18446744073709551615,,,,,1
+1511,복합 개조 Ⅰ,관리실 레벨 5 달성,1501,ControlRoomLevel,achieve_counter_control_room_level,5,,,,,,,1
+1512,복합 개조 Ⅱ,관리실 레벨 10 달성,1501,ControlRoomLevel,achieve_counter_control_room_level,10,,,,,,,1
+1513,복합 개조 Ⅲ,관리실 레벨 15 달성,1501,ControlRoomLevel,achieve_counter_control_room_level,15,,,,,,,1
+1514,복합 개조 Ⅳ,관리실 레벨 20 달성,1501,ControlRoomLevel,achieve_counter_control_room_level,20,,,,,,,1
+1515,복합 개조 Ⅴ,관리실 레벨 25 달성,1501,ControlRoomLevel,achieve_counter_control_room_level,25,,,,,,,1
+1516,복합 개조 Ⅵ,관리실 레벨 30 달성,1501,ControlRoomLevel,achieve_counter_control_room_level,30,,,,,,,1
+11000,워 머신Ⅰ,"피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,4,18446744073709551615,1,18446744073709551615,,,1
+11001,워 머신Ⅱ,"피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,4,18446744073709551615,1,18446744073709551615,,,1
+11002,워 머신Ⅲ,"피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,4,18446744073709551615,1,18446744073709551615,,,1
+11003,워 머신Ⅳ,"피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,4,18446744073709551615,1,18446744073709551615,,,1
+11004,워 머신Ⅴ,"피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,4,18446744073709551615,1,18446744073709551615,,,1
+11005,워 머신Ⅵ,"피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,4,18446744073709551615,1,18446744073709551615,,,1
+11006,워 머신Ⅶ,"피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,4,18446744073709551615,1,18446744073709551615,,,1
+11007,워 머신Ⅷ,"피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,4,18446744073709551615,1,18446744073709551615,,,1
+11008,워 머신Ⅸ,"피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,4,18446744073709551615,1,18446744073709551615,,,1
+11009,워 머신Ⅹ,"피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,4,18446744073709551615,1,18446744073709551615,,,1
+11100,지구전Ⅰ,8턴 이상 소모하면서 전투를 누적 2회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,2,8,,,,,,1
+11101,지구전Ⅱ,8턴 이상 소모하면서 전투를 누적 4회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,4,8,,,,,,1
+11102,지구전Ⅲ,8턴 이상 소모하면서 전투를 누적 6회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,6,8,,,,,,1
+11103,지구전Ⅳ,8턴 이상 소모하면서 전투를 누적 8회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,8,8,,,,,,1
+11104,지구전Ⅴ,8턴 이상 소모하면서 전투를 누적 10회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,10,8,,,,,,1
+11105,지구전Ⅵ,8턴 이상 소모하면서 전투를 누적 15회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,15,8,,,,,,1
+11106,지구전Ⅶ,8턴 이상 소모하면서 전투를 누적 20회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,20,8,,,,,,1
+11107,지구전Ⅷ,8턴 이상 소모하면서 전투를 누적 25회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,25,8,,,,,,1
+11108,지구전Ⅸ,8턴 이상 소모하면서 전투를 누적 30회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,30,8,,,,,,1
+11109,지구전Ⅹ,8턴 이상 소모하면서 전투를 누적 40회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,40,8,,,,,,1
+14040,실험 시작 Ⅰ,산성 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 2회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,2,,,,,,,1
+14041,실험 시작 Ⅱ,산성 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 5회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,5,,,,,,,1
+14042,실험 시작 Ⅲ,산성 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 8회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,8,,,,,,,1
+20451,비욜카·날다람쥐는 아니야,한 작전에서 【폴짝 다람쥐】 스킬로 치명타를 6회 가한다,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10451,,,,,,1
+20452,비욜카·너도 전기쥐니,60레벨 이상인 한 작전에서 【음전하】를 가진 적에게 전도 피해를 18회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10452,,,,,,1
+20453,비욜카·다람쥐의 지혜,60레벨 이상인 한 작전에서 전투 시작 후 9턴 이내에 적을 누적 7기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10453,,,,,,1
+40250,메이드 세미나,에이전트의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1083,,,,,,1
+40251,맞춤형 서비스,에이전트의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1083,,,,,,1
+40252,씁쓸함을 희석,콜펜·도플갱어의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1084,,,,,,1
+40253,전담 간호사,콜펜·도플갱어의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1084,,,,,,1
+1581,바 매지션 Ⅰ,「한 잔의 여유」 누적 8회 업그레이드,3617,LobbyCounterBuffUpgrade,achieve_counter_lobby_counter_buff_upgrade,8,,,,,,,1
+1582,바 매지션 Ⅱ,「한 잔의 여유」 누적 10회 업그레이드,3617,LobbyCounterBuffUpgrade,achieve_counter_lobby_counter_buff_upgrade,10,,,,,,,1
+1583,바 매지션 Ⅲ,「한 잔의 여유」 누적 12회 업그레이드,3617,LobbyCounterBuffUpgrade,achieve_counter_lobby_counter_buff_upgrade,12,,,,,,,1
+1584,바 매지션 Ⅳ,「한 잔의 여유」 누적 15회 업그레이드,3617,LobbyCounterBuffUpgrade,achieve_counter_lobby_counter_buff_upgrade,15,,,,,,,1
+1585,바 매지션 Ⅴ,「한 잔의 여유」 누적 18회 업그레이드,3617,LobbyCounterBuffUpgrade,achieve_counter_lobby_counter_buff_upgrade,18,,,,,,,1
+20611,바틸다-렌치는 쓰기 나름,60레벨 이상인 한 작전에서 일반 공격으로 적을 누적 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10611,,,,,,1
+20612,바틸다·에이스 데미지 컨트롤,60레벨 이상인 한 작전에서 아군 대상에게 「피해 차감 II」을 누적 10회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10612,,,,,,1
+20613,바틸다-전자동 프로토콜,60레벨 이상인 한 작전에서 소환물이 물리 피해를 누적 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10613,,,,,,1
+10160,만능 용매 Ⅰ,"산성 피해를 누적 10,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,5,18446744073709551615,18446744073709551615,,,1
+10161,만능 용매 Ⅱ,"산성 피해를 누적 20,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,5,18446744073709551615,18446744073709551615,,,1
+10162,만능 용매 Ⅲ,"산성 피해를 누적 30,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,5,18446744073709551615,18446744073709551615,,,1
+10381,스킬 버튼이 다 닳겠어!Ⅰ,스킬을 누적 250회 발동,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,250,18446744073709551615,18446744073709551615,,,,,1
+10382,스킬 버튼이 다 닳겠어!Ⅱ,스킬을 누적 500회 발동,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,500,18446744073709551615,18446744073709551615,,,,,1
+10383,스킬 버튼이 다 닳겠어!Ⅲ,스킬을 누적 750회 발동,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,750,18446744073709551615,18446744073709551615,,,,,1
+11160,비정한 사냥꾼 Ⅰ,소환물을 누적 5기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,5,1,4,1,1,,,1
+11161,비정한 사냥꾼 Ⅱ,소환물을 누적 10기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,10,1,4,1,1,,,1
+11162,비정한 사냥꾼 Ⅲ,소환물을 누적 15기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,15,1,4,1,1,,,1
+11163,비정한 사냥꾼 Ⅳ,소환물을 누적 20기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,20,1,4,1,1,,,1
+11164,비정한 사냥꾼 Ⅴ,소환물을 누적 25기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,25,1,4,1,1,,,1
+11165,비정한 사냥꾼 Ⅵ,소환물을 누적 30기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,30,1,4,1,1,,,1
+11166,비정한 사냥꾼 Ⅶ,소환물을 누적 40기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,40,1,4,1,1,,,1
+11167,비정한 사냥꾼 Ⅷ,소환물을 누적 50기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,50,1,4,1,1,,,1
+11168,비정한 사냥꾼 Ⅸ,소환물을 누적 60기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,60,1,4,1,1,,,1
+11169,비정한 사냥꾼 Ⅹ,소환물을 누적 70기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,70,1,4,1,1,,,1
+12060,폭격 시키신 분?Ⅰ,범위 피해만 주면서 지정 보정 VIII 스테이지를 1개 클리어,3527,ChallengeStagePassConditionSkillRange,achieve_counter_challenge_stage_pass_condition_skill_range,1,,,,,,,1
+12061,폭격 시키신 분?Ⅱ,범위 피해만 주면서 지정 보정 VIII 스테이지를 2개 클리어,3527,ChallengeStagePassConditionSkillRange,achieve_counter_challenge_stage_pass_condition_skill_range,2,,,,,,,1
+12062,폭격 시키신 분?Ⅲ,범위 피해만 주면서 지정 보정 VIII 스테이지를 4개 클리어,3527,ChallengeStagePassConditionSkillRange,achieve_counter_challenge_stage_pass_condition_skill_range,4,,,,,,,1
+20671,헬렌·두려움 없는 파수꾼,60레벨 이상인 한 작전에서 일반공격으로 치명타 피해를 누적 5회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10671,,,,,,1
+20672,헬렌·따듯한 안식처,60레벨 이상인 한 작전에서 자신의 「차징 엣지」 6스택 달성,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10672,,,,,,1
+20673,헬렌-따듯한 힘,60레벨 이상인 한 작전에서 빙결 피해를 누적 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10673,,,,,,1
+41010,,,4103,LobbyBuffOmakaseGunCount,achieve_counter_lobby_buff_omakase_gun_count,10,1047,,,,,,0
+41011,,,4104,LobbyBuffOmakaseGunFoodHighscore,achieve_counter_lobby_buff_omakase_gun_food_highscore,1,1034,1741001,,,,,0
+1211,,,3003,ChallengeVersion,achieve_counter_challenge_version,2,,,,,,,0
+1212,,,3003,ChallengeVersion,achieve_counter_challenge_version,4,,,,,,,0
+1213,,,3003,ChallengeVersion,achieve_counter_challenge_version,6,,,,,,,0
+1214,,,3003,ChallengeVersion,achieve_counter_challenge_version,9,,,,,,,0
+1431,우담화 만개Ⅰ,리몰딩 코어 1개의 레벨을 60까지 육성,2201,RemouldingPatternCoreLevelUp,achieve_counter_remoulding_pattern_core_level_up,1,18446744073709551615,60,,,,,1
+1432,우담화 만개Ⅱ,리몰딩 코어 5개의 레벨을 60까지 육성,2201,RemouldingPatternCoreLevelUp,achieve_counter_remoulding_pattern_core_level_up,5,18446744073709551615,60,,,,,1
+1433,우담화 만개Ⅲ,리몰딩 코어 10개의 레벨을 60까지 육성,2201,RemouldingPatternCoreLevelUp,achieve_counter_remoulding_pattern_core_level_up,10,18446744073709551615,60,,,,,1
+1434,우담화 만개Ⅳ,리몰딩 코어 20개의 레벨을 60까지 육성,2201,RemouldingPatternCoreLevelUp,achieve_counter_remoulding_pattern_core_level_up,20,18446744073709551615,60,,,,,1
+1435,우담화 만개Ⅴ,리몰딩 코어 30개의 레벨을 60까지 육성,2201,RemouldingPatternCoreLevelUp,achieve_counter_remoulding_pattern_core_level_up,30,18446744073709551615,60,,,,,1
+1651,기우의 여정Ⅰ,[잿더미 일화]에서 기이한 견문을 10개 해금.,2024,Rouge2Event,achieve_counter_rouge2_event,10,4,,,,,,1
+1652,기우의 여정Ⅱ,[잿더미 일화]에서 기이한 견문을 30개 해금.,2024,Rouge2Event,achieve_counter_rouge2_event,30,4,,,,,,1
+1653,기우의 여정Ⅲ,[잿더미 일화]에서 기이한 견문을 50개 해금.,2024,Rouge2Event,achieve_counter_rouge2_event,50,4,,,,,,1
+1654,기우의 여정Ⅳ,[잿더미 일화]에서 기이한 견문을 70개 해금.,2024,Rouge2Event,achieve_counter_rouge2_event,70,4,,,,,,1
+1655,심층 발굴자,반복 회랑에서 최초로 20층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,20,,,,,1
+1656,새로운 정점,반복 회랑에서 최초로 25층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,25,,,,,1
+1657,기록 돌파,반복 회랑에서 최초로 30층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,30,,,,,1
+1658,프로토콜 돌파,반복 회랑에서 최초로 40층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,40,,,,,1
+1659,한계 돌파,반복 회랑에서 최초로 50층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,50,,,,,1
+20281,센타우레이시·원시안의 장점,한 작전에서 지원공격으로 피해를 10회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10281,,,,,,1
+20282,센타우레이시·해충 구제 서비스,60레벨 이상인 한 작전에서 적 보스 유닛의 버프 효과를 누적 3회 정화하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10282,,,,,,1
+20283,센타우레이시·메이드 수칙,한 작전에서 아군 유닛의 디버프를 누적 8회 정화,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10283,,,,,,1
+40001,,,3609,LobbyLevel,achieve_counter_lobby_level,5,,,,,,,0
+40002,,,3609,LobbyLevel,achieve_counter_lobby_level,10,,,,,,,0
+40003,,,3609,LobbyLevel,achieve_counter_lobby_level,15,,,,,,,0
+40004,,,3609,LobbyLevel,achieve_counter_lobby_level,20,,,,,,,0
+40005,,,3609,LobbyLevel,achieve_counter_lobby_level,25,,,,,,,0
+40006,,,3609,LobbyLevel,achieve_counter_lobby_level,30,,,,,,,0
+40007,,,3609,LobbyLevel,achieve_counter_lobby_level,35,,,,,,,0
+40008,,,3609,LobbyLevel,achieve_counter_lobby_level,40,,,,,,,0
+40009,,,3609,LobbyLevel,achieve_counter_lobby_level,45,,,,,,,0
+40170,고산 유수,대연의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1032,,,,,,1
+40171,빛나는 훈장,모신나강의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1033,,,,,,1
+40172,히트맨,마키아토의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1034,,,,,,1
+40173,일당백,강우의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1035,,,,,,1
+40174,거절할 수 없는 할인,크세니아의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1036,,,,,,1
+40175,공동체의 수장,울리드의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1037,,,,,,1
+40176,완벽한 계획,리타라의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1038,,,,,,1
+40177,헤비 메탈 밴드,수오미의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1039,,,,,,1
+40178,보드카,파파샤의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1040,,,,,,1
+40179,기다리는 함수초,롯타의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1041,,,,,,1
+20131,레나·시노비 크리드,55레벨 이상인 한 작전에서 같은 턴에 액티브 공격으로 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10131,,,,,,1
+20132,레나·테슬라 코일,한 작전에서 적에게 【통전】을 누적 20회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10132,,,,,,1
+20133,레나·NOT FOUND,한 작전에서 【은폐】를 누적 4회 얻기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10133,,,,,,1
+40010,,,3609,LobbyLevel,achieve_counter_lobby_level,50,,,,,,,0
+40011,한 잔 더? I,드링크 바의 음료를 10가지 해금,3610,LobbyCafeUnlock,achieve_counter_lobby_cafe_unlock,10,,,,,,,1
+40012,한 잔 더? II,드링크 바의 음료를 40가지 해금,3610,LobbyCafeUnlock,achieve_counter_lobby_cafe_unlock,40,,,,,,,1
+40013,한 잔 더? III,드링크 바의 음료를 50가지 해금,3610,LobbyCafeUnlock,achieve_counter_lobby_cafe_unlock,50,,,,,,,1
+40014,보금자리,캐롤릭의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1001,,,,,,1
+40015,코드 해독 중,네메시스의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1008,,,,,,1
+40016,힐링 포션,콜펜의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1009,,,,,,1
+40017,마법의 조미료,베프리의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1015,,,,,,1
+40018,느긋한 순간,그로자의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1017,,,,,,1
+40019,말랑한 생각,페리티아의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1021,,,,,,1
+50020,포이즌 터치Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 독밭 침식 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,4,,,,1
+50021,조용한 풍요로움Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 용류 치료 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,5,,,,1
+50022,조용한 풍요로움Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 용류 치료 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,5,,,,1
+50023,조용한 풍요로움Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 용류 치료 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,5,,,,1
+50024,조용한 풍요로움Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 용류 치료 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,5,,,,1
+50025,조용한 풍요로움Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 용류 치료 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,5,,,,1
+50026,만능 전사Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 글로벌 마스터리 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,6,,,,1
+50027,만능 전사Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 글로벌 마스터리 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,6,,,,1
+50028,만능 전사Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 글로벌 마스터리 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,6,,,,1
+50029,만능 전사Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 글로벌 마스터리 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,6,,,,1
+10190,적의 장갑은 뚫릴 것이다Ⅰ,"안정 피해를 누적 15,000점 주기",3509,ChallengeSuppress,achieve_counter_challenge_suppress,15000,,,,,,,1
+10191,적의 장갑은 뚫릴 것이다Ⅱ,"안정 피해를 누적 30,000점 주기",3509,ChallengeSuppress,achieve_counter_challenge_suppress,30000,,,,,,,1
+10192,적의 장갑은 뚫릴 것이다Ⅲ,"안정 피해를 누적 45,000점 주기",3509,ChallengeSuppress,achieve_counter_challenge_suppress,45000,,,,,,,1
+42001,꾸준한 경작,활동층에서 꽃에 물 주기 누적 100일,4110,LobbyPlantingDayCount,achieve_counter_lobby_planting_day_count,100,,,,,,,1
+42002,손에 남은 잔향,꽃을 1회 수확하기,6,GetItemGroup,achieve_counter_get_item_group,1,16,,,,,,1
+42003,향기는 영원히,꽃을 3회 수확하기,6,GetItemGroup,achieve_counter_get_item_group,3,16,,,,,,1
+42004,정원 가득한 향기,꽃을 10회 수확하기,6,GetItemGroup,achieve_counter_get_item_group,10,16,,,,,,1
+42005,회춘묘수,꽃을 1회 살리기,4112,LobbyPlantingRescue,achieve_counter_lobby_planting_rescue,1,,,,,,,1
+42006,원예 마스터,30일보다 짧은 시간에 꽃 한 송이 기르기,4113,LobbyPlantingAttendance,achieve_counter_lobby_planting_attendance,1,30,,,,,,1
+42007,보살피는 마음,인형을 초대해 꽃 돌보기 5회,4114,LobbyPlantingInviteCount,achieve_counter_lobby_planting_invite_count,5,,,,,,,1
+42008,초록빛 물씬,인형을 초대해 꽃 돌보기 10회,4114,LobbyPlantingInviteCount,achieve_counter_lobby_planting_invite_count,10,,,,,,,1
+42009,봄 정원 나들이,인형을 초대해 꽃 돌보기 30회,4114,LobbyPlantingInviteCount,achieve_counter_lobby_planting_invite_count,30,,,,,,,1
+42010,꽃 위에 꽃,헬레나에게 꽃을 1송이 장식하기,4115,LobbyPlantingDecorateCount,achieve_counter_lobby_planting_decorate_count,1,,,,,,2,1
+42011,화용월모,헬레나에게 꽃을 3송이 장식하기,4115,LobbyPlantingDecorateCount,achieve_counter_lobby_planting_decorate_count,3,,,,,,2,1
+50030,만능 전사Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 글로벌 마스터리 시리즈를 사용하고, 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,6,,,,1
+50031,서치 앤 디스트로이!Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 시크릿 마일리지 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,7,,,,1
+50032,서치 앤 디스트로이!Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 시크릿 마일리지 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,7,,,,1
+50033,서치 앤 디스트로이!Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 시크릿 마일리지 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,7,,,,1
+50034,서치 앤 디스트로이!Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 시크릿 마일리지 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,7,,,,1
+50035,서치 앤 디스트로이!Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 시크릿 마일리지 시리즈를 사용하고, 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,7,,,,1
+50036,엘리멘틀 룰러Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 위상 총괄 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,8,,,,1
+50037,엘리멘틀 룰러Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 위상 총괄 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,8,,,,1
+50038,엘리멘틀 룰러Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 위상 총괄 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,8,,,,1
+50039,엘리멘틀 룰러Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 위상 총괄 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,8,,,,1
+1421,대비보Ⅰ,[변경추진]-[위상 충돌]에서 리몰딩 보급상자를 누적 1개 습득,2303,DarkzoneEthnicInformationBox,achieve_counter_darkzone_ethnic_information_box,1,,,,,,,1
+1422,대비보Ⅱ,[변경추진]-[위상 충돌]에서 리몰딩 보급상자를 누적 5개 습득,2303,DarkzoneEthnicInformationBox,achieve_counter_darkzone_ethnic_information_box,5,,,,,,,1
+1423,대비보Ⅲ,[변경추진]-[위상 충돌]에서 리몰딩 보급상자를 누적 10개 습득,2303,DarkzoneEthnicInformationBox,achieve_counter_darkzone_ethnic_information_box,10,,,,,,,1
+1424,대비보Ⅳ,[변경추진]-[위상 충돌]에서 리몰딩 보급상자를 누적 20개 습득,2303,DarkzoneEthnicInformationBox,achieve_counter_darkzone_ethnic_information_box,20,,,,,,,1
+1425,대비보Ⅴ,[변경추진]-[위상 충돌]에서 리몰딩 보급상자를 누적 30개 습득,2303,DarkzoneEthnicInformationBox,achieve_counter_darkzone_ethnic_information_box,30,,,,,,,1
+13010,킬링 타임 Ⅰ,치명타 피해로 정예 유닛을 누적 8기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,8,,,,,,,1
+13011,킬링 타임 Ⅱ,치명타 피해로 정예 유닛을 누적 24기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,24,,,,,,,1
+13012,킬링 타임 Ⅲ,치명타 피해로 정예 유닛을 누적 45기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,45,,,,,,,1
+13013,킬링 타임 Ⅳ,치명타 피해로 정예 유닛을 누적 65기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,65,,,,,,,1
+13014,킬링 타임 Ⅴ,치명타 피해로 정예 유닛을 누적 90기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,90,,,,,,,1
+13015,킬링 타임 Ⅵ,치명타 피해로 정예 유닛을 누적 110기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,110,,,,,,,1
+13016,킬링 타임 Ⅶ,치명타 피해로 정예 유닛을 누적 135기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,135,,,,,,,1
+13017,킬링 타임 Ⅷ,치명타 피해로 정예 유닛을 누적 180기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,180,,,,,,,1
+13018,킬링 타임 Ⅸ,치명타 피해로 정예 유닛을 누적 225기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,225,,,,,,,1
+13019,킬링 타임 Ⅹ,치명타 피해로 정예 유닛을 누적 270기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,270,,,,,,,1
+20271,경구·열 걸음마다 한 명,60레벨 이상인 한 작전에서 【승리의 인도】를 사용해 치명타 피해로 적을 누적 3기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10271,,,,,,1
+20272,경구·단결의 힘,60레벨 이상인 한 작전에서 【공동 궤도】를 사용해 약점 공격으로 적을 누적 3기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10272,,,,,,1
+20273,경구·의협심,한 작전에서 지원 공격을 누적 24회 사용하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10273,,,,,,1
+20701,샤이엔·900 MILES ONE SHOT KILL,60레벨 이상인 한 작전에서 9칸 거리에 있는 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10701,,,,,,1
+20702,샤이엔·킬링 아이,60레벨 이상인 한 작전에서 적 보스에게 치명타를 누적 8회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10702,,,,,,1
+20703,샤이엔·용기의 찬가,60레벨 이상인 한 작전에서 결전기를 누적 3회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10703,,,,,,1
+40100,화끈한 유혹,멕시칸 자이언트 버거 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,25,,,,,,1
+40101,고소고소 바삭바삭,새우 군만두 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,26,,,,,,1
+40102,입천장 조심,「치즈 오븐 포테이토」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,1,,,,,,1
+40103,원초의 맛,「방울양배추 샐러드」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,2,,,,,,1
+40104,오직 고기뿐,「버닝 토마호크 스테이크」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,3,,,,,,1
+40105,카츠오부시 2배,「타코야키」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,4,,,,,,1
+40106,레전더리 바베큐 마스터,「직화 샤와르마」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,5,,,,,,1
+40107,맛의 조화,「샤오야오 후라탕」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,6,,,,,,1
+40108,비전 양념,「탕수 스즈터우」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,7,,,,,,1
+40109,별구경,「스타게이지 파이」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,8,,,,,,1
+40120,고기 2배,「되네르 케밥」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,19,,,,,,1
+40121,길운의 맛,「사희완자」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,20,,,,,,1
+40122,채소 풍성하게,「타불레」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,21,,,,,,1
+40123,더 맵고 더 자극적이게,「시골 제육볶음」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,22,,,,,,1
+40124,좋은 술은 어디서 낫나,「소라 숙회」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,23,,,,,,1
+40125,정확한 간 맞춤,「보르시」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,24,,,,,,1
+40126,든든한 버거,「멕시칸 자이언트 버거」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,25,,,,,,1
+40127,영혼까지 바삭바삭,「새우 군만두」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,26,,,,,,1
+40128,엘모호 주방장 I,요리를 1개 조리,3621,LobbyFoodCount,achieve_counter_lobby_food_count,1,,,,,,,1
+40129,엘모호 주방장 II,요리를 10개 조리,3621,LobbyFoodCount,achieve_counter_lobby_food_count,10,,,,,,,1
+50010,얼어붙은 세상Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 빙괴 방호 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,2,,,,1
+50011,전광질행Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 전자기 타격 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,3,,,,1
+50012,전광질행Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 전자기 타격 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,3,,,,1
+50013,전광질행Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 전자기 타격 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,3,,,,1
+50014,전광질행Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 전자기 타격 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,3,,,,1
+50015,전광질행Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 전자기 타격 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,3,,,,1
+50016,포이즌 터치Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 독밭 침식 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,4,,,,1
+50017,포이즌 터치Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 독밭 침식 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,4,,,,1
+50018,포이즌 터치Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 독밭 침식 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,4,,,,1
+50019,포이즌 터치Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 독밭 침식 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,4,,,,1
+1291,극한 수렵Ⅰ,격화 훈련에서 작전 목표를 누적 18개 달성,3006,ChallengeExtraChallengeSp,achieve_counter_challenge_extra_challenge_sp,18,,,,,,,1
+1292,극한 수렵Ⅱ,격화 훈련에서 작전 목표를 누적 36개 달성,3006,ChallengeExtraChallengeSp,achieve_counter_challenge_extra_challenge_sp,36,,,,,,,1
+1293,극한 수렵Ⅲ,격화 훈련에서 작전 목표를 누적 54개 달성,3006,ChallengeExtraChallengeSp,achieve_counter_challenge_extra_challenge_sp,54,,,,,,,1
+1294,극한 수렵Ⅳ,격화 훈련에서 작전 목표를 누적 72개 달성,3006,ChallengeExtraChallengeSp,achieve_counter_challenge_extra_challenge_sp,72,,,,,,,1
+1700,돌파 선봉장Ⅵ,전선 돌파에서 적을 누적 16000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,16000,,,,,,,1
+1701,돌파 선봉장Ⅶ,전선 돌파에서 적을 누적 20000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,20000,,,,,,,1
+1702,돌파 마스터Ⅰ,전선 돌파에서 점수를 누적 5000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,5000,,,,,,,1
+1703,돌파 마스터Ⅱ,전선 돌파에서 점수를 누적 10000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,10000,,,,,,,1
+1704,돌파 마스터Ⅲ,전선 돌파에서 점수를 누적 20000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,20000,,,,,,,1
+1705,돌파 마스터Ⅳ,전선 돌파에서 점수를 누적 40000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,40000,,,,,,,1
+1706,돌파 마스터Ⅴ,전선 돌파에서 점수를 누적 60000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,60000,,,,,,,1
+1707,돌파 마스터 Ⅵ,전선 돌파에서 점수를 누적 80000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,80000,,,,,,,1
+1708,돌파 마스터 Ⅶ,전선 돌파에서 점수를 누적 100000점 획득 (루비 아케이드 제외),1902,ActivityShootspaceScore,achieve_counter_activity_shootspace_score,100000,,,,,,,1
+1709,삼군연합사령부 Ⅰ,서로 다른 무장지원팀을 3개 획득,2404,SupportTeamCollect,achieve_counter_support__team_collect,3,,,,,,,1
+13090,전기 요금 확인하세요Ⅰ,"전도 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,3,1,1,,,1
+13091,전기 요금 확인하세요Ⅱ,"전도 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,3,1,1,,,1
+13092,전기 요금 확인하세요Ⅲ,"전도 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,3,1,1,,,1
+13093,전기 요금 확인하세요Ⅳ,"전도 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,3,1,1,,,1
+13094,전기 요금 확인하세요Ⅴ,"전도 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,3,1,1,,,1
+13095,전기 요금 확인하세요Ⅵ,"전도 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,3,1,1,,,1
+13096,전기 요금 확인하세요Ⅶ,"전도 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,3,1,1,,,1
+13097,전기 요금 확인하세요Ⅷ,"전도 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,3,1,1,,,1
+13098,전기 요금 확인하세요Ⅸ,"전도 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,3,1,1,,,1
+13099,전기 요금 확인하세요Ⅹ,"전도 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,3,1,1,,,1
+40070,모던 디오니소스 I,활동층에서 주간 활약 점수 400점 누적 1회 달성,3628,LobbyGunDailyHeatCount,achieve_counter_lobby_gun_daily_heat_count,1,,,,,,,1
+40071,모던 디오니소스 II,활동층에서 주간 활약 점수 400점 누적 2회 달성,3628,LobbyGunDailyHeatCount,achieve_counter_lobby_gun_daily_heat_count,2,,,,,,,1
+40072,모던 디오니소스 III,활동층에서 주간 활약 점수 400점 누적 4회 달성,3628,LobbyGunDailyHeatCount,achieve_counter_lobby_gun_daily_heat_count,4,,,,,,,1
+40073,,,3618,FurnitureUnlock,achieve_counter_furniture_unlock,10,,,,,,,0
+40074,,,3618,FurnitureUnlock,achieve_counter_furniture_unlock,20,,,,,,,0
+40075,,,3618,FurnitureUnlock,achieve_counter_furniture_unlock,30,,,,,,,0
+40076,최상의 치즈,치즈 오븐 포테이토 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,1,,,,,,1
+40077,초식성,방울양배추 샐러드 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,2,,,,,,1
+40078,육식성,버닝 토마호크 스테이크 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,3,,,,,,1
+40079,문어의 지배,타코야키 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,4,,,,,,1
+1690,사랑의 이름으로Ⅰ,「로맨틱 서약」 시리즈 코스튬을 누적 1벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,1,18,,,,,,1
+1691,사랑의 이름으로Ⅱ,「로맨틱 서약」 시리즈 코스튬을 누적 2벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,2,18,,,,,,1
+1692,사랑의 이름으로Ⅲ,「로맨틱 서약」 시리즈 코스튬을 누적 3벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,3,18,,,,,,1
+1693,사랑의 이름으로Ⅳ,「로맨틱 서약」 시리즈 코스튬을 누적 4벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,4,18,,,,,,1
+1694,사랑의 이름으로Ⅴ,「로맨틱 서약」 시리즈 코스튬을 누적 5벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,5,18,,,,,,1
+1695,돌파 선봉장Ⅰ,전선 돌파에서 적을 누적 1000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,1000,,,,,,,1
+1696,돌파 선봉장Ⅱ,전선 돌파에서 적을 누적 3000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,3000,,,,,,,1
+1697,돌파 선봉장Ⅲ,전선 돌파에서 적을 누적 5000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,5000,,,,,,,1
+1698,돌파 선봉장 Ⅳ,전선 돌파에서 적을 누적 8000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,8000,,,,,,,1
+1699,돌파 선봉장Ⅴ,전선 돌파에서 적을 누적 12000기 처치 (루비 아케이드 제외),3037,ShootSpace,achieve_counter_shoot_space,12000,,,,,,,1
+10280,농업 혁명Ⅰ,말리 화력 발전소 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1005,18446744073709551615,1,,,1
+10281,농업 혁명Ⅱ,말리 화력 발전소 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1005,18446744073709551615,1,,,1
+10282,농업 혁명Ⅲ,말리 화력 발전소 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1005,18446744073709551615,1,,,1
+11020,군번줄 수집Ⅰ,일반 유닛을 누적 80기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,80,1,1,1,1,,,1
+11021,군번줄 수집Ⅱ,일반 유닛을 누적 240기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,240,1,1,1,1,,,1
+11022,군번줄 수집Ⅲ,일반 유닛을 누적 400기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,400,1,1,1,1,,,1
+11023,군번줄 수집Ⅳ,일반 유닛을 누적 800기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,800,1,1,1,1,,,1
+11024,군번줄 수집Ⅴ,일반 유닛을 누적 1200기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,1200,1,1,1,1,,,1
+11025,군번줄 수집Ⅵ,일반 유닛을 누적 1600기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,1600,1,1,1,1,,,1
+11026,군번줄 수집Ⅶ,일반 유닛을 누적 2000기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,2000,1,1,1,1,,,1
+11027,군번줄 수집Ⅷ,일반 유닛을 누적 2400기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,2400,1,1,1,1,,,1
+11028,군번줄 수집Ⅸ,일반 유닛을 누적 3200기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,3200,1,1,1,1,,,1
+11029,군번줄 수집Ⅹ,일반 유닛을 누적 4000기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,4000,1,1,1,1,,,1
+31070,지나친 화력이란 없다Ⅰ,같은 턴 안에 누적 10회 공격 피해를 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1070,,,,,,1
+31071,지나친 화력이란 없다Ⅱ,같은 턴 안에 누적 15회 공격 피해를 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1071,,,,,,1
+31072,지나친 화력이란 없다Ⅲ,같은 턴 안에 누적 20회 공격 피해를 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1072,,,,,,1
+33030,흠집 없는 몸가짐,"2단계: 이글라가 <몸가짐>을 보유한 상태에서, 4턴 이내에 쓰러진 인형 없이 이글라 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3030,,,,,,1
+33031,궁지 몰이,"1단계: 범위 피해만 주면서, 쓰러진 인형 없이 카오스 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3031,,,,,,1
+33032,강산은 공포마저 녹인다,2단계: 산성 피해만 주면서 카오스 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3032,,,,,,1
+43001,와이드 컬렉션Ⅰ,커스텀 인테리어를 10가지 수집,4116,LobbyCustomFurnitureCount,achieve_counter_lobby_custom_furniture_count,10,,,,,,,1
+43002,와이드 컬렉션Ⅱ,커스텀 인테리어를 25가지 수집,4116,LobbyCustomFurnitureCount,achieve_counter_lobby_custom_furniture_count,25,,,,,,,1
+43003,와이드 컬렉션Ⅲ,커스텀 인테리어를 45가지 수집,4116,LobbyCustomFurnitureCount,achieve_counter_lobby_custom_furniture_count,45,,,,,,,1
+43004,와이드 컬렉션Ⅳ,커스텀 인테리어를 70가지 수집,4116,LobbyCustomFurnitureCount,achieve_counter_lobby_custom_furniture_count,70,,,,,,,1
+43005,와이드 컬렉션Ⅴ,커스텀 인테리어를 100가지 수집,4116,LobbyCustomFurnitureCount,achieve_counter_lobby_custom_furniture_count,100,,,,,,,1
+20521,클루카이·엘리트 중의 엘리트,전투 시작 후 1턴 안에 【호승심】을 8스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10521,,,,,,1
+20522,클루카이·검은 고양이 발톱,전투 시작 후 3턴 이내에 적 하나에게 【강산 퍼붓기】를 10스택까지 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10522,,,,,,1
+20523,클루카이·저 하나면 충분해요,60레벨 이상인 한 작전에서 같은 턴 안에 적을 8기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10523,,,,,,1
+20541,유희·챠밍 스텝,60레벨 이상인 한 작전에서 적을 누적 8회 【기절】시키기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10541,,,,,,1
+20542,유희·무대라는 이름의 전장,60레벨 이상인 한 작전에서 【절대 안 져】를 4스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10542,,,,,,1
+20543,유희·리더의 책임,60레벨 이상인 한 작전에서 아군에게 【스텝】을 누적 22회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10543,,,,,,1
+10130,기적(물리)Ⅰ,물리피해를 누적 10000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,1,18446744073709551615,18446744073709551615,,,1
+10131,기적(물리)Ⅱ,물리피해를 누적 20000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,1,18446744073709551615,18446744073709551615,,,1
+10132,기적(물리)Ⅲ,물리피해를 누적 30000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,1,18446744073709551615,18446744073709551615,,,1
+20491,하프시·폭력 백신,60레벨 이상인 한 작전에서 적군 대상에게 「킬러 프로그램」을 누적 5회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10491,,,,,,1
+20492,하프시·표적 바이러스,60레벨 이상인 한 작전에서 전투 시작 후 9턴 이내에 산성 피해를 9회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10492,,,,,,1
+20493,하프시·네트워크 펀치,60레벨 이상인 한 작전에서 치명타로 적을 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10493,,,,,,1
+32010,초전자포(레일건),갈림길 도전에서 안도리스가 서비드사우르스를 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2010,,,,,,1
+32011,그걸 엄폐라고 하는 것이냐,같은 턴에 안정 피해를 40점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2011,,,,,,1
+32012,천인의 오쇠,한 작전에서 디버프를 15회 이상 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2012,,,,,,1
+32013,진정한 방화광,갈림길 도전에서 벡터를 데리고 올리파트를 1회 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2013,,,,,,1
+32016,무간도,니키타로 도시 치안부서 적 유닛을 3기 처치,3511,ChallengeKillSp,achieve_counter_challenge_kill_sp,3,2,1055,1,1008,,,1
+32017,현행범 체포,니키타로 바랴그단 적 유닛을 3기 처치,3511,ChallengeKillSp,achieve_counter_challenge_kill_sp,3,2,1055,1,1001,,,1
+32018,주방 쟁탈전,한 작전에서 스프링필드로 스팀븐 프라이 1.0을 1회 처치,3511,ChallengeKillSp,achieve_counter_challenge_kill_sp,1,2,1047,2,6742,,,1
+32019,연봉 협상,모신나강으로 폴리스-307 Ⅰ을 3기 처치,3511,ChallengeKillSp,achieve_counter_challenge_kill_sp,3,2,1033,2,67151,,,1
+1020,,,3010,ChallengeFriends,achieve_counter_challenge_friends,10,,,,,,2,0
+1021,,,3011,ChallengeFriendsSupport,achieve_counter_challenge_friends_support,10,1,,,,,2,0
+1022,,,3012,ChallengeSkin,achieve_counter_challenge_skin,2,,,,,,2,0
+1023,,,3013,ChallengeTrophy,achieve_counter_challenge_trophy,2,,,,,,2,0
+1024,,,3014,ChallengeCapacity,achieve_counter_challenge_capacity,10000,,,,,,2,0
+1025,,,3015,ChallengeModPolarity,achieve_counter_challenge_mod_polarity,3,150,,,,,2,0
+1026,,,3016,ChallengeWeaponMark,achieve_counter_challenge_weapon_mark,3,,,,,,2,0
+1027,,,3017,ChallengeThemePainting,achieve_counter_challenge_theme_painting,5,8,,,,,2,0
+1028,,,3018,ChallengeGunStats,achieve_counter_challenge_gun_stats,200,1,,,,,2,0
+1029,,,3019,ChallengeFormation,achieve_counter_challenge_formation,1,1001,1002,18446744073709551615,18446744073709551615,,,0
+14000,낙숫물이 댓돌을 뚫는다 Ⅰ,탁류 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 2회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,2,,,,,,,1
+14001,낙숫물이 댓돌을 뚫는다 Ⅱ,탁류 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 5회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,5,,,,,,,1
+14002,낙숫물이 댓돌을 뚫는다 Ⅲ,탁류 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 8회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,8,,,,,,,1
+20421,안도리스·엘모호 지키기,60레벨 이상인 한 작전에서 자동 포탑을 16개 소환하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10421,,,,,,1
+20422,안도리스·천천히 섬세하게,전투 시작 후 2턴 이내에 【둔감함】을 5스택까지 누적,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10422,,,,,,1
+20423,안도리스·군수 구세주,60레벨 이상인 한 작전에서 【자가복구】의 효과를 누적 3회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10423,,,,,,1
+1551,모던 디오니소스 Ⅰ,활동 노드 보상을 누적 4회 수령,3615,LobbyWeeklyActive,achieve_counter_lobby_weekly_active,4,,,,,,,1
+1552,모던 디오니소스 Ⅱ,활동 노드 보상을 누적 8회 수령,3615,LobbyWeeklyActive,achieve_counter_lobby_weekly_active,8,,,,,,,1
+1553,모던 디오니소스 Ⅲ,활동 노드 보상을 누적 12회 수령,3615,LobbyWeeklyActive,achieve_counter_lobby_weekly_active,12,,,,,,,1
+1554,모던 디오니소스 Ⅳ,활동 노드 보상을 누적 16회 수령,3615,LobbyWeeklyActive,achieve_counter_lobby_weekly_active,16,,,,,,,1
+1555,모던 디오니소스 Ⅴ,활동 노드 보상을 누적 24회 수령,3615,LobbyWeeklyActive,achieve_counter_lobby_weekly_active,24,,,,,,,1
+20431,페이·도끼파 댄스,60레벨 이상인 한 작전에서 3턴 안에 적이 【열상】을 총 8스택 보유하게 만들기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10431,,,,,,1
+20432,페이·아직 더 있냐!,60레벨 이상인 한 작전에서 6턴 안에 【열상】을 6스택 이상 가진 적을 【그리고 아무도 없었다】 스킬로 3회 공격하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10432,,,,,,1
+20433,페이·도끼전사,60레벨 이상인 한 작전에서 【추격하는 토마호크】를 발동해 적을 12회 공격하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10433,,,,,,1
+1271,수수한 순정Ⅰ,물리 속성 인형을 4명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,4,1,18446744073709551615,,,,,1
+1272,수수한 순정Ⅱ,물리 속성 인형을 6명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,6,1,18446744073709551615,,,,,1
+1273,수수한 순정Ⅲ,물리 속성 인형을 8명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,8,1,18446744073709551615,,,,,1
+1274,수수한 순정Ⅳ,물리 속성 인형을 10명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,10,1,18446744073709551615,,,,,1
+10350,너는 누구냐?Ⅰ,무소속 적 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1099,18446744073709551615,1,,,1
+10351,너는 누구냐?Ⅱ,무소속 적 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1099,18446744073709551615,1,,,1
+10352,너는 누구냐?Ⅲ,무소속 적 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1099,18446744073709551615,1,,,1
+13110,거친 파도Ⅰ,"탁류 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,6,1,1,,,1
+13111,거친 파도Ⅱ,"탁류 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,6,1,1,,,1
+13112,거친 파도Ⅲ,"탁류 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,6,1,1,,,1
+13113,거친 파도Ⅳ,"탁류 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,6,1,1,,,1
+13114,거친 파도Ⅴ,"탁류 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,6,1,1,,,1
+13115,거친 파도Ⅵ,"탁류 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,6,1,1,,,1
+13116,거친 파도Ⅶ,"탁류 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,6,1,1,,,1
+13117,거친 파도Ⅷ,"탁류 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,6,1,1,,,1
+13118,거친 파도Ⅸ,"탁류 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,6,1,1,,,1
+13119,거친 파도Ⅹ,"탁류 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,6,1,1,,,1
+1311,총기 예술가Ⅰ,10가지 다른 무기 도색 수집,3009,ChallengeWeaponSkin,achieve_counter_challenge_weapon_skin,10,,,,,,,1
+1312,총기 예술가Ⅱ,20가지 다른 무기 도색 수집,3009,ChallengeWeaponSkin,achieve_counter_challenge_weapon_skin,20,,,,,,,1
+1313,총기 예술가Ⅲ,35가지 다른 무기 도색 수집,3009,ChallengeWeaponSkin,achieve_counter_challenge_weapon_skin,35,,,,,,,1
+1314,총기 예술가Ⅳ,50가지 다른 무기 도색 수집,3009,ChallengeWeaponSkin,achieve_counter_challenge_weapon_skin,50,,,,,,,1
+1480,헤라클레스의 시련 Ⅰ,히어로 난이도로 테마 이벤트의 별을 누적 15개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,15,,,,,,,1
+1481,헤라클레스의 시련 Ⅱ,히어로 난이도로 테마 이벤트의 별을 누적 30개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,30,,,,,,,1
+1482,헤라클레스의 시련 Ⅲ,히어로 난이도로 테마 이벤트의 별을 누적 45개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,45,,,,,,,1
+1483,헤라클레스의 시련 Ⅳ,히어로 난이도로 테마 이벤트의 별을 누적 60개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,60,,,,,,,1
+1484,헤라클레스의 시련 Ⅴ,히어로 난이도로 테마 이벤트의 별을 누적 90개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,90,,,,,,,1
+1485,헤라클레스의 시련 Ⅵ,히어로 난이도로 테마 이벤트의 별을 누적 120개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,120,,,,,,,1
+1486,헤라클레스의 시련 Ⅶ,히어로 난이도로 테마 이벤트의 별을 누적 150개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,150,,,,,,,1
+1487,헤라클레스의 시련 Ⅷ,히어로 난이도로 테마 이벤트의 별을 누적 200개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,200,,,,,,,1
+1488,헤라클레스의 시련 Ⅸ,히어로 난이도로 테마 이벤트의 별을 누적 250개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,250,,,,,,,1
+1489,헤라클레스의 시련 Ⅹ,히어로 난이도로 테마 이벤트의 별을 누적 300개 획득,3030,ActivityHeroMode,achieve_counter_activity_hero_mode,300,,,,,,,1
+33020,정화 강박증,2단계: [갈림길 도전 - 부리 강철수] 전투에서 아군의 디버프를 15회 이상 정화.,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3020,,,,,,1
+33021,"부탁할게, 또 하나의 나",1단계: 레이니로 벨라토-137 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3021,,,,,,1
+33022,폭삭 무너짐,"2단계: 벨라토가 【이중 방어】를 지닌 상태에서, 5턴 안에 벨라토 듀오 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3022,,,,,,1
+33023,깔끔깨끗,"1단계: 아군 디버프를 2개 정화하고, 쓰러진 인형 없이 티탄 포트·도약 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3023,,,,,,1
+33024,딥 클렌징,"2단계: 아군 디버프를 6개 정화하고, 쓰러진 인형 없이 티탄 포트·도약 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3024,,,,,,1
+33025,공백 프로그램 삭제,1단계: 감정 투사·백을 누적 6기 처치한 상태에서 그로자？ 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3025,,,,,,1
+33026,흑화 진행 중단,2단계: 감정 투사·흑을 누적 4기 처치한 상태에서 그로자？ 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3026,,,,,,1
+33027,조련 고수,"1단계: 단일 피해만 주면서, 쓰러진 인형 없이 백수전차 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3027,,,,,,1
+33028,백수의 왕,2단계: 뱀왕의 병졸과 서리천둥 병졸을 누적 6기 처치한 상태에서 백수전차 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3028,,,,,,1
+33029,단일 해체,"1단계: 아군 디버프를 6개 정화하고, 쓰러진 인형 없이 이글라 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3029,,,,,,1
+1331,도와줘!Ⅰ,친구/서클의 조력 인형을 사용해 전투 15회,3011,ChallengeFriendsSupport,achieve_counter_challenge_friends_support,15,18446744073709551615,,,,,,1
+1332,도와줘!Ⅱ,친구/서클의 조력 인형을 사용해 전투 30회,3011,ChallengeFriendsSupport,achieve_counter_challenge_friends_support,30,18446744073709551615,,,,,,1
+1333,도와줘!Ⅲ,친구/서클의 조력 인형을 사용해 전투 45회,3011,ChallengeFriendsSupport,achieve_counter_challenge_friends_support,45,18446744073709551615,,,,,,1
+1334,도와줘!Ⅳ,친구/서클의 조력 인형을 사용해 전투 60회,3011,ChallengeFriendsSupport,achieve_counter_challenge_friends_support,60,18446744073709551615,,,,,,1
+10120,행운 측정Ⅰ,치명타 피해를 누적 300회 주기,3507,ChallengeCrit,achieve_counter_challenge_crit,300,,,,,,,1
+10121,행운 측정Ⅱ,치명타 피해를 누적 600회 주기,3507,ChallengeCrit,achieve_counter_challenge_crit,600,,,,,,,1
+10122,행운 측정Ⅲ,치명타 피해를 누적 900회 주기,3507,ChallengeCrit,achieve_counter_challenge_crit,900,,,,,,,1
+10230,특촬극 매니아Ⅰ,대형 유닛을 누적 50기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,50,3,18446744073709551615,18446744073709551615,1,,,1
+10231,특촬극 매니아Ⅱ,대형 유닛을 누적 200기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,200,3,18446744073709551615,18446744073709551615,1,,,1
+10232,특촬극 매니아Ⅲ,대형 유닛을 누적 500기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,500,3,18446744073709551615,18446744073709551615,1,,,1
+11010,월 브레이커Ⅰ,전투에서 승리하면서 적을 누적 50회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,50,1,,,,,,1
+11011,월 브레이커Ⅱ,전투에서 승리하면서 적을 누적 100회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,100,1,,,,,,1
+11012,월 브레이커Ⅲ,전투에서 승리하면서 적을 누적 150회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,150,1,,,,,,1
+11013,월 브레이커Ⅳ,전투에서 승리하면서 적을 누적 200회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,200,1,,,,,,1
+11014,월 브레이커Ⅴ,전투에서 승리하면서 적을 누적 250회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,250,1,,,,,,1
+11015,월 브레이커Ⅵ,전투에서 승리하면서 적을 누적 300회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,300,1,,,,,,1
+11016,월 브레이커Ⅶ,전투에서 승리하면서 적을 누적 350회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,350,1,,,,,,1
+11017,월 브레이커Ⅷ,전투에서 승리하면서 적을 누적 400회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,400,1,,,,,,1
+11018,월 브레이커Ⅸ,전투에서 승리하면서 적을 누적 450회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,450,1,,,,,,1
+11019,월 브레이커Ⅹ,전투에서 승리하면서 적을 누적 500회 안정 붕괴시키기,3513,ChallengeSuppressTimes,achieve_counter_challenge_suppress_times,500,1,,,,,,1
+12030,나보다 흔한 인형은 없을 거야Ⅰ,표준 인형만 사용해서 60레벨 이상 스테이지를 30개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,30,18446744073709551615,60,1,1,,,1
+12031,나보다 흔한 인형은 없을 거야Ⅱ,표준 인형만 사용해서 60레벨 이상 스테이지를 60개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,60,18446744073709551615,60,1,1,,,1
+12032,나보다 흔한 인형은 없을 거야Ⅲ,표준 인형만 사용해서 60레벨 이상 스테이지를 100개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,100,18446744073709551615,60,1,1,,,1
+14020,한파 도래 Ⅰ,빙결 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 2회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,2,,,,,,,1
+14021,한파 도래 Ⅱ,빙결 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 5회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,5,,,,,,,1
+14022,한파 도래 Ⅲ,빙결 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 8회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,8,,,,,,,1
+20571,로벨라·로벨라 맥시멈 드라이브!,60레벨 이상인 한 작전에서 일반공격으로 치명타 피해를 누적 5회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10571,,,,,,1
+20572,로벨라·완벽 통찰 로딩!,60레벨 이상인 한 작전에서 적 하나에게 【심층 통찰】 또는 【심층 통찰·강화】를 6스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10572,,,,,,1
+20573,로벨라·마인드맵이 탑기어야,60레벨 이상인 한 작전에서 【약점 판명】을 10스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10573,,,,,,1
+10000,미끄럼 주의Ⅰ,탁류계 타일을 누적 50회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,50,2,5,,,,,1
+10001,미끄럼 주의Ⅱ,탁류계 타일을 누적 100회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,100,2,5,,,,,1
+10002,미끄럼 주의Ⅲ,탁류계 타일을 누적 150회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,150,2,5,,,,,1
+10050,어딜 도망가!Ⅰ,제어 효과를 누적 50회 부여 성공,3504,ChallengeBuff,achieve_counter_challenge_buff,50,3,,,,,,1
+10051,어딜 도망가!Ⅱ,제어 효과를 누적 300회 부여 성공,3504,ChallengeBuff,achieve_counter_challenge_buff,300,3,,,,,,1
+10052,어딜 도망가!Ⅲ,제어 효과를 누적 800회 부여 성공,3504,ChallengeBuff,achieve_counter_challenge_buff,800,3,,,,,,1
+14030,불의 의지 Ⅰ,연소 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 2회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,2,,,,,,,1
+14031,불의 의지 Ⅱ,연소 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 5회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,5,,,,,,,1
+14032,불의 의지 Ⅲ,연소 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 8회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,8,,,,,,,1
+31000,과잉 화력 증후군Ⅰ,"같은 턴 안에 피해를 200,000점 주기",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1000,,,,,,1
+31001,과잉 화력 증후군Ⅱ,"같은 턴 안에 피해를 400,000점 주기",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1001,,,,,,1
+31002,과잉 화력 증후군Ⅲ,"같은 턴 안에 피해를 600,000점 주기",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1002,,,,,,1
+1201,마음이 있을 곳Ⅰ,속소에서 아무 인형과 6회 어울려주기,750,DormEntrance,achieve_counter_dorm_entrance,6,18446744073709551615,,,,,,1
+1202,마음이 있을 곳Ⅱ,속소에서 아무 인형과 12회 어울려주기,750,DormEntrance,achieve_counter_dorm_entrance,12,18446744073709551615,,,,,,1
+1203,마음이 있을 곳Ⅲ,속소에서 아무 인형과 20회 어울려주기,750,DormEntrance,achieve_counter_dorm_entrance,20,18446744073709551615,,,,,,1
+1204,마음이 있을 곳Ⅳ,속소에서 아무 인형과 30회 어울려주기,750,DormEntrance,achieve_counter_dorm_entrance,30,18446744073709551615,,,,,,1
+12020,힘 주지도 않았는데Ⅰ,턴 외 공격만 사용해서 60레벨 이상 스테이지를 30개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,30,18446744073709551615,60,5,18446744073709551615,,,1
+12021,힘 주지도 않았는데Ⅱ,턴 외 공격만 사용해서 60레벨 이상 스테이지를 60개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,60,18446744073709551615,60,5,18446744073709551615,,,1
+12022,힘 주지도 않았는데Ⅲ,턴 외 공격만 사용해서 60레벨 이상 스테이지를 100개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,100,18446744073709551615,60,5,18446744073709551615,,,1
+33001,"보여주마, 인형의 레어도가 전부가 아니란 것을!",1단계: 표준 인형만 사용해서 쓰러진 인형 없이 다이시그라프를 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3001,,,,,,1
+33002,슈퍼인형대전,2단계: 서포트 인형만 사용해서 쓰러진 인형 없이 다이시그라프를 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3002,,,,,,1
+33003,인형 삼연성,"3단계: 인형을 3명만 출격하여, 쓰러진 인형 없이 다이시그라프 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3003,,,,,,1
+33004,신예 함장,"1단계: 전투 시작 후 2턴 안에 84,000점 도달",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3004,,,,,,1
+33005,제독 승진,"2단계: 전투 시작 후 3턴 안에 99,000점 도달",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3005,,,,,,1
+33006,빙해 사령관,"3단계: 전투 시작 후 4턴 안에 122,000점 도달",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3006,,,,,,1
+33007,살충 특공대,"1단계: 인형을 3명만 출격하여, 쓰러진 인형 없이 투모링커스 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3007,,,,,,1
+33008,방충 비결,"2단계: 단일 피해만 주면서, 쓰러진 인형 없이 투모링커스 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3008,,,,,,1
+33009,광범위 박멸,"3단계: 범위 피해만 주면서, 쓰러진 인형 없이 투모링커스 처치",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,3009,,,,,,1
+1530,홈 스윗 홈 Ⅰ,활동층 레벨 2 도달,3609,LobbyLevel,achieve_counter_lobby_level,2,,,,,,,1
+1531,홈 스윗 홈 Ⅱ,활동층 레벨 3 도달,3609,LobbyLevel,achieve_counter_lobby_level,3,,,,,,,1
+1532,홈 스윗 홈 Ⅲ,활동층 레벨 5 도달,3609,LobbyLevel,achieve_counter_lobby_level,5,,,,,,,1
+1533,홈 스윗 홈 Ⅳ,활동층 레벨 10 도달,3609,LobbyLevel,achieve_counter_lobby_level,10,,,,,,,1
+1534,홈 스윗 홈 Ⅴ,활동층 레벨 15 도달,3609,LobbyLevel,achieve_counter_lobby_level,15,,,,,,,1
+1535,홈 스윗 홈 Ⅵ,활동층 레벨 20 도달,3609,LobbyLevel,achieve_counter_lobby_level,20,,,,,,,1
+1536,홈 스윗 홈 Ⅶ,활동층 레벨 25 도달,3609,LobbyLevel,achieve_counter_lobby_level,25,,,,,,,1
+1537,홈 스윗 홈 Ⅷ,활동층 레벨 30 도달,3609,LobbyLevel,achieve_counter_lobby_level,30,,,,,,,1
+1538,홈 스윗 홈 Ⅸ,활동층 레벨 35 도달,3609,LobbyLevel,achieve_counter_lobby_level,35,,,,,,,1
+1539,홈 스윗 홈 Ⅹ,활동층 레벨 40 도달,3609,LobbyLevel,achieve_counter_lobby_level,40,,,,,,,1
+13160,위력 정찰 Ⅰ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 5개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,5,18446744073709551615,60,1,4,,,1
+13161,위력 정찰 Ⅱ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 10개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,10,18446744073709551615,60,1,4,,,1
+13162,위력 정찰 Ⅲ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 20개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,20,18446744073709551615,60,1,4,,,1
+13163,위력 정찰 Ⅳ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 30개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,30,18446744073709551615,60,1,4,,,1
+13164,위력 정찰 Ⅴ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 50개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,50,18446744073709551615,60,1,4,,,1
+13165,위력 정찰 Ⅵ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 75개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,75,18446744073709551615,60,1,4,,,1
+13166,위력 정찰 Ⅶ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 100개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,100,18446744073709551615,60,1,4,,,1
+13167,위력 정찰 Ⅷ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 125개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,125,18446744073709551615,60,1,4,,,1
+13168,위력 정찰 Ⅸ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 150개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,150,18446744073709551615,60,1,4,,,1
+13169,위력 정찰 Ⅹ,뱅가드 인형만 사용하여 60레벨 이상인 작전을 180개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,180,18446744073709551615,60,1,4,,,1
+20151,베프리-베프리의 무대를 세울게☆,한 작전에서 취약한 엄폐물을 6개 파괴,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10151,,,,,,1
+20152,베프리-리듬을 따라와~☆,한 작전에서 적에게 피해를 15회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10152,,,,,,1
+20153,베프리-클라이맥스야~☆,한 작전에서 「나만의 무대」 스킬로 치명타 피해를 누적 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10153,,,,,,1
+10290,과거는 연기처럼Ⅰ,루련 적 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1006,18446744073709551615,1,,,1
+10291,과거는 연기처럼Ⅱ,루련 적 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1006,18446744073709551615,1,,,1
+10292,과거는 연기처럼Ⅲ,루련 적 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1006,18446744073709551615,1,,,1
+12050,백병전 Ⅰ,"뱅가드 인형만 사용하여, 지정 보정 VIII 스테이지를 1개 클리어",3526,ChallengeStagePassConditionGunDuty,achieve_counter_challenge_stage_pass_condition_gun_duty,1,,,,,,,1
+12051,백병전 Ⅱ,"뱅가드 인형만 사용하여, 지정 보정 VIII 스테이지를 2개 클리어",3526,ChallengeStagePassConditionGunDuty,achieve_counter_challenge_stage_pass_condition_gun_duty,2,,,,,,,1
+12052,백병전 Ⅲ,"뱅가드 인형만 사용하여, 지정 보정 VIII 스테이지를 4개 클리어",3526,ChallengeStagePassConditionGunDuty,achieve_counter_challenge_stage_pass_condition_gun_duty,4,,,,,,,1
+13140,13 인형 방위권Ⅰ,불워크 인형만 사용하여 60레벨 이상인 작전을 5개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,5,18446744073709551615,60,1,2,,,1
+13141,13 인형 방위권Ⅱ,불워크 인형만 사용하여 60레벨 이상인 작전을 10개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,10,18446744073709551615,60,1,2,,,1
+13142,13 인형 방위권Ⅲ,불워크 인형만 사용하여 60레벨 이상인 작전을 20개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,20,18446744073709551615,60,1,2,,,1
+13143,13 인형 방위권Ⅳ,불워크 인형만 사용하여 60레벨 이상인 작전을 30개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,30,18446744073709551615,60,1,2,,,1
+13144,13 인형 방위권Ⅴ,불워크 인형만 사용하여 60레벨 이상인 작전을 50개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,50,18446744073709551615,60,1,2,,,1
+13145,13 인형 방위권Ⅵ,불워크 인형만 사용하여 60레벨 이상인 작전을 75개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,75,18446744073709551615,60,1,2,,,1
+13146,13 인형 방위권Ⅶ,불워크 인형만 사용하여 60레벨 이상인 작전을 100개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,100,18446744073709551615,60,1,2,,,1
+13147,13 인형 방위권Ⅷ,불워크 인형만 사용하여 60레벨 이상인 작전을 125개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,125,18446744073709551615,60,1,2,,,1
+13148,13 인형 방위권Ⅸ,불워크 인형만 사용하여 60레벨 이상인 작전을 150개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,150,18446744073709551615,60,1,2,,,1
+13149,13 인형 방위권Ⅹ,불워크 인형만 사용하여 60레벨 이상인 작전을 180개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,180,18446744073709551615,60,1,2,,,1
+20581,레이니·페르소나 유저,60레벨 이상인 한 작전에서 레이니의 페르소나가 【진격 추론】 또는 【연산력 오버클럭】을 누적 8회 능동적으로 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10581,,,,,,1
+20582,레이니·절대영역,60레벨 이상인 한 작전에서 레이니가 스스로 【범위 방어II】를 누적 7회 얻기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10582,,,,,,1
+20583,레이니·무릎 파괴자,60레벨 이상인 한 작전에서 레이니의 페르소나가 적에게 【이동 감소I】를 누적 8회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10583,,,,,,1
+50001,불타는 천지Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 염옥 지원 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,1,,,,1
+50002,불타는 천지Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 염옥 지원 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,1,,,,1
+50003,불타는 천지Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 염옥 지원 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,1,,,,1
+50004,불타는 천지Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 염옥 지원 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,1,,,,1
+50005,불타는 천지Ⅴ,"연산 레벨 10의 [잿더미 일화]에서 염옥 지원 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,10,1,,,,1
+50006,얼어붙은 세상Ⅰ,"연산 레벨 1 이상의 [잿더미 일화]에서 빙괴 방호 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,1,2,,,,1
+50007,얼어붙은 세상Ⅱ,"연산 레벨 3 이상의 [잿더미 일화]에서 빙괴 방호 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,3,2,,,,1
+50008,얼어붙은 세상Ⅲ,"연산 레벨 5 이상의 [잿더미 일화]에서 빙괴 방호 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,5,2,,,,1
+50009,얼어붙은 세상Ⅳ,"연산 레벨 7 이상의 [잿더미 일화]에서 빙괴 방호 시리즈를 사용하고 모든 전술 강화, 전술 교차, 전술 마스터리를 활성화한 상태에서 탐색 완료.",2025,Rouge2BuildChallenge,achieve_counter_rouge2_build_challenge,1,4,7,2,,,,1
+50050,돈벼락 전술Ⅰ,연산 레벨 1 이상의 [잿더미 일화]에서 아무 2가지 시리즈의 전술 포인트가 900점을 넘은 상태에서 탐색 완료.,2029,Rouge2TwoBuildChallenge,achieve_counter_rouge2_two_build_challenge,1,4,1,,,,,1
+50051,돈벼락 전술Ⅱ,연산 레벨 3 이상의 [잿더미 일화]에서 아무 2가지 시리즈의 전술 포인트가 900점을 넘은 상태에서 탐색 완료.,2029,Rouge2TwoBuildChallenge,achieve_counter_rouge2_two_build_challenge,1,4,3,,,,,1
+50052,돈벼락 전술Ⅲ,연산 레벨 5 이상의 [잿더미 일화]에서 아무 2가지 시리즈의 전술 포인트가 900점을 넘은 상태에서 탐색 완료.,2029,Rouge2TwoBuildChallenge,achieve_counter_rouge2_two_build_challenge,1,4,5,,,,,1
+50053,돈벼락 전술Ⅳ,연산 레벨 7 이상의 [잿더미 일화]에서 아무 2가지 시리즈의 전술 포인트가 900점을 넘은 상태에서 탐색 완료.,2029,Rouge2TwoBuildChallenge,achieve_counter_rouge2_two_build_challenge,1,4,7,,,,,1
+50054,돈벼락 전술Ⅴ,연산 레벨 10의 [잿더미 일화]에서 아무 2가지 시리즈의 전술 포인트가 900점을 넘은 상태에서 탐색 완료.,2029,Rouge2TwoBuildChallenge,achieve_counter_rouge2_two_build_challenge,1,4,10,,,,,1
+50055,햄스터의 지혜Ⅰ,연산 레벨 1 이상의 [잿더미 일화]에서 아무 3가지 시리즈의 전술 포인트가 550점을 넘은 상태에서 탐색 완료.,2030,Rouge2ThreeBuildChallenge,achieve_counter_rouge2_three_build_challenge,1,4,1,,,,,1
+50056,햄스터의 지혜Ⅱ,연산 레벨 3 이상의 [잿더미 일화]에서 아무 3가지 시리즈의 전술 포인트가 550점을 넘은 상태에서 탐색 완료.,2030,Rouge2ThreeBuildChallenge,achieve_counter_rouge2_three_build_challenge,1,4,3,,,,,1
+50057,햄스터의 지혜Ⅲ,연산 레벨 5 이상의 [잿더미 일화]에서 아무 3가지 시리즈의 전술 포인트가 550점을 넘은 상태에서 탐색 완료.,2030,Rouge2ThreeBuildChallenge,achieve_counter_rouge2_three_build_challenge,1,4,5,,,,,1
+50058,햄스터의 지혜Ⅳ,연산 레벨 7 이상의 [잿더미 일화]에서 아무 3가지 시리즈의 전술 포인트가 550점을 넘은 상태에서 탐색 완료.,2030,Rouge2ThreeBuildChallenge,achieve_counter_rouge2_three_build_challenge,1,4,7,,,,,1
+50059,햄스터의 지혜Ⅴ,연산 레벨 10의 [잿더미 일화]에서 아무 3가지 시리즈 전술 포인트가 550점을 넘은 상태에서 탐색 완료.,2030,Rouge2ThreeBuildChallenge,achieve_counter_rouge2_three_build_challenge,1,4,10,,,,,1
+10260,그리폰 리턴즈Ⅰ,PMC 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1003,18446744073709551615,1,,,1
+10261,그리폰 리턴즈Ⅱ,PMC 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1003,18446744073709551615,1,,,1
+10262,그리폰 리턴즈Ⅲ,PMC 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1003,18446744073709551615,1,,,1
+11120,한 방에 한 놈씩Ⅰ,전투에서 승리하면서 단일 피해를 누적 6000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,6000000,2,2,1,1,,,1
+11121,한 방에 한 놈씩Ⅱ,전투에서 승리하면서 단일 피해를 누적 18000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,18000000,2,2,1,1,,,1
+11122,한 방에 한 놈씩Ⅲ,전투에서 승리하면서 단일 피해를 누적 30000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,2,2,1,1,,,1
+11123,한 방에 한 놈씩Ⅳ,전투에서 승리하면서 단일 피해를 누적 60000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,60000000,2,2,1,1,,,1
+11124,한 방에 한 놈씩Ⅴ,전투에서 승리하면서 단일 피해를 누적 90000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,90000000,2,2,1,1,,,1
+11125,한 방에 한 놈씩Ⅵ,전투에서 승리하면서 단일 피해를 누적 120000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,120000000,2,2,1,1,,,1
+11126,한 방에 한 놈씩Ⅶ,전투에서 승리하면서 단일 피해를 누적 150000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,2,2,1,1,,,1
+11127,한 방에 한 놈씩Ⅷ,전투에서 승리하면서 단일 피해를 누적 180000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,180000000,2,2,1,1,,,1
+11128,한 방에 한 놈씩Ⅸ,전투에서 승리하면서 단일 피해를 누적 240000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,240000000,2,2,1,1,,,1
+11129,한 방에 한 놈씩Ⅹ,전투에서 승리하면서 단일 피해를 누적 300000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,2,2,1,1,,,1
+20711,바스티·냐 홀로 집에,60레벨 이상인 한 작전에서 7턴 이내에 범위 산성 피해를 누적 14회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10711,,,,,,1
+20712,바스티·전위의 예술,60레벨 이상인 한 작전에서 아군 유닛의 디버프 효과를 누적 4회 정화,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10712,,,,,,1
+20713,바스티·고양이의 독점력,60레벨 이상인 한 작전에서 같은 턴에 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10713,,,,,,1
+1621,잿더미 챌린저Ⅰ,[잿더미 일화]에서 임계 연산 레벨 1을 처음으로 클리어.,2021,Rouge2ChallengeClear,achieve_counter_rouge2_challenge_clear,1,4,1,,,,,1
+1622,잿더미 챌린저Ⅱ,[잿더미 일화]에서 임계 연산 레벨 3을 처음으로 클리어.,2021,Rouge2ChallengeClear,achieve_counter_rouge2_challenge_clear,1,4,3,,,,,1
+1623,잿더미 챌린저Ⅲ,[잿더미 일화]에서 임계 연산 레벨 5를 처음으로 클리어.,2021,Rouge2ChallengeClear,achieve_counter_rouge2_challenge_clear,1,4,5,,,,,1
+1624,잿더미 챌린저Ⅳ,[잿더미 일화]에서 임계 연산 레벨 7을 처음으로 클리어.,2021,Rouge2ChallengeClear,achieve_counter_rouge2_challenge_clear,1,4,7,,,,,1
+1625,잿더미 챌린저Ⅴ,[잿더미 일화]에서 임계 연산 레벨 10을 처음으로 클리어.,2021,Rouge2ChallengeClear,achieve_counter_rouge2_challenge_clear,1,4,10,,,,,1
+20441,벡터·장송의 벡터,한 작전에서 6기 각기 다른 디버프를 가진 적에게 연소 피해를 4회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10441,,,,,,1
+20442,벡터·저승사자,60레벨 이상인 한 작전에서 같은 턴에 적을 6기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10442,,,,,,1
+20443,벡터·음침한 인형도 타오를 수 있을까?,한 작전에서 【기름 뿌리기】 상태를 가진 아군이 연소 피해를 총 40회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10443,,,,,,1
+1391,I.O.P. 특수 제작Ⅰ,인형 테마의 무기 도색을 5개 획득,3017,ChallengeThemePainting,achieve_counter_challenge_theme_painting,5,8,,,,,,1
+1392,I.O.P. 특수 제작Ⅱ,인형 테마의 무기 도색을 10개 획득,3017,ChallengeThemePainting,achieve_counter_challenge_theme_painting,10,8,,,,,,1
+1393,I.O.P. 특수 제작Ⅲ,인형 테마의 무기 도색을 20개 획득,3017,ChallengeThemePainting,achieve_counter_challenge_theme_painting,20,8,,,,,,1
+1394,I.O.P. 특수 제작Ⅳ,인형 테마의 무기 도색을 30개 획득,3017,ChallengeThemePainting,achieve_counter_challenge_theme_painting,30,8,,,,,,1
+14050,퓨어 대미지 Ⅰ,물리 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 2회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,2,,,,,,,1
+14051,퓨어 대미지 Ⅱ,물리 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 5회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,5,,,,,,,1
+14052,퓨어 대미지 Ⅲ,물리 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 8회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,8,,,,,,,1
+20381,리타라·전술 기획자,한 작전에서 【각개 격파】 스킬로 피해를 누적 8회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10381,,,,,,1
+20382,리타라·과거와 다른 화력,50레벨 이상인 한 작전에서 같은 턴에 적을 3기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10382,,,,,,1
+40090,안 물리는 기름기,새콤매콤 회과육 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,15,,,,,,1
+40091,다 넣고 끓이기,미소 오뎅 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,16,,,,,,1
+40092,오늘 밤은 치킨이닭,로즈마리 로스트 치킨 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,17,,,,,,1
+40093,원조의 맛 그대로,구전대창 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,18,,,,,,1
+40094,육향 물씬,되네르 케밥 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,19,,,,,,1
+40095,무병장수,사희완자 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,20,,,,,,1
+40096,웰빙 푸드,타불레 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,21,,,,,,1
+40097,밥도둑,시골 제육볶음 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,22,,,,,,1
+40098,오래 감도는 맛,소라 숙회 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,23,,,,,,1
+40099,순무 만세,보르시 누적 5회 먹기,3619,LobbyFoodTypeCount,achieve_counter_lobby_food_type_count,5,24,,,,,,1
+1670,스파이럴 상승,반복 회랑에서 누적 클리어 층수 300층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,300,18446744073709551615,,,,,,1
+1671,왜 잘하는 건데!,반복 회랑에서 누적 클리어 층수 350층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,350,18446744073709551615,,,,,,1
+1672,유전자 깊숙이 새겨진,반복 회랑에서 누적 클리어 층수 400층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,400,18446744073709551615,,,,,,1
+1673,끝없는 윤회,반복 회랑에서 누적 클리어 층수 450층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,450,18446744073709551615,,,,,,1
+1674,진리에 도달,반복 회랑에서 누적 클리어 층수 500층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,500,18446744073709551615,,,,,,1
+1675,어려운 일도 아닌걸요.,반복 회랑에서 핵심 전장의 적 유닛을 누적 100기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,100,18446744073709551615,,,,,,1
+1676,10명과 싸우겠다,반복 회랑에서 핵심 전장의 적 유닛을 누적 250기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,250,18446744073709551615,,,,,,1
+1677,새로운 격추왕의 탄생,반복 회랑에서 핵심 전장의 적 유닛을 누적 400기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,400,18446744073709551615,,,,,,1
+1678,회랑 청소 마스터,반복 회랑에서 핵심 전장의 적 유닛을 누적 800기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,800,18446744073709551615,,,,,,1
+1679,이제 누가 도전자지?,반복 회랑에서 핵심 전장의 적 유닛을 누적 1200기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,1200,18446744073709551615,,,,,,1
+11190,사신 강림Ⅰ,매복 또는 반격으로 보스 유닛을 3기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,3,1,3,1,1,,,1
+11191,사신 강림Ⅱ,매복 또는 반격으로 보스 유닛을 6기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,6,1,3,1,1,,,1
+11192,사신 강림Ⅲ,매복 또는 반격으로 보스 유닛을 9기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,9,1,3,1,1,,,1
+11193,사신 강림Ⅳ,매복 또는 반격으로 보스 유닛을 12기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,12,1,3,1,1,,,1
+11194,사신 강림Ⅴ,매복 또는 반격으로 보스 유닛을 15기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,15,1,3,1,1,,,1
+11195,사신 강림Ⅵ,매복 또는 반격으로 보스 유닛을 20기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,20,1,3,1,1,,,1
+11196,사신 강림Ⅶ,매복 또는 반격으로 보스 유닛을 25기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,25,1,3,1,1,,,1
+11197,사신 강림Ⅷ,매복 또는 반격으로 보스 유닛을 30기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,30,1,3,1,1,,,1
+11198,사신 강림Ⅸ,매복 또는 반격으로 보스 유닛을 40기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,40,1,3,1,1,,,1
+11199,사신 강림Ⅹ,매복 또는 반격으로 보스 유닛을 50기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,50,1,3,1,1,,,1
+20641,플로렌스·두근두근 치료법,60레벨 이상인 한 작전에서 적에게 「혼란제」를 누적 18회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10641,,,,,,1
+20642,플로렌스·청순한 의사의 여유,60레벨 이상인 한 작전에서 플로렌스가 아군의 디버프를 누적 4회 정화,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10642,,,,,,1
+20643,플로렌스·조수가 힘을 숨김,60레벨 이상인 한 작전에서 아리오스가 누적 24회 반격,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10643,,,,,,1
+10170,겨울 왕국Ⅰ,"빙결 피해를 누적 10,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,4,18446744073709551615,18446744073709551615,,,1
+10171,겨울 왕국Ⅱ,"빙결 피해를 누적 20,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,4,18446744073709551615,18446744073709551615,,,1
+10172,겨울 왕국Ⅲ,"빙결 피해를 누적 30,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,4,18446744073709551615,18446744073709551615,,,1
+20511,미슈티·100% 심도 수면,60레벨 이상인 한 작전에서 미슈티가 적에게 【독소 고리】를 6회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10511,,,,,,1
+20512,미슈티·내 미슈티가 이렇게 부지런할 리 없어,한 작전에서 미슈티가 일반 공격으로 산성 피해를 누적 8회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10512,,,,,,1
+20513,미슈티·이번 판만 끝나면 잘게,60레벨 이상인 한 작전에서 미슈티가 【꿀잠 세트】를 2스택 보유한 상황에서 적을 누적 6기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10513,,,,,,1
+1221,그냥 물총이 아니야Ⅰ,탁류 속성 인형을 누적 3명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,3,6,18446744073709551615,,,,,1
+1222,그냥 물총이 아니야Ⅱ,탁류 속성 인형을 누적 5명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,5,6,18446744073709551615,,,,,1
+1223,그냥 물총이 아니야Ⅲ,탁류 속성 인형을 누적 7명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,7,6,18446744073709551615,,,,,1
+1224,그냥 물총이 아니야Ⅳ,탁류 속성 인형을 누적 9명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,9,6,18446744073709551615,,,,,1
+10060,다크 클레릭Ⅰ,적에게 디버프를 누적 80회 부여,3504,ChallengeBuff,achieve_counter_challenge_buff,80,2,,,,,,1
+10061,다크 클레릭Ⅱ,적에게 디버프를 누적 160회 부여,3504,ChallengeBuff,achieve_counter_challenge_buff,160,2,,,,,,1
+10062,다크 클레릭Ⅲ,적에게 디버프를 누적 240회 부여,3504,ChallengeBuff,achieve_counter_challenge_buff,240,2,,,,,,1
+20011,캐롤릭-불굴의 도전자,60레벨 이상인 한 작전에서 불덩이를 가진 적을 3체 이상 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10011,,,,,,1
+20012,캐롤릭-검투사,50레벨 이상인 한 작전에서 같은 턴에 적을 2체 이상 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10012,,,,,,1
+20471,스프링필드-안심의 춘전,60레벨 이상인 한 작전에서 적 3체를 10칸 이상 거리에서 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10471,,,,,,1
+20472,"스프링필드-수재, 작전, 소환수",60레벨 이상인 한 작전에서 「타리츠」가 적 유닛을 8회 추적,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10472,,,,,,1
+20473,스프링필드-점장의 여유,60레벨 이상인 한 작전에서 지원 공격으로 피해를 24회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10473,,,,,,1
+20741,OTs-14·완벽한 계획,60레벨 이상인 한 작전에서 같은 턴에 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10741,,,,,,1
+20742,OTs-14·파멸 지시,60레벨 이상인 한 작전에서 【임계 비산 침식】으로 적 정예 또는 보스 유닛을 1기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10742,,,,,,1
+20743,OTs-14·폭파 충동,60레벨 이상인 한 작전에서 결전기를 누적 3회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10743,,,,,,1
+10010,불조심!Ⅰ,연소계 타일을 누적 50회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,50,2,1,,,,,1
+10011,불조심!Ⅱ,연소계 타일을 누적 100회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,100,2,1,,,,,1
+10012,불조심!Ⅲ,연소계 타일을 누적 150회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,150,2,1,,,,,1
+10310,이 도시는 청소가 필요해Ⅰ,도시 치안부서 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1008,18446744073709551615,1,,,1
+10311,이 도시는 청소가 필요해Ⅱ,도시 치안부서 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1008,18446744073709551615,1,,,1
+10312,이 도시는 청소가 필요해Ⅲ,도시 치안부서 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1008,18446744073709551615,1,,,1
+11070,인형은 가라 안 쳐Ⅰ,"지원 공격으로 피해를 누적 2,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,2000000,2,3,1,18446744073709551615,,,1
+11071,인형은 가라 안 쳐Ⅱ,"지원 공격으로 피해를 누적 6,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,6000000,2,3,1,18446744073709551615,,,1
+11072,인형은 가라 안 쳐Ⅲ,"지원 공격으로 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,2,3,1,18446744073709551615,,,1
+11073,인형은 가라 안 쳐Ⅳ,"지원 공격으로 피해를 누적 20,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,2,3,1,18446744073709551615,,,1
+11074,인형은 가라 안 쳐Ⅴ,"지원 공격으로 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,2,3,1,18446744073709551615,,,1
+11075,인형은 가라 안 쳐Ⅵ,"지원 공격으로 피해를 누적 40,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,40000000,2,3,1,18446744073709551615,,,1
+11076,인형은 가라 안 쳐Ⅶ,"지원 공격으로 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,2,3,1,18446744073709551615,,,1
+11077,인형은 가라 안 쳐Ⅷ,"지원 공격으로 피해를 누적 60,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,60000000,2,3,1,18446744073709551615,,,1
+11078,인형은 가라 안 쳐Ⅸ,"지원 공격으로 피해를 누적 80,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,80000000,2,3,1,18446744073709551615,,,1
+11079,인형은 가라 안 쳐Ⅹ,"지원 공격으로 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,2,3,1,18446744073709551615,,,1
+20171,그로자-8배로 갚아주기,한 작전에서 반격으로 피해를 8회 이상 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10171,,,,,,1
+20172,그로자-대장의 사명,한 작전에서 동료에게 「엄호」를 30회 넘게 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10172,,,,,,1
+1341,사설 무장Ⅰ,인형 15명 수집,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,15,18446744073709551615,18446744073709551615,,,,,1
+1342,사설 무장Ⅱ,인형 25명 수집,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,25,18446744073709551615,18446744073709551615,,,,,1
+1343,사설 무장Ⅲ,인형 35명 수집,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,35,18446744073709551615,18446744073709551615,,,,,1
+1344,사설 무장Ⅳ,인형 45명 수집,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,45,18446744073709551615,18446744073709551615,,,,,1
+20231,드셰브니·용사의 가호,한 작전에서 【한빙의 축복】을 누적 10스택 얻기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10231,,,,,,1
+20232,드셰브니·우정의 마법,한 작전에서 지원 공격으로 피해를 누적 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10232,,,,,,1
+20233,드셰브니·서리 지배자,60레벨 이상인 한 작전에서 【동장군의 허락】을 사용해 적 보스 유닛에게 【방어 감소II】를 3회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10233,,,,,,1
+40030,한 병 더,모신나강의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1033,,,,,,1
+40031,달콤 플러스,마키아토의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1034,,,,,,1
+40032,취권 감상가,강우의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1035,,,,,,1
+40033,팁 플리즈!,크세니아의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1036,,,,,,1
+40034,소울 테이커,울리드의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1037,,,,,,1
+40035,일목십행,리타라의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1038,,,,,,1
+40036,기나긴 의존,수오미의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1039,,,,,,1
+40037,벌컥벌컥,파파샤의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1040,,,,,,1
+40038,영원한 친구,롯타의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1041,,,,,,1
+40039,느긋한 오후,안도리스의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1042,,,,,,1
+1540,활동적인 삶 Ⅰ,활동치를 누적 2회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,2,,,,,,,1
+1541,활동적인 삶 Ⅱ,활동치를 누적 3회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,3,,,,,,,1
+1542,활동적인 삶 Ⅲ,활동치를 누적 5회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,5,,,,,,,1
+1543,활동적인 삶 Ⅳ,활동치를 누적 10회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,10,,,,,,,1
+1544,활동적인 삶 Ⅴ,활동치를 누적 15회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,15,,,,,,,1
+1545,활동적인 삶 Ⅵ,활동치를 누적 20회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,20,,,,,,,1
+1546,활동적인 삶 Ⅶ,활동치를 누적 30회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,30,,,,,,,1
+1547,활동적인 삶 Ⅷ,활동치를 누적 40회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,40,,,,,,,1
+1548,활동적인 삶 Ⅸ,활동치를 누적 50회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,50,,,,,,,1
+1549,활동적인 삶 Ⅹ,활동치를 누적 60회 수령,3614,LobbyDailyActive,achieve_counter_lobby_daily_active,60,,,,,,,1
+10360,완벽 조화Ⅰ,지원 공격으로 피해를 누적 250회 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,250,2,,,,,,1
+10361,완벽 조화Ⅱ,지원 공격으로 피해를 누적 500회 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,500,2,,,,,,1
+10362,완벽 조화Ⅲ,지원 공격으로 피해를 누적 750회 주기,3512,ChallengeDamageTimes,achieve_counter_challenge_damage_times,750,2,,,,,,1
+13040,급소 때리기 Ⅰ,단일 속성 약점 공격을 누적 300회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,300,1,1,,,,,1
+13041,급소 때리기 Ⅱ,단일 속성 약점 공격을 누적 600회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,600,1,1,,,,,1
+13042,급소 때리기 Ⅲ,단일 속성 약점 공격을 누적 900회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,900,1,1,,,,,1
+13043,급소 때리기 Ⅳ,"단일 속성 약점 공격을 누적 1,200회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1200,1,1,,,,,1
+13044,급소 때리기 Ⅴ,"단일 속성 약점 공격을 누적 1,500회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1500,1,1,,,,,1
+13045,급소 때리기 Ⅵ,"단일 속성 약점 공격을 누적 1,800회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1800,1,1,,,,,1
+13046,급소 때리기 Ⅶ,"단일 속성 약점 공격을 누적 2,100회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,2100,1,1,,,,,1
+13047,급소 때리기 Ⅷ,"단일 속성 약점 공격을 누적 2,400회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,2400,1,1,,,,,1
+13048,급소 때리기 Ⅸ,"단일 속성 약점 공격을 누적 2,700회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,2700,1,1,,,,,1
+13049,급소 때리기 Ⅹ,"단일 속성 약점 공격을 누적 3,000회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,3000,1,1,,,,,1
+20211,페리티아·스트레인지 캣,60레벨 이상인 한 작전에서 같은 턴에 액티브 공격으로 적을 9기 이상 맞히기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10211,,,,,,1
+20212,페리티아·그늘 속의 관찰자,한 작전에서 지원 공격으로 피해를 누적 24회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10212,,,,,,1
+20213,페리티아·고양이와 어울리기,55레벨 이상인 한 작전에서 같은 턴에 액티브 공격으로 적을 6기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10213,,,,,,1
+1611,잿더미 보물 사냥꾼Ⅰ,[잿더미 일화]에서 [회수 루트Ⅰ] 1회 완료,2020,Rouge2LevelClear,achieve_counter_rouge2_level_clear,1,4,1,,,,,1
+1612,잿더미 보물 사냥꾼Ⅱ,[잿더미 일화]에서 [회수 루트Ⅱ] 1회 완료,2020,Rouge2LevelClear,achieve_counter_rouge2_level_clear,1,4,2,,,,,1
+1613,잿더미 보물 사냥꾼Ⅲ,[잿더미 일화]에서 [회수 루트Ⅲ] 1회 완료,2020,Rouge2LevelClear,achieve_counter_rouge2_level_clear,1,4,3,,,,,1
+1614,잿더미 보물 사냥꾼Ⅳ,[잿더미 일화]에서 회수 루트 Ⅳ를 처음으로 클리어.,2020,Rouge2LevelClear,achieve_counter_rouge2_level_clear,1,4,4,,,,,1
+1615,잿더미 보물 사냥꾼Ⅴ,[잿더미 일화]에서 회수 루트 Ⅴ를 처음으로 클리어.,2020,Rouge2LevelClear,achieve_counter_rouge2_level_clear,1,4,5,,,,,1
+10020,강산 경고 Ⅰ,산성계 타일을 누적 50회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,50,2,4,,,,,1
+10021,강산 경고 Ⅱ,산성계 타일을 누적 100회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,100,2,4,,,,,1
+10022,강산 경고 Ⅲ,산성계 타일을 누적 150회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,150,2,4,,,,,1
+10150,고기 파티다!Ⅰ,연소피해를 누적 10000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,2,18446744073709551615,18446744073709551615,,,1
+10151,고기 파티다!Ⅱ,연소피해를 누적 20000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,2,18446744073709551615,18446744073709551615,,,1
+10152,고기 파티다!Ⅲ,연소피해를 누적 30000000점 주기,3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,2,18446744073709551615,18446744073709551615,,,1
+10180,찌릿찌릿 Ⅰ,"전도 피해를 누적 10,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,3,18446744073709551615,18446744073709551615,,,1
+10181,찌릿찌릿 Ⅱ,"전도 피해를 누적 20,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,3,18446744073709551615,18446744073709551615,,,1
+10182,찌릿찌릿 Ⅲ,"전도 피해를 누적 30,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,3,18446744073709551615,18446744073709551615,,,1
+11080,말하는 덤불Ⅰ,"매복 또는 반격으로 피해를 누적 500,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000,2,4,1,18446744073709551615,,,1
+11081,말하는 덤불Ⅱ,"매복 또는 반격으로 피해를 누적 1,500,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,1500000,2,4,1,18446744073709551615,,,1
+11082,말하는 덤불Ⅲ,"매복 또는 반격으로 피해를 누적 2,500,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,2500000,2,4,1,18446744073709551615,,,1
+11083,말하는 덤불Ⅳ,"매복 또는 반격으로 피해를 누적 5,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,5000000,2,4,1,18446744073709551615,,,1
+11084,말하는 덤불Ⅴ,"매복 또는 반격으로 피해를 누적 7,500,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,7500000,2,4,1,18446744073709551615,,,1
+11085,말하는 덤불Ⅵ,"매복 또는 반격으로 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,2,4,1,18446744073709551615,,,1
+11086,말하는 덤불Ⅶ,"매복 또는 반격으로 피해를 누적 12,500,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,12500000,2,4,1,18446744073709551615,,,1
+11087,말하는 덤불Ⅷ,"매복 또는 반격으로 피해를 누적 15,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,15000000,2,4,1,18446744073709551615,,,1
+11088,말하는 덤불Ⅸ,"매복 또는 반격으로 피해를 누적 20,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,2,4,1,18446744073709551615,,,1
+11089,말하는 덤불Ⅹ,"매복 또는 반격으로 피해를 누적 25,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,25000000,2,4,1,18446744073709551615,,,1
+20081,네메시스-원거리 서포터,한 작전에서 지원 공격으로 피해를 5회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10081,,,,,,1
+20082,네메시스-사신의 저격,50레벨 이상인 한 작전에서 결전기로 적 정예 또는 보스를 1기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10082,,,,,,1
+1471,동기화 고수 Ⅰ,[동기화 훈련·잔디밭 합동훈련] 전부 클리어,207,StageVictory,achieve_counter_stage_victory,1,43003,,,,,,1
+1472,동기화 고수 Ⅱ,[동기화 훈련·돌풍 시즌] 전부 클리어,207,StageVictory,achieve_counter_stage_victory,1,43008,,,,,,1
+1473,동기화 고수 Ⅲ,[동기화 훈련·푸른 파도 구조작전] 전부 클리어,207,StageVictory,achieve_counter_stage_victory,1,43013,,,,,,1
+1491,탐사 선봉장 Ⅰ,영역 돌파 레벨 2 도달,3031,DarkzoneLevel,achieve_counter_darkzone_level,2,,,,,,,1
+1492,탐사 선봉장 Ⅱ,영역 돌파 레벨 4 도달,3031,DarkzoneLevel,achieve_counter_darkzone_level,4,,,,,,,1
+1493,탐사 선봉장 Ⅲ,영역 돌파 레벨 6 도달,3031,DarkzoneLevel,achieve_counter_darkzone_level,6,,,,,,,1
+1494,탐사 선봉장 Ⅳ,영역 돌파 레벨 8 도달,3031,DarkzoneLevel,achieve_counter_darkzone_level,8,,,,,,,1
+1495,탐사 선봉장 Ⅴ,영역 돌파 레벨 11 도달,3031,DarkzoneLevel,achieve_counter_darkzone_level,11,,,,,,,1
+10240,루나틱 맥스Ⅰ,바랴그단 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1001,18446744073709551615,1,,,1
+10241,루나틱 맥스Ⅱ,바랴그단 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1001,18446744073709551615,1,,,1
+10242,루나틱 맥스Ⅲ,바랴그단 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1001,18446744073709551615,1,,,1
+31060,약점 타격자Ⅰ,같은 턴 안에 약점 공격으로 피해를 3회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1060,,,,,,1
+31061,약점 타격자Ⅱ,같은 턴 안에 약점 공격으로 피해를 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1061,,,,,,1
+31062,약점 타격자Ⅲ,같은 턴 안에 약점 공격으로 피해를 10회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1062,,,,,,1
+10391,지금까지 먹은 빵의 개수를 기억하는가?Ⅰ,일반 유닛을 누적 1000기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,1000,1,1,18446744073709551615,1,,,1
+10392,지금까지 먹은 빵의 개수를 기억하는가?Ⅱ,일반 유닛을 누적 2000기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,2000,1,1,18446744073709551615,1,,,1
+10393,지금까지 먹은 빵의 개수를 기억하는가?Ⅲ,일반 유닛을 누적 3000기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,3000,1,1,18446744073709551615,1,,,1
+11150,폭력적 해체Ⅰ,시설 유닛을 누적 10기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,10,1,5,1,,,,1
+11151,폭력적 해체Ⅱ,시설 유닛을 누적 20기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,20,1,5,1,,,,1
+11152,폭력적 해체Ⅲ,시설 유닛을 누적 30기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,30,1,5,1,,,,1
+11153,폭력적 해체Ⅳ,시설 유닛을 누적 40기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,40,1,5,1,,,,1
+11154,폭력적 해체Ⅴ,시설 유닛을 누적 50기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,50,1,5,1,,,,1
+11155,폭력적 해체Ⅵ,시설 유닛을 누적 60기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,60,1,5,1,,,,1
+11156,폭력적 해체Ⅶ,시설 유닛을 누적 70기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,70,1,5,1,,,,1
+11157,폭력적 해체Ⅷ,시설 유닛을 누적 80기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,80,1,5,1,,,,1
+11158,폭력적 해체Ⅸ,시설 유닛을 누적 90기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,90,1,5,1,,,,1
+11159,폭력적 해체Ⅹ,시설 유닛을 누적 100기 처치 (승리한 전투만 집계),3510,ChallengeKill,achieve_counter_challenge_kill,100,1,5,1,,,,1
+13060,한 방에 주님 곁으로 Ⅰ,"치명타 피해를 누적 5,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,5000000,3,,1,1,,,1
+13061,한 방에 주님 곁으로 Ⅱ,"치명타 피해를 누적 15,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,15000000,3,,1,1,,,1
+13062,한 방에 주님 곁으로 Ⅲ,"치명타 피해를 누적 25,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,25000000,3,,1,1,,,1
+13063,한 방에 주님 곁으로 Ⅳ,"치명타 피해를 누적 50,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,3,,1,1,,,1
+13064,한 방에 주님 곁으로 Ⅴ,"치명타 피해를 누적 75,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,75000000,3,,1,1,,,1
+13065,한 방에 주님 곁으로 Ⅵ,"치명타 피해를 누적 100,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,3,,1,1,,,1
+13066,한 방에 주님 곁으로 Ⅶ,"치명타 피해를 누적 125,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,125000000,3,,1,1,,,1
+13067,한 방에 주님 곁으로 Ⅷ,"치명타 피해를 누적 150,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,3,,1,1,,,1
+13068,한 방에 주님 곁으로 Ⅸ,"치명타 피해를 누적 200,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,3,,1,1,,,1
+13069,한 방에 주님 곁으로 Ⅹ,"치명타 피해를 누적 250,000,000점 주기 (승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,3,,1,1,,,1
+40110,신선한 맛,「새우 냉채」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,9,,,,,,1
+40111,함께 만두 빚기!,「삼선 물만두」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,10,,,,,,1
+40112,무거운 등껍질은 버려야 할까,「에스카르고」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,11,,,,,,1
+40113,세상을 담은 버거,「트러플 더블 비프 버거」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,12,,,,,,1
+40114,산해진미,「제비집 전복 수프」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,13,,,,,,1
+40115,슈뢰딩거의 낚시,「모듬 사시미」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,14,,,,,,1
+40116,맹화 급습,「새콤매콤 회과육」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,15,,,,,,1
+40117,완자 그랜드슬램,「미소 오뎅」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,16,,,,,,1
+40118,진정한 닭고기 맛,「로즈마리 로스트 치킨」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,17,,,,,,1
+40119,실수일까 일부러일까,「구전대창」 3레벨까지 업그레이드,3642,LobbyCookLevup,achieve_counter_lobby_cook_levup,3,18,,,,,,1
+10250,시생물 하자드Ⅰ,시생물 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1002,18446744073709551615,1,,,1
+10251,시생물 하자드Ⅱ,시생물 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1002,18446744073709551615,1,,,1
+10252,시생물 하자드Ⅲ,시생물 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1002,18446744073709551615,1,,,1
+10300,PMC도 천차만별Ⅰ,매그니 시큐리티 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1007,18446744073709551615,1,,,1
+10301,PMC도 천차만별Ⅱ,매그니 시큐리티 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1007,18446744073709551615,1,,,1
+10302,PMC도 천차만별Ⅲ,매그니 시큐리티 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1007,18446744073709551615,1,,,1
+12070,스킬이 뭐임? Ⅰ,"피해를 일반공격으로만 주면서, 지정 보정 VIII 스테이지를 1개 클리어",3528,ChallengeStagePassConditionSkillType,achieve_counter_challenge_stage_pass_condition_skill_type,1,,,,,,,1
+12071,스킬이 뭐임? Ⅱ,"피해를 일반공격으로만 주면서, 지정 보정 VIII 스테이지를 2개 클리어",3528,ChallengeStagePassConditionSkillType,achieve_counter_challenge_stage_pass_condition_skill_type,2,,,,,,,1
+12072,스킬이 뭐임? Ⅲ,"피해를 일반공격으로만 주면서, 지정 보정 VIII 스테이지를 4개 클리어",3528,ChallengeStagePassConditionSkillType,achieve_counter_challenge_stage_pass_condition_skill_type,4,,,,,,,1
+20661,보이마스티나·늑대 무리 전술,60레벨 이상인 한 작전에서 물리 피해를 누적 12회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10661,,,,,,1
+20662,보이마스티나·그리고 아무도 없었다,60레벨 이상인 한 작전에서 같은 턴에 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10662,,,,,,1
+20663,보이마스티나·울프아이,60레벨 이상인 한 작전에서 적을 누적 10기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10663,,,,,,1
+10320,안티 메카닉 Ⅰ,사이카 테크 적 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1009,18446744073709551615,1,,,1
+10321,안티 메카닉 Ⅱ,사이카 테크 적 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1009,18446744073709551615,1,,,1
+10322,안티 메카닉 Ⅲ,사이카 테크 적 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1009,18446744073709551615,1,,,1
+1571,전설의 요리 비법 Ⅰ,「미식 조리」를 누적 10회 업그레이드,3616,LobbyKitchenBuffUpgrade,achieve_counter_lobby_kitchen_buff_upgrade,10,,,,,,,1
+1572,전설의 요리 비법 Ⅱ,「미식 조리」를 누적 20회 업그레이드,3616,LobbyKitchenBuffUpgrade,achieve_counter_lobby_kitchen_buff_upgrade,20,,,,,,,1
+1573,전설의 요리 비법 Ⅲ,「미식 조리」를 누적 45회 업그레이드,3616,LobbyKitchenBuffUpgrade,achieve_counter_lobby_kitchen_buff_upgrade,45,,,,,,,1
+1574,전설의 요리 비법 Ⅳ,「미식 조리」를 누적 60회 업그레이드,3616,LobbyKitchenBuffUpgrade,achieve_counter_lobby_kitchen_buff_upgrade,60,,,,,,,1
+1575,전설의 요리 비법 Ⅴ,「미식 조리」를 누적 74회 업그레이드,3616,LobbyKitchenBuffUpgrade,achieve_counter_lobby_kitchen_buff_upgrade,74,,,,,,,1
+12010,필승의 일격Ⅰ,결전기만 사용해서 60레벨 이상 스테이지를 30개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,30,18446744073709551615,60,4,1,,,1
+12011,필승의 일격Ⅱ,결전기만 사용해서 60레벨 이상 스테이지를 60개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,60,18446744073709551615,60,4,1,,,1
+12012,필승의 일격Ⅲ,결전기만 사용해서 60레벨 이상 스테이지를 100개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,100,18446744073709551615,60,4,1,,,1
+13150,최전선 구조Ⅰ,서포트 인형만 사용하여 60레벨 이상인 작전을 5개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,5,18446744073709551615,60,1,3,,,1
+13151,최전선 구조Ⅱ,서포트 인형만 사용하여 60레벨 이상인 작전을 10개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,10,18446744073709551615,60,1,3,,,1
+13152,최전선 구조Ⅲ,서포트 인형만 사용하여 60레벨 이상인 작전을 20개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,20,18446744073709551615,60,1,3,,,1
+13153,최전선 구조Ⅳ,서포트 인형만 사용하여 60레벨 이상인 작전을 30개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,30,18446744073709551615,60,1,3,,,1
+13154,최전선 구조Ⅴ,서포트 인형만 사용하여 60레벨 이상인 작전을 50개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,50,18446744073709551615,60,1,3,,,1
+13155,최전선 구조Ⅵ,서포트 인형만 사용하여 60레벨 이상인 작전을 75개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,75,18446744073709551615,60,1,3,,,1
+13156,최전선 구조Ⅶ,서포트 인형만 사용하여 60레벨 이상인 작전을 100개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,100,18446744073709551615,60,1,3,,,1
+13157,최전선 구조Ⅷ,서포트 인형만 사용하여 60레벨 이상인 작전을 125개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,125,18446744073709551615,60,1,3,,,1
+13158,최전선 구조Ⅸ,서포트 인형만 사용하여 60레벨 이상인 작전을 150개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,150,18446744073709551615,60,1,3,,,1
+13159,최전선 구조Ⅹ,서포트 인형만 사용하여 60레벨 이상인 작전을 180개 클리어,3516,ChallengeLevelClear,achieve_counter_challenge_level_clear,180,18446744073709551615,60,1,3,,,1
+20551,니키타·이의 있소!,60레벨 이상인 한 작전에서 전투 시작 후 3턴 안에 【단서】를 5스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10551,,,,,,1
+20552,니키타·경찰견을 건들지 마,60레벨 이상인 한 작전에서 【쿨리치】가 반격을 누적 8회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10552,,,,,,1
+20553,니키타·대대적 체포 작전,60레벨 이상인 한 작전에서 【죄악감】이 없는 적에게 【죄악감】을 누적 7회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10553,,,,,,1
+20721,류시·명마 질주,60레벨 이상인 한 작전에서 페가수스가 탁류 피해를 누적 8회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10721,,,,,,1
+20722,류시·조준경 교정,60레벨 이상인 한 작전에서 자신의 「단일」을 6중첩까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10722,,,,,,1
+20723,류시·돈이면 귀신도 부린다,60레벨 이상인 한 작전에서 적 보스 유닛의 버프 효과를 누적 3회 정화하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10723,,,,,,1
+31020,회심의 일경Ⅰ,"같은 턴 안에 치명타 피해를 150,000점 주기",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1020,,,,,,1
+31021,회심의 일경Ⅱ,"같은 턴 안에 치명타 피해를 300,000점 주기",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1021,,,,,,1
+31022,회심의 일경Ⅲ,"같은 턴 안에 치명타 피해를 450,000점 주기",3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1022,,,,,,1
+11180,퍼스트 블러드 Ⅰ,매복 또는 반격으로 정예 유닛을 6기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,6,1,2,1,1,,,1
+11181,퍼스트 블러드 Ⅱ,매복 또는 반격으로 정예 유닛을 18기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,18,1,2,1,1,,,1
+11182,퍼스트 블러드 Ⅲ,매복 또는 반격으로 정예 유닛을 30기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,30,1,2,1,1,,,1
+11183,퍼스트 블러드 Ⅳ,매복 또는 반격으로 정예 유닛을 45기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,45,1,2,1,1,,,1
+11184,퍼스트 블러드 Ⅴ,매복 또는 반격으로 정예 유닛을 60기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,60,1,2,1,1,,,1
+11185,퍼스트 블러드 Ⅵ,매복 또는 반격으로 정예 유닛을 75기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,75,1,2,1,1,,,1
+11186,퍼스트 블러드 Ⅶ,매복 또는 반격으로 정예 유닛을 90기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,90,1,2,1,1,,,1
+11187,퍼스트 블러드 Ⅷ,매복 또는 반격으로 정예 유닛을 120기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,120,1,2,1,1,,,1
+11188,퍼스트 블러드 Ⅸ,매복 또는 반격으로 정예 유닛을 150기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,150,1,2,1,1,,,1
+11189,퍼스트 블러드 Ⅹ,매복 또는 반격으로 정예 유닛을 180기 처치 (승리한 전투만 집계),3522,ChallengeStageConditionalKillRecords,achieve_counter_challenge_stage_conditional_kill_records,180,1,2,1,1,,,1
+13020,누구를 위하여 종은 울리나 Ⅰ,치명타 피해로 보스 유닛을 누적 3기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,3,,,,,,,1
+13021,누구를 위하여 종은 울리나 Ⅱ,치명타 피해로 보스 유닛을 누적 6기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,6,,,,,,,1
+13022,누구를 위하여 종은 울리나 Ⅲ,치명타 피해로 보스 유닛을 누적 9기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,9,,,,,,,1
+13023,누구를 위하여 종은 울리나 Ⅳ,치명타 피해로 보스 유닛을 누적 12기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,12,,,,,,,1
+13024,누구를 위하여 종은 울리나 Ⅴ,치명타 피해로 보스 유닛을 누적 15기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,15,,,,,,,1
+13025,누구를 위하여 종은 울리나 Ⅵ,치명타 피해로 보스 유닛을 누적 20기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,20,,,,,,,1
+13026,누구를 위하여 종은 울리나 Ⅶ,치명타 피해로 보스 유닛을 누적 25기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,25,,,,,,,1
+13027,누구를 위하여 종은 울리나 Ⅷ,치명타 피해로 보스 유닛을 누적 30기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,30,,,,,,,1
+13028,누구를 위하여 종은 울리나 Ⅸ,치명타 피해로 보스 유닛을 누적 40기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,40,,,,,,,1
+13029,누구를 위하여 종은 울리나 Ⅹ,치명타 피해로 보스 유닛을 누적 50기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,50,,,,,,,1
+20321,대연-절대음감,한 작전에서 「영구 조율」이 3스택에 도달한 상태에서 적을 1기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10321,,,,,,1
+20322,대연-매복도 전략,60레벨 이상인 한 작전에서 매복으로 적을 3기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10322,,,,,,1
+20323,대연-음율중주,60레벨 이상인 한 작전에서 액티브 스킬로 치명타를 일으켜 적을 5기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10323,,,,,,1
+20351,강우-열 명은 더 상대할 수 있어!,한 작전에서 「묘수경뢰」로 적을 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10351,,,,,,1
+20352,강우-근질거리는 매복자,60레벨 이상인 한 작전에서 매복을 통을 통해 적에게 피해를 6회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10352,,,,,,1
+20353,강우-속도가 제일,60레벨 이상인 한 작전에서 「질풍뇌격」으로 적에게 피해를 8회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10353,,,,,,1
+20354,강우·사방응률,60레벨 이상인 한 작전에서 결전기를 누적 4회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10354,,,,,,1
+20355,강우·삼십현음,60레벨 이상인 한 작전에서 강우를 출격시키면서 적에게 【방어 감소II】를 누적 30회 부여.,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10355,,,,,,1
+20356,강우·오기조원,60레벨 이상인 한 작전에서 【기세】를 5스택 보유한 상태로 적에게 피해를 6회 주기.,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10356,,,,,,1
+20651,앨바·설원이 속삭인다,60레벨 이상인 한 작전에서 매복을 누적 12회 발동하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10651,,,,,,1
+20652,앨바·겨울이 오다,60레벨 이상인 한 작전에서 자신이 【혹한 보호막】를 보유한 상태에서 적을 누적 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10652,,,,,,1
+20653,앨바-울프 팽,60레벨 이상인 한 작전에서 빙결 피해를 누적 20회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10653,,,,,,1
+31040,모이는 소원Ⅰ,한 작전에서 한 아군 인형에게 4가지 버프가 존재,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1040,,,,,,1
+31041,모이는 소원Ⅱ,한 작전에서 한 아군 인형에게 8가지 버프가 존재,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1041,,,,,,1
+31042,모이는 소원Ⅲ,한 작전에서 한 아군 인형에게 12가지 버프가 존재,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1042,,,,,,1
+40050,음주운전 엄금,니키타의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1055,,,,,,1
+40051,보이지 않는 덫,리바의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1056,,,,,,1
+40052,마음 속 히어로,로벨라의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1057,,,,,,1
+40053,손끝의 온도,레이니의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1058,,,,,,1
+40054,씁쓸한 다크서클,린드의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1059,,,,,,1
+40055,윤활유 향기,바틸다의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1061,,,,,,1
+40056,순애 100%,플로렌스의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1064,,,,,,1
+40057,얼음 추가,앨바의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1065,,,,,,1
+40058,프로틴 드링크,보이마스티나의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1066,,,,,,1
+40059,정열의 불,「국화차」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,1,,,,,,1
+40040,사교 연습,페이의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1043,,,,,,1
+40041,인형 카운슬러,벡터의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1044,,,,,,1
+40042,엘리트 지휘관,비욜카의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1045,,,,,,1
+40043,점장의 솜씨,스프링필드의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1047,,,,,,1
+40044,더 안 마셔?,추화의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1048,,,,,,1
+40045,차부터 한 잔,조휘의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1050,,,,,,1
+40046,일어나,미슈티의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1051,,,,,,1
+40047,가장 특별한 당신,클루카이의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1052,,,,,,1
+40048,하나에서 열을 알기,페리의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1053,,,,,,1
+40049,무대 밖의 여유,유희의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1054,,,,,,1
+40200,시크릿 핫라인 I,인형 10명의 밀회 기록을 해금,3637,GunEventUnlock,achieve_counter_gun_event_unlock,10,,,,,,,1
+40201,시크릿 핫라인 II,인형 20명의 밀회 기록을 해금,3637,GunEventUnlock,achieve_counter_gun_event_unlock,20,,,,,,,1
+40202,시크릿 핫라인 III,인형 30명의 밀회 기록을 해금,3637,GunEventUnlock,achieve_counter_gun_event_unlock,30,,,,,,,1
+40203,이어지는 기적 I,각기 다른 인형 10명과 1회씩 일상 대화,3638,GunDiffInter,achieve_counter_gun_diff_inter,10,,,,,,,1
+40204,이어지는 기적 II,각기 다른 인형 20명과 1회씩 일상 대화,3638,GunDiffInter,achieve_counter_gun_diff_inter,20,,,,,,,1
+40205,이어지는 기적 III,각기 다른 인형 30명과 1회씩 일상 대화,3638,GunDiffInter,achieve_counter_gun_diff_inter,30,,,,,,,1
+40206,활동층 조합 업적 II,다음 업적을 달성,3634,LobbyAsmrUnlock,achieve_counter_lobby_asmr_unlock,1,,,,,,,1
+40209,천진난만한 티타임,루이스의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1062,,,,,,1
+1501,현상금 달인Ⅰ,한정 현상수배 4회 완료,3032,DarkzoneTaskFinish,achieve_counter_darkzone_task_finish,4,,,,,,,1
+1502,현상금 달인Ⅱ,한정 현상수배 8회 완료,3032,DarkzoneTaskFinish,achieve_counter_darkzone_task_finish,8,,,,,,,1
+1503,현상금 달인Ⅲ,한정 현상수배 12회 완료,3032,DarkzoneTaskFinish,achieve_counter_darkzone_task_finish,12,,,,,,,1
+1504,현상금 달인Ⅳ,한정 현상수배 20회 완료,3032,DarkzoneTaskFinish,achieve_counter_darkzone_task_finish,20,,,,,,,1
+1505,현상금 달인Ⅴ,한정 현상수배 28회 완료,3032,DarkzoneTaskFinish,achieve_counter_darkzone_task_finish,28,,,,,,,1
+1591,가면 무도회 Ⅰ,아무 캐릭터의 코스튬 파츠를 누적 6개 보유,3033,SkinPartNums,achieve_counter_skin_part_nums,6,,,,,,,1
+1592,가면 무도회 Ⅱ,아무 캐릭터의 코스튬 파츠를 누적 12개 보유,3033,SkinPartNums,achieve_counter_skin_part_nums,12,,,,,,,1
+1593,가면 무도회 Ⅲ,아무 캐릭터의 코스튬 파츠를 누적 18개 보유,3033,SkinPartNums,achieve_counter_skin_part_nums,18,,,,,,,1
+1594,가면 무도회 Ⅳ,아무 캐릭터의 코스튬 파츠를 누적 24개 보유,3033,SkinPartNums,achieve_counter_skin_part_nums,24,,,,,,,1
+1595,가면 무도회 Ⅴ,아무 캐릭터의 코스튬 파츠를 누적 36개 보유,3033,SkinPartNums,achieve_counter_skin_part_nums,36,,,,,,,1
+10401,GOTCHA!Ⅰ,소환물을 누적 25기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,25,1,4,18446744073709551615,1,,,1
+10402,GOTCHA!Ⅱ,소환물을 누적 50기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,50,1,4,18446744073709551615,1,,,1
+10403,GOTCHA!Ⅲ,소환물을 누적 75기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,75,1,4,18446744073709551615,1,,,1
+20261,나강-노병의 여유,50레벨 이상의 한 스테이지에서 누적 적 4기에게 디버프를 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10261,,,,,,1
+20262,나강-요즘 것들은,한 작전에서 적을 누적 2회 기절시키기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10262,,,,,,1
+20501,조휘-벽타기,60레벨 이상인 한 작전에서 「고공 도약」을 4회 사용,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10501,,,,,,1
+20502,조휘-하단 견제,60레벨 이상인 한 작전에서 적 4체에게 「기절」을 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10502,,,,,,1
+20503,조휘-냉정한 자객,60레벨 이상인 한 작전에서 치명타로 적을 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10503,,,,,,1
+1030,,,3020,ChallengeFormationElemental,achieve_counter_challenge_formation_elemental,2,1,2,,,,,0
+1031,,,3021,ChallengeControlRoom,achieve_counter_challenge_control_room,2,1001,,,,,,0
+1032,,,3022,ChallengePvp,achieve_counter_challenge_pvp,1,1001,18446744073709551615,,,,,0
+1033,,,3023,ChallengeGrade,achieve_counter_challenge_grade,3,1001,,,,,2,0
+1035,,,3025,ChallengeBossSpecific,achieve_counter_challenge_boss_specific,1,11,,,,,,0
+1261,방화광Ⅰ,연소 속성 인형을 누적 4명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,4,2,18446744073709551615,,,,,1
+1262,방화광Ⅱ,연소 속성 인형을 누적 6명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,6,2,18446744073709551615,,,,,1
+1263,방화광Ⅲ,연소 속성 인형을 누적 8명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,8,2,18446744073709551615,,,,,1
+1264,방화광Ⅳ,연소 속성 인형을 누적 10명 보유,3004,ChallengeGunHold,achieve_counter_challenge_gun_hold,10,2,18446744073709551615,,,,,1
+1361,트레저 헌터Ⅰ,활동층 장식품을 8개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,8,,,,,,,1
+1362,트레저 헌터Ⅱ,활동층 장식품을 16개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,16,,,,,,,1
+1363,트레저 헌터Ⅲ,활동층 장식품을 24개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,24,,,,,,,1
+1364,트레저 헌터Ⅳ,활동층 장식품을 32개 수집,3013,ChallengeTrophy,achieve_counter_challenge_trophy,32,,,,,,,1
+20291,사브리나-이거 먹어도 돼?,한 작전에서 취약한 엄폐물을 6개 파괴,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10291,,,,,,1
+20292,사브리나-밥 안 먹었어?,60레벨 이상인 한 작전에서 적을 6회 도발하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10292,,,,,,1
+20293,사브리나-식사 중엔 건들지 마,60레벨 이상인 한 작전에서 정예 또는 보스 유닛에게 반격으로 8회 이상 피해 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10293,,,,,,1
+31010,씰 브레이커Ⅰ,같은 턴에 안정 피해를 50점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1010,,,,,,1
+31011,씰 브레이커Ⅱ,같은 턴에 안정 피해를 80점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1011,,,,,,1
+31012,씰 브레이커Ⅲ,같은 턴에 안정 피해를 120점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,1012,,,,,,1
+1601,윈드 캡터·과거사,위상 충돌에서 【끊어진 전선】【오염된 결정】【오래된 기억】 수집,10,GetMultipleItem,achieve_counter_get_multiple_item,1,14,,,,,,1
+1602,윈드 캡터·야망,위상 충돌에서 【야심의 기초】【투기장 입장권】【추락한 증거】 수집,10,GetMultipleItem,achieve_counter_get_multiple_item,1,15,,,,,,1
+10270,못 다한 임무Ⅰ,패러데우스 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1004,18446744073709551615,1,,,1
+10271,못 다한 임무Ⅱ,패러데우스 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1004,18446744073709551615,1,,,1
+10272,못 다한 임무Ⅲ,패러데우스 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1004,18446744073709551615,1,,,1
+13100,이독제독Ⅰ,"산성 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,5,1,1,,,1
+13101,이독제독Ⅱ,"산성 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,5,1,1,,,1
+13102,이독제독Ⅲ,"산성 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,5,1,1,,,1
+13103,이독제독Ⅳ,"산성 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,5,1,1,,,1
+13104,이독제독Ⅴ,"산성 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,5,1,1,,,1
+13105,이독제독Ⅵ,"산성 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,5,1,1,,,1
+13106,이독제독Ⅶ,"산성 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,5,1,1,,,1
+13107,이독제독Ⅷ,"산성 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,5,1,1,,,1
+13108,이독제독Ⅸ,"산성 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,5,1,1,,,1
+13109,이독제독Ⅹ,"산성 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,5,1,1,,,1
+40060,음머음머,「물소우유」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,2,,,,,,1
+40061,고진감부래,「핫 아메리카노」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,3,,,,,,1
+40062,유당불내증,「오트 밀크」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,4,,,,,,1
+40063,언제나 삶을 즐겨,「핫초코」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,5,,,,,,1
+40064,핫보틀 안의 비밀,「대추차」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,6,,,,,,1
+40065,가십 전선 I,인형 1명의 대화 주제를 전부 해금,3613,LobbyCafeGunCount,achieve_counter_lobby_cafe_gun_count,1,,,,,,,1
+40066,가십 전선 II,인형 3명의 대화 주제를 전부 해금,3613,LobbyCafeGunCount,achieve_counter_lobby_cafe_gun_count,3,,,,,,,1
+40067,가십 전선 III,인형 10명의 대화 주제를 전부 해금,3613,LobbyCafeGunCount,achieve_counter_lobby_cafe_gun_count,10,,,,,,,1
+40068,가십 전선 IV,인형 20명의 대화 주제를 전부 해금,3613,LobbyCafeGunCount,achieve_counter_lobby_cafe_gun_count,20,,,,,,,1
+40069,가십 전선 V,인형 30명의 대화 주제를 전부 해금,3613,LobbyCafeGunCount,achieve_counter_lobby_cafe_gun_count,30,,,,,,,1
+10430,천상만화Ⅰ,"공진 피해를 누적 10,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,32,18446744073709551615,18446744073709551615,,,1
+10431,천상만화Ⅱ,"공진 피해를 누적 20,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,20000000,1,32,18446744073709551615,18446744073709551615,,,1
+10432,천상만화Ⅲ,"공진 피해를 누적 30,000,000점 주기",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,32,18446744073709551615,18446744073709551615,,,1
+14010,피뢰침 Ⅰ,전도 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 2회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,2,,,,,,,1
+14011,피뢰침 Ⅱ,전도 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 5회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,5,,,,,,,1
+14012,피뢰침 Ⅲ,전도 피해만 주면서 각기 다른 확장 훈련 제10 스테이지를 8회 클리어,3529,ChallengeStagePassConditionElementDamageType,achieve_counter_challenge_stage_pass_condition_element_damage_type,8,,,,,,,1
+20361,크세니아-절약 도우미,한 작전에서 「화끈한 공세 II」를 누적 18회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10361,,,,,,1
+20362,크세니아-팁 잊지 마,한 작전에서 지원 공격으로 피해를 누적 15회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10362,,,,,,1
+20681,사쿠라·장애물 정리,60레벨 이상인 한 작전에서 7턴 이내에 범위 연소 피해를 누적 14회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10681,,,,,,1
+20682,사쿠라·택배 수령,60레벨 이상인 한 작전에서 적 대상에게 「벚꽃 스탬프」을 누적 7회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10682,,,,,,1
+20683,사쿠라·불운의 집중 폭발,60레벨 이상인 한 작전에서 보스급 유닛에게 연소 피해를 누적 20회 이상 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10683,,,,,,1
+10030,살얼음판Ⅰ,빙결계 타일을 누적 50회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,50,2,3,,,,,1
+10031,살얼음판Ⅱ,빙결계 타일을 누적 100회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,100,2,3,,,,,1
+10032,살얼음판Ⅲ,빙결계 타일을 누적 150회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,150,2,3,,,,,1
+32001,완벽소쇄한 메이드장,센타우레이시가 출격한 한 전투에서 승리하고 결산 시 모든 아군 인형의 체력이 100% 이상,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2001,,,,,,1
+32002,난 가만히 있었어,아군이 어떤 액티브 공격도 안 하고 전투 1회 승리,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2002,,,,,,1
+32003,하얀 사신,한 작전에서 모신나강이 모든 적을 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2003,,,,,,1
+32004,마지막 한 방,12턴 이상 이어진 전투에서 1회 승리,3518,ChallengeLevelRound,achieve_counter_challenge_level_round,1,12,,,,,,1
+32005,한없이 쏟아지는 별빛,토로로를 출격시켜 첫 3턴 안에 적을 9회 연속 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2005,,,,,,1
+32006,천재적인 발명,치타를 출격시켜 어떠한 액티브 공격도 하지 않고 전장 기믹을 이용해 1회 승리,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2006,,,,,,1
+32007,저만 있으면 충분해요,클루카이만 출격시켜 1턴 안에 모든 적을 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2007,,,,,,1
+32008,히트맨,마키아토로 1회 작전 중 모든 적을 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2008,,,,,,1
+32009,얼음!,한 작전에서 「결빙」을 3회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,2009,,,,,,1
+40210,장난감 감정평가사,루이스의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1062,,,,,,1
+40211,진심 통찰,헬렌의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1067,,,,,,1
+40212,미소 짓는 우화가,헬렌의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1067,,,,,,1
+40213,쌍생의 꽃말,파에투사의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1060,,,,,,1
+40214,검은 장미와 흰 장미,파에투사의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1060,,,,,,1
+40215,이 순간만은 마주보고서,사쿠라의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1068,,,,,,1
+40216,엄청난 사교 스킬,사쿠라의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1068,,,,,,1
+40217,천면상의 팬텀,로렐라이의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1069,,,,,,1
+40218,위장 사냥꾼,로렐라이의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1069,,,,,,1
+40219,공명 전파,하프시의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1049,,,,,,1
+1561,인테리어 마스터 Ⅰ,활동층에서 가구를 누적 4개 건설,3618,FurnitureUnlock,achieve_counter_furniture_unlock,4,,,,,,,1
+1562,인테리어 마스터 Ⅱ,활동층에서 가구를 누적 8개 건설,3618,FurnitureUnlock,achieve_counter_furniture_unlock,8,,,,,,,1
+1563,인테리어 마스터 Ⅲ,활동층에서 가구를 누적 12개 건설,3618,FurnitureUnlock,achieve_counter_furniture_unlock,12,,,,,,,1
+1564,인테리어 마스터 Ⅳ,활동층에서 가구를 누적 16개 건설,3618,FurnitureUnlock,achieve_counter_furniture_unlock,16,,,,,,,1
+1565,인테리어 마스터 Ⅴ,활동층에서 가구를 누적 24개 건설,3618,FurnitureUnlock,achieve_counter_furniture_unlock,24,,,,,,,1
+1566,인테리어 마스터 Ⅵ,활동층에서 가구를 누적 32개 건설,3618,FurnitureUnlock,achieve_counter_furniture_unlock,32,,,,,,,1
+10040,고압전류 주의 Ⅰ,전도계 타일을 누적 40회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,40,2,2,,,,,1
+10041,고압전류 주의 Ⅱ,전도계 타일을 누적 80회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,80,2,2,,,,,1
+10042,고압전류 주의 Ⅲ,전도계 타일을 누적 120회 생성,3503,ChallengeGrid,achieve_counter_challenge_grid,120,2,2,,,,,1
+13000,버닝 레이지 Ⅰ,치명타 피해로 일반 유닛을 누적 40기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,40,,,,,,,1
+13001,버닝 레이지 Ⅱ,치명타 피해로 일반 유닛을 누적 100기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,100,,,,,,,1
+13002,버닝 레이지 Ⅲ,치명타 피해로 일반 유닛을 누적 180기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,180,,,,,,,1
+13003,버닝 레이지 Ⅳ,치명타 피해로 일반 유닛을 누적 360기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,360,,,,,,,1
+13004,버닝 레이지 Ⅴ,치명타 피해로 일반 유닛을 누적 540기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,540,,,,,,,1
+13005,버닝 레이지 Ⅵ,치명타 피해로 일반 유닛을 누적 720기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,720,,,,,,,1
+13006,버닝 레이지 Ⅶ,치명타 피해로 일반 유닛을 누적 900기 처치 (승리한 전투만 집계),3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,900,,,,,,,1
+13007,버닝 레이지 Ⅷ,"치명타 피해로 일반 유닛을 누적 1,080기 처치 (승리한 전투만 집계)",3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,1080,,,,,,,1
+13008,버닝 레이지 Ⅸ,"치명타 피해로 일반 유닛을 누적 1,440기 처치 (승리한 전투만 집계)",3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,1440,,,,,,,1
+13009,버닝 레이지 Ⅹ,"치명타 피해로 일반 유닛을 누적 1,800기 처치 (승리한 전투만 집계)",3523,ChallengeStageCritKillRecords,achieve_counter_challenge_stage_crit_kill_records,1800,,,,,,,1
+20391,수오미-눈의 요정,60레벨 이상인 한 작전에서 「혹한의 제재」로 적 보스에게 안정 피해를 누적 40점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10391,,,,,,1
+20392,수오미-엄호 전문가,한 작전에서 아무 아군 인형이 「방위 지원」을 4스택 보유하게 하기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10392,,,,,,1
+20393,수오미-록 페스티벌,60레벨 이상인 한 작전에서 지원 공격으로 피해를 15회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10393,,,,,,1
+20561,리바·전자전의 진수,60레벨 이상인 한 작전에서 적에게 【음전하】를 누적 16회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10561,,,,,,1
+20562,리바·교활한 여우,60레벨 이상인 한 작전에서 지원 공격을 누적 18회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10562,,,,,,1
+20563,리바·소체를 뛰어넘는 성능,60레벨 이상인 한 작전에서 【초전도 레일】을 누적 4회 얻기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10563,,,,,,1
+40130,엘모호 주방장 III,요리를 50개 조리,3621,LobbyFoodCount,achieve_counter_lobby_food_count,50,,,,,,,1
+40131,아... 안 무섭거든!,마키아토 2인 상호작용의 모든 선택지를 1회씩 감상,3622,LobbyDualInteractionCompelete,achieve_counter_lobby_dual_interaction_compelete,1,1020101,,,,,,1
+40132,풀장 서프라이즈,클루카이 2인 상호작용의 모든 선택지를 1회씩 감상,3622,LobbyDualInteractionCompelete,achieve_counter_lobby_dual_interaction_compelete,1,1030501,,,,,,1
+40133,향기 감도는 취한 그림자,로렐라이 2인 상호작용의 모든 선택지를 1회씩 감상,3622,LobbyDualInteractionCompelete,achieve_counter_lobby_dual_interaction_compelete,1,1070401,,,,,,1
+40134,생각의 질주,리바 2인 상호작용의 모든 선택지를 1회씩 감상,3622,LobbyDualInteractionCompelete,achieve_counter_lobby_dual_interaction_compelete,1,1060801,,,,,,1
+40135,격투의 왕,콜레다 2인 상호작용의 모든 선택지를 1회씩 감상,3622,LobbyDualInteractionCompelete,achieve_counter_lobby_dual_interaction_compelete,1,1080301,,,,,,1
+40136,바다에 깃든 마음,스프링필드 2인 상호작용의 모든 선택지를 1회씩 감상,3622,LobbyDualInteractionCompelete,achieve_counter_lobby_dual_interaction_compelete,1,1030502,,,,,,1
+1301,지나가던 현상금 사냥꾼Ⅰ,갈림길 도전에서 3가지 보스를 처치,3007,ChallengeBoss,achieve_counter_challenge_boss,3,,,,,,,1
+1302,지나가던 현상금 사냥꾼Ⅱ,갈림길 도전에서 6가지 보스를 처치,3007,ChallengeBoss,achieve_counter_challenge_boss,6,,,,,,,1
+1303,지나가던 현상금 사냥꾼Ⅲ,갈림길 도전에서 9가지 보스를 처치,3007,ChallengeBoss,achieve_counter_challenge_boss,9,,,,,,,1
+1304,지나가던 현상금 사냥꾼Ⅳ,갈림길 도전에서 12가지 보스를 처치,3007,ChallengeBoss,achieve_counter_challenge_boss,12,,,,,,,1
+1680,연민은 신의 전유물,반복 회랑에서 핵심 전장의 적 유닛을 누적 2000기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,2000,18446744073709551615,,,,,,1
+1681,공허뿐인 곳,반복 회랑에서 핵심 전장의 적 유닛을 누적 2800기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,2800,18446744073709551615,,,,,,1
+1682,사이버 멸종,반복 회랑에서 핵심 전장의 적 유닛을 누적 4000기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,4000,18446744073709551615,,,,,,1
+1683,기반 코드 파괴 중,반복 회랑에서 핵심 전장의 적 유닛을 누적 5000기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,5000,18446744073709551615,,,,,,1
+1684,내가 곧 진리다.,반복 회랑에서 핵심 전장의 적 유닛을 누적 6000기 처치,4204,EndlessTowerEnemyKillNum,achieve_counter_endless_tower_enemy_kill_num,6000,18446744073709551615,,,,,,1
+1685,심쿵한 순간Ⅰ,「달콤한 속삭임」 시리즈 코스튬을 누적 1벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,1,16,,,,,,1
+1686,심쿵한 순간Ⅱ,「달콤한 속삭임」 시리즈 코스튬을 누적 2벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,2,16,,,,,,1
+1687,심쿵한 순간Ⅲ,「달콤한 속삭임」 시리즈 코스튬을 누적 3벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,3,16,,,,,,1
+1688,심쿵한 순간Ⅳ,「달콤한 속삭임」 시리즈 코스튬을 누적 4벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,4,16,,,,,,1
+1689,심쿵한 순간Ⅴ,「달콤한 속삭임」 시리즈 코스튬을 누적 5벌 얻기,3036,ClothesDuty,achieve_counter_clothes_duty,5,16,,,,,,1
+11140,동물 친구Ⅰ,소환물을 누적 5기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,5,1,1,,,,,1
+11141,동물 친구Ⅱ,소환물을 누적 15기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,15,1,1,,,,,1
+11142,동물 친구Ⅲ,소환물을 누적 25기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,25,1,1,,,,,1
+11143,동물 친구Ⅳ,소환물을 누적 50기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,50,1,1,,,,,1
+11144,동물 친구Ⅴ,소환물을 누적 75기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,75,1,1,,,,,1
+11145,동물 친구Ⅵ,소환물을 누적 100기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,100,1,1,,,,,1
+11146,동물 친구Ⅶ,소환물을 누적 125기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,125,1,1,,,,,1
+11147,동물 친구Ⅷ,소환물을 누적 150기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,150,1,1,,,,,1
+11148,동물 친구Ⅸ,소환물을 누적 175기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,175,1,1,,,,,1
+11149,동물 친구Ⅹ,소환물을 누적 200기 소환 (승리한 전투만 집계),3521,ChallengeStageSummonRecords,achieve_counter_challenge_stage_summon_records,200,1,1,,,,,1
+13050,승리의 방정식 Ⅰ,이중 약점 공격을 누적 150회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,150,2,1,,,,,1
+13051,승리의 방정식 Ⅱ,이중 약점 공격을 누적 300회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,300,2,1,,,,,1
+13052,승리의 방정식 Ⅲ,이중 약점 공격을 누적 450회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,450,2,1,,,,,1
+13053,승리의 방정식 Ⅳ,이중 약점 공격을 누적 600회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,600,2,1,,,,,1
+13054,승리의 방정식 Ⅴ,이중 약점 공격을 누적 750회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,750,2,1,,,,,1
+13055,승리의 방정식 Ⅵ,이중 약점 공격을 누적 900회 일으키기 (승리한 전투만 집계),3514,ChallengeCounter,achieve_counter_challenge_counter,900,2,1,,,,,1
+13056,승리의 방정식 Ⅶ,"이중 약점 공격을 누적 1,050회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1050,2,1,,,,,1
+13057,승리의 방정식 Ⅷ,"이중 약점 공격을 누적 1,200회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1200,2,1,,,,,1
+13058,승리의 방정식 Ⅸ,"이중 약점 공격을 누적 1,350회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1350,2,1,,,,,1
+13059,승리의 방정식 Ⅹ,"이중 약점 공격을 누적 1,500회 일으키기 (승리한 전투만 집계)",3514,ChallengeCounter,achieve_counter_challenge_counter,1500,2,1,,,,,1
+20731,섹스턴스·흑야의 사냥꾼,60레벨 이상인 한 작전에서 적 보스에게 안정 피해를 누적 60점 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10731,,,,,,1
+20732,섹스턴스·밤의 지배자,60레벨 이상인 한 작전에서 결전기를 누적 3회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10732,,,,,,1
+20733,섹스턴스·피의 꽃,60레벨 이상인 한 작전에서 자신의 「응혈」을 10스택까지 중첩,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10733,,,,,,1
+1631,산증인Ⅰ,[잿더미 일화]에서 엔드 무비를 3개 수집.,2022,Rouge2Ending,achieve_counter_rouge2_ending,3,4,,,,,,1
+1632,산증인Ⅱ,[잿더미 일화]에서 엔드 무비를 6개 수집.,2022,Rouge2Ending,achieve_counter_rouge2_ending,6,4,,,,,,1
+1633,산증인Ⅲ,[잿더미 일화]에서 엔드 무비를 10개 수집.,2022,Rouge2Ending,achieve_counter_rouge2_ending,10,4,,,,,,1
+10100,오라오라오라Ⅰ,일반공격을 누적 200회 사용,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,200,1,18446744073709551615,,,,,1
+10101,오라오라오라Ⅱ,일반공격을 누적 400회 사용,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,400,1,18446744073709551615,,,,,1
+10102,오라오라오라Ⅲ,일반공격을 누적 600회 사용,3506,ChallengeSkillRelease,achieve_counter_challenge_skill_release,600,1,18446744073709551615,,,,,1
+10330,장벽 돌파Ⅰ,지라드 그룹 적 유닛을 누적 20기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,20,2,1010,18446744073709551615,1,,,1
+10331,장벽 돌파Ⅱ,지라드 그룹 적 유닛을 누적 40기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,40,2,1010,18446744073709551615,1,,,1
+10332,장벽 돌파Ⅲ,지라드 그룹 적 유닛을 누적 60기 처치,3510,ChallengeKill,achieve_counter_challenge_kill,60,2,1010,18446744073709551615,1,,,1
+40020,가족 회의,레나의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1013,,,,,,1
+40021,SP+1,드셰브니의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1023,,,,,,1
+40022,흠뻑쇼,샤크리의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1022,,,,,,1
+40023,굉장한 사육사,치타의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1024,,,,,,1
+40024,별을 향해 약속,토로로의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1025,,,,,,1
+40025,후배의 보살핌,나강의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1026,,,,,,1
+40026,두주불사,경구의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1027,,,,,,1
+40027,메이드의 책무,센타우레이시의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1028,,,,,,1
+40028,마시기만 할 거야?,사브리나의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1029,,,,,,1
+40029,단아한 잔향,대연의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1032,,,,,,1
+1521,만능 심부름 센터 Ⅰ,관리실에서 누적 15회 파견,1504,ControlRoomDispatchTime,achieve_counter_control_room_dispatch_time,15,,,,,,,1
+1522,만능 심부름 센터 Ⅱ,관리실에서 누적 30회 파견,1504,ControlRoomDispatchTime,achieve_counter_control_room_dispatch_time,30,,,,,,,1
+1523,만능 심부름 센터 Ⅲ,관리실에서 누적 60회 파견,1504,ControlRoomDispatchTime,achieve_counter_control_room_dispatch_time,60,,,,,,,1
+1524,만능 심부름 센터 Ⅳ,관리실에서 누적 90회 파견,1504,ControlRoomDispatchTime,achieve_counter_control_room_dispatch_time,90,,,,,,,1
+1525,만능 심부름 센터 Ⅴ,관리실에서 누적 120회 파견,1504,ControlRoomDispatchTime,achieve_counter_control_room_dispatch_time,120,,,,,,,1
+1660,금지 구역 돌파,반복 회랑에서 최초로 60층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,60,,,,,1
+1661,이론적 가능성 돌파,반복 회랑에서 최초로 70층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,70,,,,,1
+1662,생각지 못한 길,반복 회랑에서 최초로 80층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,80,,,,,1
+1663,너라는 이름의 버그,반복 회랑에서 최초로 90층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,90,,,,,1
+1664,진리의 재구축,반복 회랑에서 최초로 100층 도달,4202,EndlessTowerStageClearMax,achieve_counter_endless_tower_stage_clear_max,1,18446744073709551615,100,,,,,1
+1665,루프 매니아,반복 회랑에서 누적 클리어 층수 50층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,50,18446744073709551615,,,,,,1
+1666,다시 한번 문을 열다,반복 회랑에서 누적 클리어 층수 100층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,100,18446744073709551615,,,,,,1
+1667,이곳을 배회하다,반복 회랑에서 누적 클리어 층수 150층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,150,18446744073709551615,,,,,,1
+1668,여기 꿈에서 봤던가?,반복 회랑에서 누적 클리어 층수 200층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,200,18446744073709551615,,,,,,1
+1669,무한 미궁,반복 회랑에서 누적 클리어 층수 250층 도달,4203,EndlessTowerStageClearNum,achieve_counter_endless_tower_stage_clear_num,250,18446744073709551615,,,,,,1
+12040,평범하고도 비범한 Ⅰ,"표준 인형만 사용하여, 지정 보정 VIII 스테이지를 1개 클리어",3525,ChallengeStagePassConditionGunRare,achieve_counter_challenge_stage_pass_condition_gun_rare,1,,,,,,,1
+12041,평범하고도 비범한 Ⅱ,"표준 인형만 사용하여, 지정 보정 VIII 스테이지를 2개 클리어",3525,ChallengeStagePassConditionGunRare,achieve_counter_challenge_stage_pass_condition_gun_rare,2,,,,,,,1
+12042,평범하고도 비범한 Ⅲ,"표준 인형만 사용하여, 지정 보정 VIII 스테이지를 4개 클리어",3525,ChallengeStagePassConditionGunRare,achieve_counter_challenge_stage_pass_condition_gun_rare,4,,,,,,,1
+20241,치타-덜 매운맛,한 작전에서 자신이 「화끈한 공세」를 보유한 상태에서 「매운맛 사탕」을 4회 사용,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10241,,,,,,1
+20242,치타-만능 도우미,한 작전에서 지원공격으로 피해를 10회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10242,,,,,,1
+20621,루이스·귀여움이 폭발한다,60레벨 이상인 한 작전에서 결전기를 누적 3회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10621,,,,,,1
+20622,루이스·장난감 병정 총동원,60레벨 이상인 한 작전에서 【장난감 카니발】의 치명타 피해로 적을 누적 3기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10622,,,,,,1
+20623,루이스·팬시 화력 여왕,60레벨 이상인 한 작전에서 【깜짝 퍼니 볼】을 사용하여 상성 우위로 적을 누적 3기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10623,,,,,,1
+1401,트레저 헌터Ⅰ,[변경추진]-[위상 충돌]에서 진귀한 보급상자를 누적 10개 습득,2301,DarkzoneEthnicBoxCollect,achieve_counter_darkzone_ethnic_box_collect,10,4,,,,,,1
+1402,트레저 헌터Ⅱ,[변경추진]-[위상 충돌]에서 진귀한 보급상자를 누적 50개 습득,2301,DarkzoneEthnicBoxCollect,achieve_counter_darkzone_ethnic_box_collect,50,4,,,,,,1
+1403,트레저 헌터Ⅲ,[변경추진]-[위상 충돌]에서 진귀한 보급상자를 누적 100개 습득,2301,DarkzoneEthnicBoxCollect,achieve_counter_darkzone_ethnic_box_collect,100,4,,,,,,1
+1404,트레저 헌터Ⅳ,[변경추진]-[위상 충돌]에서 진귀한 보급상자를 누적 200개 습득,2301,DarkzoneEthnicBoxCollect,achieve_counter_darkzone_ethnic_box_collect,200,4,,,,,,1
+10420,백신 프로그램Ⅰ,버프를 누적 80개 정화,3505,ChallengeBufDispel,achieve_counter_challenge_buf_dispel,80,2,,,,,,1
+10421,백신 프로그램Ⅱ,버프를 누적 160개 정화,3505,ChallengeBufDispel,achieve_counter_challenge_buf_dispel,160,2,,,,,,1
+10422,백신 프로그램Ⅲ,버프를 누적 240개 정화,3505,ChallengeBufDispel,achieve_counter_challenge_buf_dispel,240,2,,,,,,1
+13070,화공Ⅰ,"연소 피해를 누적 10,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,10000000,1,2,1,1,,,1
+13071,화공Ⅱ,"연소 피해를 누적 30,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,30000000,1,2,1,1,,,1
+13072,화공Ⅲ,"연소 피해를 누적 50,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,50000000,1,2,1,1,,,1
+13073,화공Ⅳ,"연소 피해를 누적 100,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,100000000,1,2,1,1,,,1
+13074,화공Ⅴ,"연소 피해를 누적 150,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,150000000,1,2,1,1,,,1
+13075,화공Ⅵ,"연소 피해를 누적 200,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,200000000,1,2,1,1,,,1
+13076,화공Ⅶ,"연소 피해를 누적 250,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,250000000,1,2,1,1,,,1
+13077,화공Ⅷ,"연소 피해를 누적 300,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,300000000,1,2,1,1,,,1
+13078,화공Ⅸ,"연소 피해를 누적 400,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,400000000,1,2,1,1,,,1
+13079,화공Ⅹ,"연소 피해를 누적 500,000,000점 주기(승리한 전투만 집계)",3508,ChallengeDamage,achieve_counter_challenge_damage,500000000,1,2,1,1,,,1
+20251,토로로-성급함,한 작전에서 추가 행동을 누적 3회 발동,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10251,,,,,,1
+20252,토로로-네뷸라 스톰,한 작전에서 60레벨 이상 적 유닛을 6기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10252,,,,,,1
+20253,토로로-알파 유성우,60레벨 이상인 한 작전에서 치명타로 적을 4기 처치,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10253,,,,,,1
+40230,그 유일한 빛,OTs-14의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1074,,,,,,1
+40231,안개와 해답,네메시스·연광의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1075,,,,,,1
+40232,하나를 보면 열을 안다,소프의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1076,,,,,,1
+40233,온기 나눔,소프의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1076,,,,,,1
+40234,발포 성형,미틸의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1077,,,,,,1
+40235,완성된 퍼즐,미틸의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1077,,,,,,1
+40236,베리 굿 타임,「딸기 쉐이크」 4레벨까지 업그레이드,3641,LobbyCafeLevup,achieve_counter_lobby_cafe_levup,4,67,,,,,,1
+40237,대화가 영감을 준다,웰로드의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1063,,,,,,1
+40238,진실을 찾아서,웰로드의 밀회 기록을 전부 감상,3636,GunEventComplete,achieve_counter_gun_event_complete,1,1063,,,,,,1
+40239,황야를 가로지르는 폭스트롯,페일린의 드링크 바 대화를 전부 감상,3611,LobbyCafeGunFinish,achieve_counter_lobby_cafe_gun_finish,1,1078,,,,,,1
+1321,사교망Ⅰ,친구 10명 보유,502,FriendNum,achieve_counter_friend_num,10,,,,,,,1
+1322,사교망Ⅱ,친구 20명 보유,502,FriendNum,achieve_counter_friend_num,20,,,,,,,1
+1323,사교망Ⅲ,친구 35명 보유,502,FriendNum,achieve_counter_friend_num,35,,,,,,,1
+1324,사교망Ⅳ,친구 50명 보유,502,FriendNum,achieve_counter_friend_num,50,,,,,,,1
+1461,리미트 오버 액셀 싱크로 Ⅰ,극한 측정에서 별을 누적 50개 얻기,3029,MythicHard,achieve_counter_mythic_hard,50,,,,,,,1
+1462,리미트 오버 액셀 싱크로 Ⅱ,극한 측정에서 별을 누적 120개 얻기,3029,MythicHard,achieve_counter_mythic_hard,120,,,,,,,1
+1463,리미트 오버 액셀 싱크로 Ⅲ,극한 측정에서 별을 누적 180개 얻기,3029,MythicHard,achieve_counter_mythic_hard,180,,,,,,,1
+1464,리미트 오버 액셀 싱크로 Ⅳ,극한 측정에서 별을 누적 240개 얻기,3029,MythicHard,achieve_counter_mythic_hard,240,,,,,,,1
+1465,리미트 오버 액셀 싱크로 Ⅴ,극한 측정에서 별을 누적 300개 얻기,3029,MythicHard,achieve_counter_mythic_hard,300,,,,,,,1
+1466,리미트 오버 액셀 싱크로 Ⅵ,극한 측정에서 별을 누적 360개 얻기,3029,MythicHard,achieve_counter_mythic_hard,360,,,,,,,1
+20331,모신나강-하라쇼,60레벨 이상인 한 작전에서 「승리 선언」 스킬로 적에게 마비를 3회 부여,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10331,,,,,,1
+20332,모신나강-든든한 동지,한 작전에서 지원 공격으로 피해를 12회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10332,,,,,,1
+20333,모신나강-침착한 저격수,60레벨 이상인 한 작전에서 적 정예 또는 보스 유닛에게 치명타 피해를 5회 주기,3502,ChallengeGunUnspecifiedAchievement,achieve_counter_challenge_gun_unspecified_achievement,1,10333,,,,,,1
+41001,,,4101,LobbyBuffOmakaseCount,achieve_counter_lobby_buff_omakase_count,10,,,,,,,0
+41002,,,4101,LobbyBuffOmakaseCount,achieve_counter_lobby_buff_omakase_count,100,,,,,,,0
+41003,,,4101,LobbyBuffOmakaseCount,achieve_counter_lobby_buff_omakase_count,300,,,,,,,0
+41004,,,4102,LobbyBuffOmakaseSuccessCount,achieve_counter_lobby_buff_omakase_success_count,20,,,,,,,0
+41005,,,4102,LobbyBuffOmakaseSuccessCount,achieve_counter_lobby_buff_omakase_success_count,100,,,,,,,0
+41006,,,4102,LobbyBuffOmakaseSuccessCount,achieve_counter_lobby_buff_omakase_success_count,500,,,,,,,0
+41007,,,4105,LobbyBuffOmakaseGiftCount,achieve_counter_lobby_buff_omakase_gift_count,10,,,,,,,0
+41008,,,4105,LobbyBuffOmakaseGiftCount,achieve_counter_lobby_buff_omakase_gift_count,50,,,,,,,0
+41009,,,4105,LobbyBuffOmakaseGiftCount,achieve_counter_lobby_buff_omakase_gift_count,200,,,,,,,0

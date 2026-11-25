@@ -1,0 +1,185 @@
+﻿source,record_id,role_or_primary,secondary,stage,threshold_raw,property_id,attack,defense,hp,property_fields_or_pairs
+ControlRoomData,1,Guard,,,,510001,0,0,0,
+ControlRoomData,1,Scout,,,,510001,16,16,48,
+ControlRoomData,1,Assist,,,,510001,0,0,0,
+ControlRoomData,1,Suppress,,,,510001,0,0,0,
+ControlRoomData,2,Guard,,,,510002,14,22,60,
+ControlRoomData,2,Scout,,,,510002,16,16,48,
+ControlRoomData,2,Assist,,,,510002,0,0,0,
+ControlRoomData,2,Suppress,,,,510002,0,0,0,
+ControlRoomData,3,Guard,,,,510003,14,22,60,
+ControlRoomData,3,Scout,,,,510003,16,16,48,
+ControlRoomData,3,Assist,,,,510003,15,20,52,
+ControlRoomData,3,Suppress,,,,510003,0,0,0,
+ControlRoomData,4,Guard,,,,510004,14,22,60,
+ControlRoomData,4,Scout,,,,510004,16,16,48,
+ControlRoomData,4,Assist,,,,510004,15,20,52,
+ControlRoomData,4,Suppress,,,,510004,19,18,43,
+ControlRoomData,5,Guard,,,,510005,14,22,60,
+ControlRoomData,5,Scout,,,,510005,34,34,101,
+ControlRoomData,5,Assist,,,,510005,15,20,52,
+ControlRoomData,5,Suppress,,,,510005,19,18,43,
+ControlRoomData,6,Guard,,,,510006,29,47,126,
+ControlRoomData,6,Scout,,,,510006,34,34,101,
+ControlRoomData,6,Assist,,,,510006,15,20,52,
+ControlRoomData,6,Suppress,,,,510006,19,18,43,
+ControlRoomData,7,Guard,,,,510007,29,47,126,
+ControlRoomData,7,Scout,,,,510007,34,34,101,
+ControlRoomData,7,Assist,,,,510007,32,42,109,
+ControlRoomData,7,Suppress,,,,510007,19,18,43,
+ControlRoomData,8,Guard,,,,510008,29,47,126,
+ControlRoomData,8,Scout,,,,510008,34,34,101,
+ControlRoomData,8,Assist,,,,510008,32,42,109,
+ControlRoomData,8,Suppress,,,,510008,40,38,91,
+ControlRoomData,9,Guard,,,,510009,29,47,126,
+ControlRoomData,9,Scout,,,,510009,53,53,159,
+ControlRoomData,9,Assist,,,,510009,32,42,109,
+ControlRoomData,9,Suppress,,,,510009,40,38,91,
+ControlRoomData,10,Guard,,,,510010,46,74,198,
+ControlRoomData,10,Scout,,,,510010,53,53,159,
+ControlRoomData,10,Assist,,,,510010,32,42,109,
+ControlRoomData,10,Suppress,,,,510010,40,38,91,
+ControlRoomData,11,Guard,,,,510011,46,74,198,
+ControlRoomData,11,Scout,,,,510011,53,53,159,
+ControlRoomData,11,Assist,,,,510011,50,66,171,
+ControlRoomData,11,Suppress,,,,510011,40,38,91,
+ControlRoomData,12,Guard,,,,510012,46,74,198,
+ControlRoomData,12,Scout,,,,510012,53,53,159,
+ControlRoomData,12,Assist,,,,510012,50,66,171,
+ControlRoomData,12,Suppress,,,,510012,63,60,143,
+ControlRoomData,13,Guard,,,,510013,46,74,198,
+ControlRoomData,13,Scout,,,,510013,74,74,221,
+ControlRoomData,13,Assist,,,,510013,50,66,171,
+ControlRoomData,13,Suppress,,,,510013,63,60,143,
+ControlRoomData,14,Guard,,,,510014,64,103,276,
+ControlRoomData,14,Scout,,,,510014,74,74,221,
+ControlRoomData,14,Assist,,,,510014,50,66,171,
+ControlRoomData,14,Suppress,,,,510014,63,60,143,
+ControlRoomData,15,Guard,,,,510015,64,103,276,
+ControlRoomData,15,Scout,,,,510015,74,74,221,
+ControlRoomData,15,Assist,,,,510015,70,92,238,
+ControlRoomData,15,Suppress,,,,510015,63,60,143,
+ControlRoomData,16,Guard,,,,510016,64,103,276,
+ControlRoomData,16,Scout,,,,510016,74,74,221,
+ControlRoomData,16,Assist,,,,510016,70,92,238,
+ControlRoomData,16,Suppress,,,,510016,88,84,199,
+ControlRoomData,17,Guard,,,,510017,64,103,276,
+ControlRoomData,17,Scout,,,,510017,96,96,288,
+ControlRoomData,17,Assist,,,,510017,70,92,238,
+ControlRoomData,17,Suppress,,,,510017,88,84,199,
+ControlRoomData,18,Guard,,,,510018,84,134,360,
+ControlRoomData,18,Scout,,,,510018,96,96,288,
+ControlRoomData,18,Assist,,,,510018,70,92,238,
+ControlRoomData,18,Suppress,,,,510018,88,84,199,
+ControlRoomData,19,Guard,,,,510019,84,134,360,
+ControlRoomData,19,Scout,,,,510019,96,96,288,
+ControlRoomData,19,Assist,,,,510019,91,120,310,
+ControlRoomData,19,Suppress,,,,510019,88,84,199,
+ControlRoomData,20,Guard,,,,510020,84,134,360,
+ControlRoomData,20,Scout,,,,510020,96,96,288,
+ControlRoomData,20,Assist,,,,510020,91,120,310,
+ControlRoomData,20,Suppress,,,,510020,115,110,259,
+ControlRoomData,21,Guard,,,,510021,84,134,360,
+ControlRoomData,21,Scout,,,,510021,120,120,360,
+ControlRoomData,21,Assist,,,,510021,91,120,310,
+ControlRoomData,21,Suppress,,,,510021,115,110,259,
+ControlRoomData,22,Guard,,,,510022,105,168,450,
+ControlRoomData,22,Scout,,,,510022,120,120,360,
+ControlRoomData,22,Assist,,,,510022,91,120,310,
+ControlRoomData,22,Suppress,,,,510022,115,110,259,
+ControlRoomData,23,Guard,,,,510023,105,168,450,
+ControlRoomData,23,Scout,,,,510023,120,120,360,
+ControlRoomData,23,Assist,,,,510023,114,150,387,
+ControlRoomData,23,Suppress,,,,510023,115,110,259,
+ControlRoomData,24,Guard,,,,510024,105,168,450,
+ControlRoomData,24,Scout,,,,510024,120,120,360,
+ControlRoomData,24,Assist,,,,510024,114,150,387,
+ControlRoomData,24,Suppress,,,,510024,144,138,324,
+ControlRoomData,25,Guard,,,,510025,105,168,450,
+ControlRoomData,25,Scout,,,,510025,144,144,432,
+ControlRoomData,25,Assist,,,,510025,114,150,387,
+ControlRoomData,25,Suppress,,,,510025,144,138,324,
+ControlRoomData,26,Guard,,,,510026,126,202,540,
+ControlRoomData,26,Scout,,,,510026,144,144,432,
+ControlRoomData,26,Assist,,,,510026,114,150,387,
+ControlRoomData,26,Suppress,,,,510026,144,138,324,
+ControlRoomData,27,Guard,,,,510027,126,202,540,
+ControlRoomData,27,Scout,,,,510027,144,144,432,
+ControlRoomData,27,Assist,,,,510027,137,180,464,
+ControlRoomData,27,Suppress,,,,510027,144,138,324,
+ControlRoomData,28,Guard,,,,510028,126,202,540,
+ControlRoomData,28,Scout,,,,510028,144,144,432,
+ControlRoomData,28,Assist,,,,510028,137,180,464,
+ControlRoomData,28,Suppress,,,,510028,173,166,389,
+ControlRoomData,29,Guard,,,,510029,126,202,540,
+ControlRoomData,29,Scout,,,,510029,168,168,504,
+ControlRoomData,29,Assist,,,,510029,137,180,464,
+ControlRoomData,29,Suppress,,,,510029,173,166,389,
+ControlRoomData,30,Guard,,,,510030,147,236,630,
+ControlRoomData,30,Scout,,,,510030,168,168,504,
+ControlRoomData,30,Assist,,,,510030,137,180,464,
+ControlRoomData,30,Suppress,,,,510030,173,166,389,
+ControlRoomData,31,Guard,,,,510031,147,236,630,
+ControlRoomData,31,Scout,,,,510031,168,168,504,
+ControlRoomData,31,Assist,,,,510031,160,210,541,
+ControlRoomData,31,Suppress,,,,510031,173,166,389,
+ControlRoomData,32,Guard,,,,510032,147,236,630,
+ControlRoomData,32,Scout,,,,510032,168,168,504,
+ControlRoomData,32,Assist,,,,510032,160,210,541,
+ControlRoomData,32,Suppress,,,,510032,202,194,454,
+ControlRoomData,33,Guard,,,,510033,147,236,630,
+ControlRoomData,33,Scout,,,,510033,192,192,576,
+ControlRoomData,33,Assist,,,,510033,160,210,541,
+ControlRoomData,33,Suppress,,,,510033,202,194,454,
+ControlRoomData,34,Guard,,,,510034,168,270,720,
+ControlRoomData,34,Scout,,,,510034,192,192,576,
+ControlRoomData,34,Assist,,,,510034,160,210,541,
+ControlRoomData,34,Suppress,,,,510034,202,194,454,
+ControlRoomData,35,Guard,,,,510035,168,270,720,
+ControlRoomData,35,Scout,,,,510035,192,192,576,
+ControlRoomData,35,Assist,,,,510035,183,240,618,
+ControlRoomData,35,Suppress,,,,510035,202,194,454,
+ControlRoomData,36,Guard,,,,510036,168,270,720,
+ControlRoomData,36,Scout,,,,510036,192,192,576,
+ControlRoomData,36,Assist,,,,510036,183,240,618,
+ControlRoomData,36,Suppress,,,,510036,231,222,519,
+LobbyCookPropertyData,1,1,0,1,10,165510251,5,0,0,"{""2"": 5}"
+LobbyCookPropertyData,2,1,0,2,15,165510252,10,0,0,"{""2"": 10}"
+LobbyCookPropertyData,3,1,0,3,25,165510253,15,0,0,"{""2"": 15}"
+LobbyCookPropertyData,4,1,1,1,10,165510254,0,5,0,"{""5"": 5}"
+LobbyCookPropertyData,5,1,1,2,15,165510255,0,10,0,"{""5"": 10}"
+LobbyCookPropertyData,6,1,1,3,25,165510256,0,15,0,"{""5"": 15}"
+LobbyCookPropertyData,7,1,2,1,10,165510257,0,0,10,"{""3"": 10}"
+LobbyCookPropertyData,8,1,2,2,15,165510258,0,0,20,"{""3"": 20}"
+LobbyCookPropertyData,9,1,2,3,25,165510259,0,0,30,"{""3"": 30}"
+LobbyCookPropertyData,10,2,0,1,10,165510272,0,0,0,"{""39"": 10}"
+LobbyCookPropertyData,11,2,0,2,15,165510273,0,0,0,"{""39"": 20}"
+LobbyCookPropertyData,12,2,0,3,25,165510274,0,0,0,"{""39"": 30}"
+LobbyCookPropertyData,13,2,1,1,10,165510260,0,0,0,"{""35"": 10}"
+LobbyCookPropertyData,14,2,1,2,15,165510261,0,0,0,"{""35"": 20}"
+LobbyCookPropertyData,15,2,1,3,25,165510262,0,0,0,"{""35"": 30}"
+LobbyCookPropertyData,16,2,2,1,10,165510263,0,0,0,"{""36"": 10}"
+LobbyCookPropertyData,17,2,2,2,15,165510264,0,0,0,"{""36"": 20}"
+LobbyCookPropertyData,18,2,2,3,25,165510265,0,0,0,"{""36"": 30}"
+LobbyCookPropertyData,19,2,3,1,10,165510266,0,0,0,"{""37"": 10}"
+LobbyCookPropertyData,20,2,3,2,15,165510267,0,0,0,"{""37"": 20}"
+LobbyCookPropertyData,21,2,3,3,25,165510268,0,0,0,"{""37"": 30}"
+LobbyCookPropertyData,22,2,4,1,10,165510269,0,0,0,"{""38"": 10}"
+LobbyCookPropertyData,23,2,4,2,15,165510270,0,0,0,"{""38"": 20}"
+LobbyCookPropertyData,24,2,4,3,25,165510271,0,0,0,"{""38"": 30}"
+LobbyCookPropertyData,25,2,5,1,10,165510275,0,0,0,"{""42"": 10}"
+LobbyCookPropertyData,26,2,5,2,15,165510276,0,0,0,"{""42"": 20}"
+LobbyCookPropertyData,27,2,5,3,25,165510277,0,0,0,"{""42"": 30}"
+LobbyCookPropertyData,28,2,31,1,10,165510278,0,0,0,"{""35"": 10, ""36"": 10, ""37"": 10, ""38"": 10, ""42"": 10}"
+LobbyCookPropertyData,29,2,31,2,15,165510279,0,0,0,"{""35"": 20, ""36"": 20, ""37"": 20, ""38"": 20, ""42"": 20}"
+LobbyCookPropertyData,30,2,31,3,25,165510280,0,0,0,"{""35"": 30, ""36"": 30, ""37"": 30, ""38"": 30, ""42"": 30}"
+LobbyCookAttrData,1741006,1,1,,,,,,,"[[5, 5], [4, 4]]"
+LobbyCookAttrData,1741012,1,2,,,,,,,"[[4, 4], [5, 5]]"
+LobbyCookAttrData,1741018,1,0,,,,,,,"[[5, 5], [4, 4]]"
+LobbyCookAttrData,1741027,2,0,,,,,,,"[[4, 4], [5, 5]]"
+LobbyCookAttrData,1741033,2,1,,,,,,,"[[4, 4], [5, 5]]"
+LobbyCookAttrData,1741035,2,5,,,,,,,"[[4, 4], [5, 5]]"
+LobbyCookAttrData,1741036,2,3,,,,,,,"[[4, 4], [5, 5]]"
+LobbyCookAttrData,1741042,2,2,,,,,,,"[[5, 5], [4, 4]]"
+LobbyCookAttrData,1741045,2,4,,,,,,,"[[4, 4], [5, 5]]"
+LobbyCookAttrData,1741056,2,31,,,,,,,"[[4, 4], [5, 5]]"

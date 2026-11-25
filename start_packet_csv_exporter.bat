@@ -1,17 +1,22 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal EnableExtensions DisableDelayedExpansion
+set "BACKUP_ARG=%~f2"
 cd /d "%~dp0"
 
 set "APP_NAME=GFL2 Packet CSV Exporter"
 set "APP_ROOT=%~dp0"
-set "APP_VERSION=1.5.0"
+set "PYTHONPATH=%APP_ROOT%src"
+set "APP_VERSION=1.6.0"
 set "VENV_DIR=.venv"
 set "VENV_PY=%VENV_DIR%\Scripts\python.exe"
 set "LOG_DIR=logs"
 set "BOOT_LOG=%LOG_DIR%\startup.log"
 set "HELPER_DIR=bin"
 set "HELPER_EXE=%HELPER_DIR%\windows-packet-capture.exe"
-set "HELPER_VER=%HELPER_DIR%\windows-packet-capture.version"
+set "HELPER_STAMP=%HELPER_DIR%\windows-packet-capture.build.json"
+
+REM Offline check needs only Python and bundled source; no helper, pip or UAC.
+if /i "%~1"=="check-backup" goto :offline_check
 
 if not exist "%LOG_DIR%" mkdir "%LOG_DIR%" >nul 2>&1
 >"%BOOT_LOG%" echo [%date% %time%] %APP_NAME% launcher start
@@ -26,7 +31,7 @@ if "%~1"=="" (
   >>"%BOOT_LOG%" echo Launching GUI.
   "%VENV_PY%" -m gfl2_packet_csv.gui >>"%BOOT_LOG%" 2>&1
 ) else (
-  >>"%BOOT_LOG%" echo Launching CLI: %*
+  >>"%BOOT_LOG%" echo Launching CLI.
   "%VENV_PY%" -m gfl2_packet_csv.cli %* >>"%BOOT_LOG%" 2>&1
 )
 set "APP_RC=%errorlevel%"
@@ -59,18 +64,17 @@ if errorlevel 1 exit /b 1
 exit /b 0
 
 :ensure_capture_helper
-set "NEED_HELPER=1"
-if exist "%HELPER_EXE%" if exist "%HELPER_VER%" (
-  set /p INSTALLED_HELPER_VER=<"%HELPER_VER%"
-  if "!INSTALLED_HELPER_VER!"=="%APP_VERSION%" set "NEED_HELPER=0"
-)
-if "%NEED_HELPER%"=="0" exit /b 0
+"%VENV_PY%" packaging\helper_build_stamp.py verify "%HELPER_EXE%" "%HELPER_STAMP%" >>"%BOOT_LOG%" 2>&1
+if not errorlevel 1 exit /b 0
 
 echo [%APP_NAME%] Preparing Windows capture helper...
 >>"%BOOT_LOG%" echo Building windows-packet-capture.exe for version %APP_VERSION%.
 if not exist "%HELPER_DIR%" mkdir "%HELPER_DIR%" >nul 2>&1
 "%VENV_PY%" -m pip install --disable-pip-version-check --upgrade pyinstaller >>"%BOOT_LOG%" 2>&1
 if errorlevel 1 exit /b 1
+set "BUILD_INPUT="
+for /f "delims=" %%H in ('"%VENV_PY%" packaging\helper_build_stamp.py fingerprint') do set "BUILD_INPUT=%%H"
+if not defined BUILD_INPUT exit /b 1
 if exist ".helper-dist" rmdir /s /q ".helper-dist"
 if exist ".helper-build" rmdir /s /q ".helper-build"
 "%VENV_PY%" -m PyInstaller --noconfirm --clean --distpath .helper-dist --workpath .helper-build "%APP_ROOT%packaging\helper.spec" >>"%BOOT_LOG%" 2>&1
@@ -78,11 +82,40 @@ if errorlevel 1 exit /b 1
 if not exist ".helper-dist\windows-packet-capture.exe" exit /b 1
 copy /y ".helper-dist\windows-packet-capture.exe" "%HELPER_EXE%" >nul
 if errorlevel 1 exit /b 1
->"%HELPER_VER%" echo %APP_VERSION%
+"%VENV_PY%" packaging\helper_build_stamp.py write "%HELPER_EXE%" "%HELPER_STAMP%" "%BUILD_INPUT%" >>"%BOOT_LOG%" 2>&1
+if errorlevel 1 exit /b 1
 rmdir /s /q ".helper-dist" >nul 2>&1
 rmdir /s /q ".helper-build" >nul 2>&1
 >>"%BOOT_LOG%" echo Windows capture helper prepared.
 exit /b 0
+
+:offline_check
+if "%~2"=="" exit /b 2
+if not "%~3"=="" exit /b 2
+set "PYTHONPATH=%APP_ROOT%src"
+if exist "%VENV_PY%" (
+  "%VENV_PY%" -S -m gfl2_packet_csv.cli check-backup "%BACKUP_ARG%"
+  exit /b
+)
+REM Select an interpreter before running: a valid check can return 4 or 8.
+py -3.13 -c "import sys" >nul 2>&1
+if not errorlevel 1 (
+  py -3.13 -S -m gfl2_packet_csv.cli check-backup "%BACKUP_ARG%"
+  exit /b
+)
+py -3.12 -c "import sys" >nul 2>&1
+if not errorlevel 1 (
+  py -3.12 -S -m gfl2_packet_csv.cli check-backup "%BACKUP_ARG%"
+  exit /b
+)
+py -3.11 -c "import sys" >nul 2>&1
+if not errorlevel 1 (
+  py -3.11 -S -m gfl2_packet_csv.cli check-backup "%BACKUP_ARG%"
+  exit /b
+)
+echo Python 3.11-3.13 is required.
+exit /b 2
+
 
 :runtime_failed
 echo.

@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import json
-import os
+import re
 import tempfile
 import threading
 import time
 from pathlib import Path
 from typing import Any
+
+from .atomic_output import atomic_output
 
 
 class IpcEventWriter:
@@ -41,15 +43,32 @@ def control_path_for(token: str) -> Path:
 def write_control(path: Path, command: str) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + f".{os.getpid()}.tmp")
-    tmp.write_text(str(command).strip() + "\n", encoding="utf-8")
-    os.replace(tmp, path)
+    with atomic_output(path) as tmp:
+        tmp.write_text(str(command).strip() + "\n", encoding="utf-8")
+
+
+def read_events(path: Path, offset: int) -> tuple[int, list[dict[str, Any]]]:
+    """Consume only newline-terminated records; byte offsets survive split UTF-8."""
+    events = []
+    with Path(path).open("rb") as fp:
+        fp.seek(offset)
+        while line := fp.readline():
+            if not line.endswith(b"\n"):
+                break
+            offset = fp.tell()
+            try:
+                record = json.loads(line.decode("utf-8"))
+            except (UnicodeError, ValueError):
+                continue
+            if isinstance(record, dict):
+                events.append(record)
+    return offset, events
 
 
 def read_control(path: Path) -> str:
     try:
         return Path(path).read_text(encoding="utf-8").strip()
-    except FileNotFoundError:
+    except (OSError, UnicodeError):
         return ""
 
 
@@ -59,7 +78,7 @@ def cleanup_stale_ipc(*, max_age_seconds: float = 24 * 60 * 60) -> int:
     cutoff = time.time() - max(60.0, float(max_age_seconds))
     removed = 0
     for path in root.iterdir():
-        if not path.is_file():
+        if not re.fullmatch(r"[0-9a-f]{32}\.(?:events\.jsonl|control)", path.name) or path.is_symlink() or not path.is_file():
             continue
         try:
             if path.stat().st_mtime < cutoff:

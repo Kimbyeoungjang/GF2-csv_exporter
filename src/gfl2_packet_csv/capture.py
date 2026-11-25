@@ -147,35 +147,62 @@ class TcpStreamReassembler:
         if self.expected_seq is None:
             self.expected_seq = seq
 
-        expected = int(self.expected_seq)
-        # Retransmission or overlap with bytes already delivered.
-        if seq < expected:
-            overlap = expected - seq
+        def distance(start: int, expected: int) -> int:
+            # Signed TCP sequence-space distance, including 32-bit wrap.
+            return ((start - expected + (1 << 31)) & 0xFFFFFFFF) - (1 << 31)
+
+        delta = distance(seq, self.expected_seq)
+        if delta < 0:
+            overlap = -delta
             if overlap >= len(data):
                 return b""
             data = data[overlap:]
-            seq = expected
-
-        existing = self.pending.get(seq)
-        if existing is None:
-            self.pending[seq] = data
-            self.pending_bytes += len(data)
-        elif len(data) > len(existing):
+            seq = self.expected_seq
+        # A segment far beyond the reassembly window cannot bridge a gap.
+        elif delta > self.max_pending_bytes:
+            return b""
+        if len(data) > self.max_pending_bytes:
+            return b""
+        existing = self.pending.get(seq, b"")
+        if len(data) > len(existing):
             self.pending[seq] = data
             self.pending_bytes += len(data) - len(existing)
-        if self.pending_bytes > self.max_pending_bytes:
-            # Prefer preserving the nearest-to-contiguous region without
-            # recomputing the pending-byte sum on every packet.
-            kept = dict(sorted(self.pending.items())[:128])
-            self.pending = kept
-            self.pending_bytes = sum(map(len, kept.values()))
 
         out = bytearray()
-        while self.expected_seq in self.pending:
-            chunk = self.pending.pop(self.expected_seq)
-            self.pending_bytes -= len(chunk)
-            out.extend(chunk)
-            self.expected_seq = (int(self.expected_seq) + len(chunk)) & 0xFFFFFFFF
+        while self.pending:
+            expected = self.expected_seq
+            # The common in-order path performs one dictionary lookup.
+            chunk = self.pending.pop(expected, None)
+            if chunk is not None:
+                self.pending_bytes -= len(chunk)
+                out.extend(chunk)
+                self.expected_seq = (expected + len(chunk)) & 0xFFFFFFFF
+                continue
+            # A buffered segment may now overlap the contiguous prefix, not
+            # start exactly at expected. Trim bytes already delivered.
+            overlaps = [(distance(start, expected), start) for start in self.pending
+                        if distance(start, expected) < 0]
+            if not overlaps:
+                break
+            for offset, start in sorted(overlaps):
+                chunk = self.pending.pop(start)
+                self.pending_bytes -= len(chunk)
+                offset = distance(start, self.expected_seq)
+                if -offset < len(chunk):
+                    tail = chunk[-offset:]
+                    out.extend(tail)
+                    self.expected_seq = (self.expected_seq + len(tail)) & 0xFFFFFFFF
+        if self.pending_bytes > self.max_pending_bytes:
+            # Enforce a byte bound, not merely a segment-count bound.
+            expected = self.expected_seq
+            kept = {}
+            size = 0
+            for start, chunk in sorted(self.pending.items(), key=lambda x: distance(x[0], expected)):
+                if size + len(chunk) > self.max_pending_bytes:
+                    break
+                kept[start] = chunk
+                size += len(chunk)
+            self.pending, self.pending_bytes = kept, size
         return bytes(out)
 
 
@@ -234,16 +261,16 @@ def passive_capture_preflight(process_name: str = "GF2_Exilium") -> dict[str, ob
                 CAPTURE_FILTER, layer=Layer.NETWORK
             )
             report["filter_valid"] = bool(ok)
-            report["filter_error"] = str(message or "")
+            report["filter_error"] = "" if ok else "invalid_capture_filter"
     except Exception as exc:
-        report["filter_error"] = f"{type(exc).__name__}: {exc}"
+        report["filter_error"] = type(exc).__name__
     try:
         snapshot = TargetConnectionTracker(str(process_name or "GF2_Exilium")).maybe_refresh(force=True)
         report["process_found"] = snapshot.process_found
         report["pids"] = snapshot.pids
         report["connection_count"] = len(snapshot.inbound_keys)
     except Exception as exc:
-        report["process_error"] = f"{type(exc).__name__}: {exc}"
+        report["process_error"] = type(exc).__name__
     return report
 
 
@@ -268,7 +295,12 @@ class PassivePacketCapture:
         on_packet_copy: Callable[[FlowKey, int, bytes], None] | None = None,
         on_ready: Callable[[dict], None] | None = None,
         stop_event: threading.Event | None = None,
+        capture_outbound: bool = False,
     ):
+        if capture_outbound:
+            raise ValueError("Outbound capture is not supported by the public Exporter")
+        if _process_key(process_name) != "gf2_exilium":
+            raise ValueError("Only GF2_Exilium is supported")
         self.process_name = process_name
         self.on_stream_data = on_stream_data
         self.on_status = on_status or (lambda _text: None)
@@ -478,15 +510,16 @@ class PassivePacketCapture:
                         raise
                     if packet is not None:
                         self.stats.packets_seen += 1
+                        # Defense in depth: never copy a packet marked outbound.
                         tcp = packet.tcp
-                        payload = bytes(packet.payload or b"")
-                        if tcp is not None and payload:
-                            flow: FlowKey = (
-                                str(packet.dst_addr or ""), int(packet.dst_port or 0),
-                                str(packet.src_addr or ""), int(packet.src_port or 0),
-                            )
+                        payload = (bytes(packet.payload or b"")
+                                   if tcp is not None and not getattr(packet, "is_outbound", False) else b"")
+                        if payload:
+                            flow = (str(packet.dst_addr or ""), int(packet.dst_port or 0),
+                                    str(packet.src_addr or ""), int(packet.src_port or 0))
+                            matched = self.tracker.matches_inbound(packet)
                             seq_num = int(tcp.seq_num)
-                            if self.tracker.matches_inbound(packet):
+                            if matched:
                                 # If the first response arrived just before the
                                 # flow became visible to psutil, replay it now
                                 # before processing the current packet.

@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-message OwnedDolls { repeated OwnedDoll dolls = 1; }
-message OwnedDoll {
-  uint32 doll_id = 1;
-  uint32 level = 3;
-  uint32 rank = 6;
-}

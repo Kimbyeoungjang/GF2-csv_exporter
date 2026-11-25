@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gfl2-packet-csv-exporter"
-version = "1.5.0"
-description = "Archived standalone GF2 packet-to-CSV backup/export utility"
+version = "1.6.0"
+description = "Standalone GF2 packet-to-CSV backup/export utility"
+license = {file = "LICENSE"}
 requires-python = ">=3.11,<3.14"
 dependencies = ["pydivert>=3.1.3,<4", "psutil>=6,<8", "PySide6-Essentials>=6.8,<7"]
 
@@ -18,3 +19,10 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[tool.setuptools.package-data]
+"gfl2_packet_csv.static_achievements" = ["*.csv"]
+
+"gfl2_packet_csv.static_tables" = ["*.csv"]
+
+"gfl2_packet_csv" = ["reference_seed/*.zip", "reference_seed/*.json"]

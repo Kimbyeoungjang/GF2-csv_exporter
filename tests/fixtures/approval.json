@@ -1,0 +1,18 @@
+{
+  "schema": "gf2-reference-approval-1",
+  "status": "approved",
+  "source_table_version": "1216453",
+  "reference_input": {
+    "schema": "gf2-raw-table-1",
+    "sha256": "21242df1792d9bf7de038960a0dd9c5cdf835b6b1e0f8299d0f68b1d02b5bcf0",
+    "files": 1986,
+    "bytes": 123714077
+  },
+  "static_code_sha256": "913e7c7e0b6aa44993d777f125c75b182c78db1435746385fbb84d58a9488beb",
+  "manual_policy_version": "v35-policy.1",
+  "reference_sha256": "9ade73e743e74185d8de9fa71124e2a30235b18060c4dde0d309630d4d0aa3f2",
+  "review_sha256": "56a897a47de3badafa01c398b8b40a83d8f30bb776085ebfe55fb0d974604907",
+  "changed_tables": [
+    "static_tables/item_reference.csv"
+  ]
+}
